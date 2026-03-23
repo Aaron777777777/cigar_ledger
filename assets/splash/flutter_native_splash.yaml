@@ -1,0 +1,13 @@
+flutter_native_splash:
+
+  color: "#000000"
+
+  image: assets/splash/cigar_ledger_splash.png
+
+  android: true
+  ios: true
+  web: false
+
+  android_12:
+    image: assets/splash/cigar_ledger_splash.png
+    icon_background_color: "#000000"

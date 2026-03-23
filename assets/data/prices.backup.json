@@ -1,0 +1,2931 @@
+[
+  {
+    "name": "Plasencia Alma Fuerte Generacion V",
+    "brand": "Plasencia",
+    "country": "Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 165,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/plasencia_alma_fuerte_generacion_v.png",
+    "boxQuantity": 10,
+    "ukPrices": [
+      {
+        "retailer": "Turmeaus",
+        "price": "£24.99",
+        "previousPrice": "£24.99",
+        "stock": "In Stock",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£13.30",
+        "dutyVat": "£2.50",
+        "landedCost": "£15.80",
+        "savings": "£3.20",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Davidoff Winston Churchill The Late Hour Robusto",
+    "brand": "Davidoff",
+    "country": "Dominican Republic",
+    "ringGauge": 52,
+    "lengthMm": 133,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/davidoff_winston_churchill_the_late_hour_robusto.png",
+    "boxQuantity": 20,
+    "ukPrices": [
+      {
+        "retailer": "The Party Source",
+        "price": "£27.20",
+        "previousPrice": "£27.20",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Davidoff Winston Churchill The Late Hour Robusto cigar&prds=productid:367600729123186942,headlineOfferDocid:367600729123186942,imageDocid:1464189301606760644,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£16.10",
+        "dutyVat": "£2.50",
+        "landedCost": "£18.60",
+        "savings": "£4.40",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Padron 1964 Anniversary Exclusivo Maduro",
+    "brand": "Padron",
+    "country": "Nicaragua",
+    "ringGauge": 50,
+    "lengthMm": 140,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/padron_1964_anniversary_exclusivo_maduro.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "The Humidour Cigar Shoppe",
+        "price": "£21.49",
+        "previousPrice": "£21.49",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Padron 1964 Anniversary Exclusivo Maduro cigar&prds=productid:3611240321615811427,headlineOfferDocid:3611240321615811427,imageDocid:5002811064453086186,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£10.50",
+        "dutyVat": "£2.50",
+        "landedCost": "£13.00",
+        "savings": "£2.00",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Cohiba Siglo II",
+    "brand": "Cohiba",
+    "country": "Cuba",
+    "ringGauge": 42,
+    "lengthMm": 129,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/cohiba_siglo_ii.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "cigarsofcuba.co.uk",
+        "price": "£45.76",
+        "previousPrice": "£45.76",
+        "stock": "In Stock",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£14.00",
+        "dutyVat": "£2.50",
+        "landedCost": "£16.50",
+        "savings": "£3.50",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Arturo Fuente Don Carlos Robusto",
+    "brand": "Arturo Fuente",
+    "country": "Dominican Republic",
+    "ringGauge": 50,
+    "lengthMm": 133,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/arturo_fuente_don_carlos_robusto.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Fairview Buy Rite",
+        "price": "£11.99",
+        "previousPrice": "£11.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Arturo Fuente Don Carlos Robusto cigar&prds=productid:5670742683914857654,headlineOfferDocid:5670742683914857654,imageDocid:1224437635977991763,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£11.90",
+        "dutyVat": "£2.50",
+        "landedCost": "£14.40",
+        "savings": "£2.60",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Montecristo No. 2",
+    "brand": "Montecristo",
+    "country": "Cuba",
+    "ringGauge": 52,
+    "lengthMm": 156,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/montecristo_no_2.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Secreto Cigar Vault",
+        "price": "£189.00",
+        "previousPrice": "£189.00",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Montecristo No. 2 cigar&prds=productid:6338440680574622680,headlineOfferDocid:6338440680574622680,imageDocid:4701351820658801057,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£15.40",
+        "dutyVat": "£2.50",
+        "landedCost": "£17.90",
+        "savings": "£6.60",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Partagas Serie D No. 4",
+    "brand": "Partagas",
+    "country": "Cuba",
+    "ringGauge": 50,
+    "lengthMm": 124,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/partagas_serie_d_no_4.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Tulsa Hills Cigar Cellar & Market",
+        "price": "£16.75",
+        "previousPrice": "£16.75",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Partagas Serie D No. 4 cigar&prds=catalogid:8277311963416888347,headlineOfferDocid:5143114168166401304,imageDocid:4504774364259702199,gpcid:335095825581381879,mid:576462537658987329,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£11.90",
+        "dutyVat": "£2.50",
+        "landedCost": "£14.40",
+        "savings": "£5.10",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Romeo y Julieta Wide Churchills",
+    "brand": "Romeo y Julieta",
+    "country": "Cuba",
+    "ringGauge": 55,
+    "lengthMm": 130,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/romeo_y_julieta_wide_churchills.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "La Casa del Habano St. Kitts",
+        "price": "£1850.00",
+        "previousPrice": "£1850.00",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Romeo y Julieta Wide Churchills cigar&prds=productid:7616318122975753761,headlineOfferDocid:7616318122975753761,imageDocid:17572515454791562283,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£11.20",
+        "dutyVat": "£2.50",
+        "landedCost": "£13.70",
+        "savings": "£4.80",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Oliva Serie V Melanio Figurado",
+    "brand": "Oliva",
+    "country": "Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 165,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/oliva_serie_v_melanio_figurados.png",
+    "boxQuantity": 10,
+    "ukPrices": [
+      {
+        "retailer": "cigarbus.com",
+        "price": "£169.80",
+        "previousPrice": "£169.80",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Oliva Serie V Melanio Figurado cigar&prds=productid:8006660130856709891,headlineOfferDocid:8006660130856709891,imageDocid:15619328417515486501,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£10.50",
+        "dutyVat": "£2.50",
+        "landedCost": "£13.00",
+        "savings": "£4.50",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "My Father Le Bijou 1922 Torpedo Box Press",
+    "brand": "My Father",
+    "country": "Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 156,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/my_father_le_bijou_1922_torpedo_box_press.png",
+    "boxQuantity": 23,
+    "ukPrices": [
+      {
+        "retailer": "thecigarhub.com",
+        "price": "£98.44",
+        "previousPrice": "£98.44",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=My Father Le Bijou 1922 Torpedo Box Press cigar&prds=productid:1265197978513970134,headlineOfferDocid:1265197978513970134,imageDocid:958695208201107418,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£11.20",
+        "dutyVat": "£2.50",
+        "landedCost": "£13.70",
+        "savings": "£4.80",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Hoyo de Monterrey Epicure No. 2",
+    "brand": "Hoyo de Monterrey",
+    "country": "Cuba",
+    "ringGauge": 50,
+    "lengthMm": 124,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/hoyo_de_monterrey_epicure_no_2.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "La Casa del Habano Genève",
+        "price": "£115.64",
+        "previousPrice": "£115.64",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Hoyo de Monterrey Epicure No. 2 cigar&prds=productid:4932747834607334837,headlineOfferDocid:4932747834607334837,imageDocid:13296655736918583411,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£11.20",
+        "dutyVat": "£2.50",
+        "landedCost": "£13.70",
+        "savings": "£4.80",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Bolivar Belicosos Finos",
+    "brand": "Bolivar",
+    "country": "Cuba",
+    "ringGauge": 52,
+    "lengthMm": 140,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/bolivar_belicosos_finos.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Spirited Gifts",
+        "price": "£79.00",
+        "previousPrice": "£79.00",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Bolivar Belicosos Finos cigar&prds=productid:5839400712377203411,headlineOfferDocid:5839400712377203411,imageDocid:18060270826632438929,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£12.60",
+        "dutyVat": "£2.50",
+        "landedCost": "£15.10",
+        "savings": "£5.40",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Punch Punch",
+    "brand": "Punch",
+    "country": "Cuba",
+    "ringGauge": 46,
+    "lengthMm": 143,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/punch_punch.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Walmart - Essentials",
+        "price": "£13.50",
+        "previousPrice": "£13.50",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Punch Punch cigar&prds=catalogid:17176640607570377992,headlineOfferDocid:18084307945422354873,imageDocid:16897337919082726096,gpcid:236787504139214435,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£11.20",
+        "dutyVat": "£2.50",
+        "landedCost": "£13.70",
+        "savings": "£4.80",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Juan Lopez Seleccion No. 2",
+    "brand": "Juan Lopez",
+    "country": "Cuba",
+    "ringGauge": 50,
+    "lengthMm": 124,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/juan_lopez_seleccion_no_2.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Mr Cigar Shop",
+        "price": "£1100.00",
+        "previousPrice": "£1100.00",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Juan Lopez Seleccion No. 2 cigar&prds=productid:5522913296215224178,headlineOfferDocid:5522913296215224178,imageDocid:6616614368644056026,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£14.70",
+        "dutyVat": "£2.50",
+        "landedCost": "£17.20",
+        "savings": "£6.30",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Drew Estate Liga Privada No. 9 Robusto",
+    "brand": "Drew Estate",
+    "country": "Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 127,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/drew_estate_liga_privada_no_9_robusto.png",
+    "boxQuantity": 24,
+    "ukPrices": [
+      {
+        "retailer": "Cigars City",
+        "price": "£114.99",
+        "previousPrice": "£114.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Drew Estate Liga Privada No. 9 Robusto cigar&prds=productid:5716724251065109801,headlineOfferDocid:5716724251065109801,imageDocid:13735299585269115780,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£16.10",
+        "dutyVat": "£2.50",
+        "landedCost": "£18.60",
+        "savings": "£6.90",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "EP Carrillo Encore Majestic",
+    "brand": "EP Carrillo",
+    "country": "Dominican Republic",
+    "ringGauge": 52,
+    "lengthMm": 140,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/ep_carrillo_encore_majestic.png",
+    "boxQuantity": 20,
+    "ukPrices": [
+      {
+        "retailer": "Humidor Cigar Lounge",
+        "price": "£13.50",
+        "previousPrice": "£13.50",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=EP Carrillo Encore Majestic cigar&prds=productid:11493475800389216915,headlineOfferDocid:11493475800389216915,imageDocid:14986423642885693126,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£15.40",
+        "dutyVat": "£2.50",
+        "landedCost": "£17.90",
+        "savings": "£6.60",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Alec Bradley Magic Toast Robusto",
+    "brand": "Alec Bradley",
+    "country": "Honduras",
+    "ringGauge": 52,
+    "lengthMm": 127,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/alec_bradley_magic_toast_robusto.png",
+    "boxQuantity": 20,
+    "ukPrices": [
+      {
+        "retailer": "Payless Cigars & Pipes",
+        "price": "£269.94",
+        "previousPrice": "£269.94",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Alec Bradley Magic Toast Robusto cigar&prds=productid:1248940231627071823,headlineOfferDocid:1248940231627071823,imageDocid:15480095810202046384,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£11.90",
+        "dutyVat": "£2.50",
+        "landedCost": "£14.40",
+        "savings": "£5.10",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Foundation Olmec Claro Robusto",
+    "brand": "Foundation",
+    "country": "Nicaragua",
+    "ringGauge": 50,
+    "lengthMm": 127,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/foundation_olmec_claro_robusto.png",
+    "boxQuantity": 12,
+    "ukPrices": [
+      {
+        "retailer": "Cigars City",
+        "price": "£144.99",
+        "previousPrice": "£144.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Foundation Olmec Claro Robusto cigar&prds=productid:11577649250137759207,headlineOfferDocid:11577649250137759207,imageDocid:16396076123522214651,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£10.50",
+        "dutyVat": "£2.50",
+        "landedCost": "£13.00",
+        "savings": "£4.50",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Crowned Heads Le Careme Robusto",
+    "brand": "Crowned Heads",
+    "country": "Nicaragua",
+    "ringGauge": 50,
+    "lengthMm": 127,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/crowned_heads_le_careme_robusto.png",
+    "boxQuantity": 24,
+    "ukPrices": [
+      {
+        "retailer": "saintgoose.wine",
+        "price": "£12.00",
+        "previousPrice": "£12.00",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Crowned Heads Le Careme Robusto cigar&prds=productid:8272544042323136748,headlineOfferDocid:8272544042323136748,imageDocid:2831998117694691700,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£11.20",
+        "dutyVat": "£2.50",
+        "landedCost": "£13.70",
+        "savings": "£4.80",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "AJ Fernandez New World Dorado Robusto",
+    "brand": "AJ Fernandez",
+    "country": "Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 133,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/aj_fernandez_new_world_dorado_robusto.png",
+    "boxQuantity": 20,
+    "ukPrices": [
+      {
+        "retailer": "The Cigar Vault Oakdale",
+        "price": "£10.50",
+        "previousPrice": "£10.50",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=AJ Fernandez New World Dorado Robusto cigar&prds=productid:12652735563503514843,headlineOfferDocid:12652735563503514843,imageDocid:7393591024402681509,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£15.40",
+        "dutyVat": "£2.50",
+        "landedCost": "£17.90",
+        "savings": "£6.60",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Davidoff Yamasa Robusto",
+    "brand": "Davidoff",
+    "country": "Dominican Republic",
+    "ringGauge": 52,
+    "lengthMm": 133,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/davidoff_yamasa_robusto.png",
+    "boxQuantity": 12,
+    "ukPrices": [
+      {
+        "retailer": "eBay",
+        "price": "£5.50",
+        "previousPrice": "£5.50",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Davidoff Yamasa Robusto cigar&prds=productid:8574226808275418392,headlineOfferDocid:8574226808275418392,imageDocid:10922870635790541161,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£12.60",
+        "dutyVat": "£2.50",
+        "landedCost": "£15.10",
+        "savings": "£5.40",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Padron 2000 Maduro",
+    "brand": "Padron",
+    "country": "Nicaragua",
+    "ringGauge": 50,
+    "lengthMm": 127,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/padron_2000_maduro.png",
+    "boxQuantity": 26,
+    "ukPrices": [
+      {
+        "retailer": "Affordable Spirits",
+        "price": "£13.99",
+        "previousPrice": "£13.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Padron 2000 Maduro cigar&prds=productid:13569570434067996752,headlineOfferDocid:13569570434067996752,imageDocid:3943931975171142416,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£16.10",
+        "dutyVat": "£2.50",
+        "landedCost": "£18.60",
+        "savings": "£6.90",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Plasencia Reserva Original Robustos",
+    "brand": "Plasencia",
+    "country": "Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 127,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/plasencia_reserva_original_robustos.png",
+    "boxQuantity": 20,
+    "ukPrices": [
+      {
+        "retailer": "topcubans.com",
+        "price": "£12.18",
+        "previousPrice": "£12.18",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Plasencia Reserva Original Robustos cigar&prds=productid:10563243292681369450,headlineOfferDocid:10563243292681369450,imageDocid:10851945573393912945,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£14.00",
+        "dutyVat": "£2.50",
+        "landedCost": "£16.50",
+        "savings": "£6.00",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Oliva Serie V Double Robusto",
+    "brand": "Oliva",
+    "country": "Nicaragua",
+    "ringGauge": 54,
+    "lengthMm": 127,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/oliva_serie_v_double_robusto.png",
+    "boxQuantity": 24,
+    "ukPrices": [
+      {
+        "retailer": "Denton Cigar Company",
+        "price": "£11.25",
+        "previousPrice": "£11.25",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Oliva Serie V Double Robusto cigar&prds=catalogid:4119320945111130308,headlineOfferDocid:16358956611632513291,imageDocid:12113982777517479756,rds:PC_4605636761579072425|PROD_PC_4605636761579072425,gpcid:4605636761579072425,mid:576462454116792879,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£16.10",
+        "dutyVat": "£2.50",
+        "landedCost": "£18.60",
+        "savings": "£6.90",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Arturo Fuente Hemingway Short Story",
+    "brand": "Arturo Fuente",
+    "country": "Dominican Republic",
+    "ringGauge": 49,
+    "lengthMm": 102,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/arturo_fuente_hemingway_short_story.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "CigarHustler.com",
+        "price": "£11.55",
+        "previousPrice": "£11.55",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Arturo Fuente Hemingway Short Story cigar&prds=catalogid:16021176316846064099,headlineOfferDocid:14395571611146283185,imageDocid:264191559282563336,rds:PC_12832087116990209043|PROD_PC_12832087116990209043,gpcid:12832087116990209043,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£14.00",
+        "dutyVat": "£2.50",
+        "landedCost": "£16.50",
+        "savings": "£6.00",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Rocky Patel Sixty Robusto",
+    "brand": "Rocky Patel",
+    "country": "Nicaragua",
+    "ringGauge": 50,
+    "lengthMm": 127,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/rocky_patel_sixty_robusto.png",
+    "boxQuantity": 20,
+    "ukPrices": [
+      {
+        "retailer": "Franklin's Wine and Spirit",
+        "price": "£24.99",
+        "previousPrice": "£24.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Rocky Patel Sixty Robusto cigar&prds=productid:5869723031775161579,headlineOfferDocid:5869723031775161579,imageDocid:15089462256783388096,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£14.00",
+        "dutyVat": "£2.50",
+        "landedCost": "£16.50",
+        "savings": "£6.00",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Perdomo 20th Anniversary Maduro Robusto",
+    "brand": "Perdomo",
+    "country": "Nicaragua",
+    "ringGauge": 56,
+    "lengthMm": 127,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/perdomo_20th_anniversary_maduro_robusto.png",
+    "boxQuantity": 24,
+    "ukPrices": [
+      {
+        "retailer": "Rudy's Cigar Shop",
+        "price": "£260.00",
+        "previousPrice": "£260.00",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Perdomo 20th Anniversary Maduro Robusto cigar&prds=productid:12778433899257416763,headlineOfferDocid:12778433899257416763,imageDocid:2963681886387156538,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£16.80",
+        "dutyVat": "£2.50",
+        "landedCost": "£19.30",
+        "savings": "£7.20",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Joya de Nicaragua Antano 1970 Consul",
+    "brand": "Joya de Nicaragua",
+    "country": "Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 114,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/joya_de_nicaragua_antano_1970_consul.png",
+    "boxQuantity": 20,
+    "ukPrices": [
+      {
+        "retailer": "vitolafinecigars.com",
+        "price": "£23.99",
+        "previousPrice": "£23.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Joya de Nicaragua Antano 1970 Consul cigar&prds=productid:12797658001968084184,headlineOfferDocid:12797658001968084184,imageDocid:983607718166975793,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£14.70",
+        "dutyVat": "£2.50",
+        "landedCost": "£17.20",
+        "savings": "£6.30",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "La Flor Dominicana Double Ligero Chiselito",
+    "brand": "La Flor Dominicana",
+    "country": "Dominican Republic",
+    "ringGauge": 44,
+    "lengthMm": 127,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/la_flor_dominicana_double_ligero_chiselito.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Tuxedo Wine & Spirits",
+        "price": "£14.99",
+        "previousPrice": "£14.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=La Flor Dominicana Double Ligero Chiselito cigar&prds=productid:3133571120719047073,headlineOfferDocid:3133571120719047073,imageDocid:3105564365992829690,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£11.90",
+        "dutyVat": "£2.50",
+        "landedCost": "£14.40",
+        "savings": "£5.10",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Warped La Colmena No. 44",
+    "brand": "Warped",
+    "country": "Dominican Republic",
+    "ringGauge": 44,
+    "lengthMm": 127,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/warped_la_colmena_no_44.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "The Cigar Chapel",
+        "price": "£22.00",
+        "previousPrice": "£22.00",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Warped La Colmena No. 44 cigar&prds=productid:673607927878583478,headlineOfferDocid:673607927878583478,imageDocid:573413003601510982,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£13.30",
+        "dutyVat": "£2.50",
+        "landedCost": "£15.80",
+        "savings": "£5.70",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Montecristo No. 4",
+    "brand": "Montecristo",
+    "country": "Cuba",
+    "ringGauge": 42,
+    "lengthMm": 129,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/montecristo_no_4.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Palm Beach Liquors",
+        "price": "£83.99",
+        "previousPrice": "£83.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Montecristo No. 4 cigar&prds=catalogid:1168876176250033878,headlineOfferDocid:7200853196828297196,imageDocid:11028102779428885841,gpcid:7438931032689119395,mid:576462878442858722,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£15.40",
+        "dutyVat": "£2.50",
+        "landedCost": "£17.90",
+        "savings": "£6.60",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Montecristo No. 3",
+    "brand": "Montecristo",
+    "country": "Cuba",
+    "ringGauge": 42,
+    "lengthMm": 142,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/montecristo_no_3.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Palm Beach Liquors",
+        "price": "£83.99",
+        "previousPrice": "£83.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Montecristo No. 3 cigar&prds=catalogid:1168876176250033878,headlineOfferDocid:7200853196828297196,imageDocid:11028102779428885841,gpcid:7438931032689119395,mid:576462878442858722,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£15.40",
+        "dutyVat": "£2.50",
+        "landedCost": "£17.90",
+        "savings": "£6.60",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Cohiba Siglo I",
+    "brand": "Cohiba",
+    "country": "Cuba",
+    "ringGauge": 40,
+    "lengthMm": 102,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/cohiba_siglo_i.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "topcubans.com",
+        "price": "£40.07",
+        "previousPrice": "£40.07",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Cohiba Siglo I cigar&prds=productid:9129572346077830095,headlineOfferDocid:9129572346077830095,imageDocid:10851945573393912945,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£13.30",
+        "dutyVat": "£2.50",
+        "landedCost": "£15.80",
+        "savings": "£5.70",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Cohiba Siglo IV",
+    "brand": "Cohiba",
+    "country": "Cuba",
+    "ringGauge": 46,
+    "lengthMm": 143,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/cohiba_siglo_iv.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "CigarHustler.com",
+        "price": "£215.99",
+        "previousPrice": "£215.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Cohiba Siglo IV cigar&prds=productid:17237672343747534703,headlineOfferDocid:17237672343747534703,imageDocid:4135375444776532761,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£14.00",
+        "dutyVat": "£2.50",
+        "landedCost": "£16.50",
+        "savings": "£6.00",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Cohiba Siglo VI",
+    "brand": "Cohiba",
+    "country": "Cuba",
+    "ringGauge": 52,
+    "lengthMm": 150,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/cohiba_siglo_vi.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "E-Tailfulfillments",
+        "price": "£2248.00",
+        "previousPrice": "£2248.00",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Cohiba Siglo VI cigar&prds=productid:998248792225103174,headlineOfferDocid:998248792225103174,imageDocid:15172479560905652146,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£14.00",
+        "dutyVat": "£2.50",
+        "landedCost": "£16.50",
+        "savings": "£6.00",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Romeo y Julieta No. 2",
+    "brand": "Romeo y Julieta",
+    "country": "Cuba",
+    "ringGauge": 52,
+    "lengthMm": 156,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/romeo_y_julieta_no_2.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "The Premium Cigar of the Month Club",
+        "price": "£47.95",
+        "previousPrice": "£47.95",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Romeo y Julieta No. 2 cigar&prds=productid:15658307277348787235,headlineOfferDocid:15658307277348787235,imageDocid:9442473669283335759,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£11.20",
+        "dutyVat": "£2.50",
+        "landedCost": "£13.70",
+        "savings": "£4.80",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Romeo y Julieta Petit Churchills",
+    "brand": "Romeo y Julieta",
+    "country": "Cuba",
+    "ringGauge": 50,
+    "lengthMm": 102,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/romeo_y_julieta_petit_churchills.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "BestCigarPrices.com",
+        "price": "£63.99",
+        "previousPrice": "£63.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Romeo y Julieta Petit Churchills cigar&prds=productid:12050265163947251149,headlineOfferDocid:12050265163947251149,imageDocid:9780958045888985393,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£11.90",
+        "dutyVat": "£2.50",
+        "landedCost": "£14.40",
+        "savings": "£5.10",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Partagas Serie D No. 5",
+    "brand": "Partagas",
+    "country": "Cuba",
+    "ringGauge": 50,
+    "lengthMm": 110,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/partagas_serie_d_no_5.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Mr Cigar Shop",
+        "price": "£2500.00",
+        "previousPrice": "£2500.00",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Partagas Serie D No. 5 cigar&prds=productid:1009122364470460226,headlineOfferDocid:1009122364470460226,imageDocid:1138931511695680886,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£11.90",
+        "dutyVat": "£2.50",
+        "landedCost": "£14.40",
+        "savings": "£5.10",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Partagas Serie E No. 2",
+    "brand": "Partagas",
+    "country": "Cuba",
+    "ringGauge": 54,
+    "lengthMm": 140,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/partagas_serie_e_no_2.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "buycubancigarsaustralia.com.au",
+        "price": "£1500.00",
+        "previousPrice": "£1500.00",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Partagas Serie E No. 2 cigar&prds=productid:5244455226449267442,headlineOfferDocid:5244455226449267442,imageDocid:9784806993742582069,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£11.90",
+        "dutyVat": "£2.50",
+        "landedCost": "£14.40",
+        "savings": "£5.10",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Hoyo de Monterrey Epicure Especial",
+    "brand": "Hoyo de Monterrey",
+    "country": "Cuba",
+    "ringGauge": 50,
+    "lengthMm": 141,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/hoyo_de_monterrey_epicure_especial.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "La Casa del Habano Genève",
+        "price": "£115.64",
+        "previousPrice": "£115.64",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Hoyo de Monterrey Epicure Especial cigar&prds=productid:4932747834607334837,headlineOfferDocid:4932747834607334837,imageDocid:13296655736918583411,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£13.30",
+        "dutyVat": "£2.50",
+        "landedCost": "£15.80",
+        "savings": "£5.70",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Hoyo de Monterrey Le Hoyo de Rio Seco",
+    "brand": "Hoyo de Monterrey",
+    "country": "Cuba",
+    "ringGauge": 56,
+    "lengthMm": 140,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/hoyo_de_monterrey_le_hoyo_de_rio_seco.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "La Casa del Habano Genève",
+        "price": "£115.64",
+        "previousPrice": "£115.64",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Hoyo de Monterrey Le Hoyo de Rio Seco cigar&prds=productid:4932747834607334837,headlineOfferDocid:4932747834607334837,imageDocid:13296655736918583411,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£15.40",
+        "dutyVat": "£2.50",
+        "landedCost": "£17.90",
+        "savings": "£6.60",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Bolivar Petit Coronas",
+    "brand": "Bolivar",
+    "country": "Cuba",
+    "ringGauge": 42,
+    "lengthMm": 129,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/bolivar_petit_coronas.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Prestige Puros",
+        "price": "£1278.32",
+        "previousPrice": "£1278.32",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Bolivar Petit Coronas cigar&prds=productid:1887517791753681216,headlineOfferDocid:1887517791753681216,imageDocid:4457353195056004543,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£11.20",
+        "dutyVat": "£2.50",
+        "landedCost": "£13.70",
+        "savings": "£4.80",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Bolivar Tubos No. 2",
+    "brand": "Bolivar",
+    "country": "Cuba",
+    "ringGauge": 52,
+    "lengthMm": 156,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/bolivar_tubos_no_2.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Denton Cigar Company",
+        "price": "£13.25",
+        "previousPrice": "£13.25",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Bolivar Tubos No. 2 cigar&prds=productid:16616074054802150387,headlineOfferDocid:16616074054802150387,imageDocid:1702828324018509589,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£16.80",
+        "dutyVat": "£2.50",
+        "landedCost": "£19.30",
+        "savings": "£7.20",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Punch Double Coronas",
+    "brand": "Punch",
+    "country": "Cuba",
+    "ringGauge": 49,
+    "lengthMm": 194,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/punch_double_coronas.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Walmart - Essentials",
+        "price": "£24.95",
+        "previousPrice": "£24.95",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Punch Double Coronas cigar&prds=catalogid:2484946670315376115,headlineOfferDocid:674662050854693998,imageDocid:15363380453368115318,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£10.50",
+        "dutyVat": "£2.50",
+        "landedCost": "£13.00",
+        "savings": "£4.50",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Quai d'Orsay No. 50",
+    "brand": "Quai d'Orsay",
+    "country": "Cuba",
+    "ringGauge": 50,
+    "lengthMm": 110,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/quai_dorsay_no_50.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "C.Gars Ltd",
+        "price": "£24.00",
+        "previousPrice": "£24.00",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£16.80",
+        "dutyVat": "£2.50",
+        "landedCost": "£19.30",
+        "savings": "£7.20",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Vegas Robaina Unicos",
+    "brand": "Vegas Robaina",
+    "country": "Cuba",
+    "ringGauge": 52,
+    "lengthMm": 156,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/vegas_robaina_unicos.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "RED Spirits & Wine",
+        "price": "£58.99",
+        "previousPrice": "£58.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Vegas Robaina Unicos cigar&prds=productid:11702404877884331290,headlineOfferDocid:11702404877884331290,imageDocid:15476513304212153130,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£10.50",
+        "dutyVat": "£2.50",
+        "landedCost": "£13.00",
+        "savings": "£4.50",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "San Cristobal La Punta",
+    "brand": "San Cristobal",
+    "country": "Cuba",
+    "ringGauge": 52,
+    "lengthMm": 140,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/san_cristobal_la_punta.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Cigar Factory Outlet",
+        "price": "£16.00",
+        "previousPrice": "£16.00",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=San Cristobal La Punta cigar&prds=productid:2449223192843276390,headlineOfferDocid:2449223192843276390,imageDocid:6603814804370872752,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£11.90",
+        "dutyVat": "£2.50",
+        "landedCost": "£14.40",
+        "savings": "£5.10",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Davidoff Millennium Blend Robusto",
+    "brand": "Davidoff",
+    "country": "Dominican Republic",
+    "ringGauge": 50,
+    "lengthMm": 133,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/davidoff_millennium_blend_robusto.png",
+    "boxQuantity": 20,
+    "ukPrices": [
+      {
+        "retailer": "Etsy",
+        "price": "£9.99",
+        "previousPrice": "£9.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Davidoff Millennium Blend Robusto cigar&prds=productid:7819000172657507767,headlineOfferDocid:7819000172657507767,imageDocid:5921138711179907340,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£12.60",
+        "dutyVat": "£2.50",
+        "landedCost": "£15.10",
+        "savings": "£5.40",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Padron 3000 Maduro",
+    "brand": "Padron",
+    "country": "Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 140,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/padron_3000_maduro.png",
+    "boxQuantity": 26,
+    "ukPrices": [
+      {
+        "retailer": "Mirage Wine & Liquor",
+        "price": "£16.99",
+        "previousPrice": "£16.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Padron 3000 Maduro cigar&prds=productid:6860251214893430028,headlineOfferDocid:6860251214893430028,imageDocid:12431784174966282017,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£16.10",
+        "dutyVat": "£2.50",
+        "landedCost": "£18.60",
+        "savings": "£6.90",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Plasencia Alma del Campo Tribu",
+    "brand": "Plasencia",
+    "country": "Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 127,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/plasencia_alma_del_campo_tribu.png",
+    "boxQuantity": 10,
+    "ukPrices": [
+      {
+        "retailer": "Denton Cigar Company",
+        "price": "£15.99",
+        "previousPrice": "£15.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Plasencia Alma del Campo Tribu cigar&prds=productid:4005334434123863323,headlineOfferDocid:4005334434123863323,imageDocid:10469135968382372953,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£10.50",
+        "dutyVat": "£2.50",
+        "landedCost": "£13.00",
+        "savings": "£4.50",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Cohiba Siglo I",
+    "brand": "Cohiba",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/cohiba_siglo_i.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "topcubans.com",
+        "price": "£40.07",
+        "previousPrice": "£40.07",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Cohiba Siglo I cigar&prds=productid:9129572346077830095,headlineOfferDocid:9129572346077830095,imageDocid:10851945573393912945,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£13.30",
+        "dutyVat": "£2.50",
+        "landedCost": "£15.80",
+        "savings": "£5.70",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Cohiba Siglo II",
+    "brand": "Cohiba",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/cohiba_siglo_ii.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "cigarsofcuba.co.uk",
+        "price": "£45.76",
+        "previousPrice": "£45.76",
+        "stock": "In Stock",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£14.00",
+        "dutyVat": "£2.50",
+        "landedCost": "£16.50",
+        "savings": "£3.50",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Cohiba Siglo IV",
+    "brand": "Cohiba",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/cohiba_siglo_iv.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "CigarHustler.com",
+        "price": "£215.99",
+        "previousPrice": "£215.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Cohiba Siglo IV cigar&prds=productid:17237672343747534703,headlineOfferDocid:17237672343747534703,imageDocid:4135375444776532761,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£14.00",
+        "dutyVat": "£2.50",
+        "landedCost": "£16.50",
+        "savings": "£6.00",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Cohiba Siglo VI",
+    "brand": "Cohiba",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/cohiba_siglo_vi.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "E-Tailfulfillments",
+        "price": "£2248.00",
+        "previousPrice": "£2248.00",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Cohiba Siglo VI cigar&prds=productid:998248792225103174,headlineOfferDocid:998248792225103174,imageDocid:15172479560905652146,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£14.00",
+        "dutyVat": "£2.50",
+        "landedCost": "£16.50",
+        "savings": "£6.00",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Montecristo No.2",
+    "brand": "Montecristo",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/montecristo_no2.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Secreto Cigar Vault",
+        "price": "£189.00",
+        "previousPrice": "£189.00",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Montecristo No.2 cigar&prds=productid:6338440680574622680,headlineOfferDocid:6338440680574622680,imageDocid:4701351820658801057,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£14.70",
+        "dutyVat": "£2.50",
+        "landedCost": "£17.20",
+        "savings": "£6.30",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Montecristo No.3",
+    "brand": "Montecristo",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/montecristo_no3.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Secreto Cigar Vault",
+        "price": "£189.00",
+        "previousPrice": "£189.00",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Montecristo No.3 cigar&prds=productid:6338440680574622680,headlineOfferDocid:6338440680574622680,imageDocid:4701351820658801057,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£14.70",
+        "dutyVat": "£2.50",
+        "landedCost": "£17.20",
+        "savings": "£6.30",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Montecristo No.4",
+    "brand": "Montecristo",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/montecristo_no4.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Palm Beach Liquors",
+        "price": "£83.99",
+        "previousPrice": "£83.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Montecristo No.4 cigar&prds=catalogid:1168876176250033878,headlineOfferDocid:7200853196828297196,imageDocid:11028102779428885841,gpcid:7438931032689119395,mid:576462878442858722,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£14.70",
+        "dutyVat": "£2.50",
+        "landedCost": "£17.20",
+        "savings": "£6.30",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Montecristo Especial No.2",
+    "brand": "Montecristo",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/montecristo_especial_no2.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "secondwindsurplus.com",
+        "price": "£15.95",
+        "previousPrice": "£15.95",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Montecristo Especial No.2 cigar&prds=productid:12445907387189585515,headlineOfferDocid:12445907387189585515,imageDocid:2316325805946326971,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£14.00",
+        "dutyVat": "£2.50",
+        "landedCost": "£16.50",
+        "savings": "£6.00",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Montecristo Joyitas",
+    "brand": "Montecristo",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/montecristo_joyitas.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Palm Beach Liquors",
+        "price": "£83.99",
+        "previousPrice": "£83.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Montecristo Joyitas cigar&prds=catalogid:1168876176250033878,headlineOfferDocid:7200853196828297196,imageDocid:11028102779428885841,gpcid:7438931032689119395,mid:576462878442858722,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£16.80",
+        "dutyVat": "£2.50",
+        "landedCost": "£19.30",
+        "savings": "£7.20",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Partagas Serie D No.4",
+    "brand": "Partagas",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/partagas_serie_d_no4.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Payless Cigars & Pipes",
+        "price": "£28.61",
+        "previousPrice": "£28.61",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Partagas Serie D No.4 cigar&prds=productid:782225039684783520,headlineOfferDocid:782225039684783520,imageDocid:16447118073850989365,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£11.20",
+        "dutyVat": "£2.50",
+        "landedCost": "£13.70",
+        "savings": "£4.80",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Partagas Serie D No.5",
+    "brand": "Partagas",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/partagas_serie_d_no5.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Mr Cigar Shop",
+        "price": "£2500.00",
+        "previousPrice": "£2500.00",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Partagas Serie D No.5 cigar&prds=productid:1009122364470460226,headlineOfferDocid:1009122364470460226,imageDocid:1138931511695680886,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£11.20",
+        "dutyVat": "£2.50",
+        "landedCost": "£13.70",
+        "savings": "£4.80",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Partagas Serie E No.2",
+    "brand": "Partagas",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/partagas_serie_e_no2.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "buycubancigarsaustralia.com.au",
+        "price": "£1500.00",
+        "previousPrice": "£1500.00",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Partagas Serie E No.2 cigar&prds=productid:5244455226449267442,headlineOfferDocid:5244455226449267442,imageDocid:9784806993742582069,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£11.20",
+        "dutyVat": "£2.50",
+        "landedCost": "£13.70",
+        "savings": "£4.80",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Partagas Super Partagas",
+    "brand": "Partagas",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/partagas_super_partagas.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Tulsa Hills Cigar Cellar & Market",
+        "price": "£16.75",
+        "previousPrice": "£16.75",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Partagas Super Partagas cigar&prds=catalogid:8277311963416888347,headlineOfferDocid:5143114168166401304,imageDocid:4504774364259702199,gpcid:335095825581381879,mid:576462537658987329,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£12.60",
+        "dutyVat": "£2.50",
+        "landedCost": "£15.10",
+        "savings": "£5.40",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Romeo y Julieta Churchills",
+    "brand": "Romeo",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/romeo_y_julieta_churchills.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "La Casa del Habano St. Kitts",
+        "price": "£1850.00",
+        "previousPrice": "£1850.00",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Romeo y Julieta Churchills cigar&prds=productid:7616318122975753761,headlineOfferDocid:7616318122975753761,imageDocid:17572515454791562283,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£14.70",
+        "dutyVat": "£2.50",
+        "landedCost": "£17.20",
+        "savings": "£6.30",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Romeo y Julieta Belicosos",
+    "brand": "Romeo",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/romeo_y_julieta_belicosos.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "cigarbus.com",
+        "price": "£74.63",
+        "previousPrice": "£74.63",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Romeo y Julieta Belicosos cigar&prds=productid:6033719266024925865,headlineOfferDocid:6033719266024925865,imageDocid:7474052509847314273,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£14.00",
+        "dutyVat": "£2.50",
+        "landedCost": "£16.50",
+        "savings": "£6.00",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Romeo y Julieta Petit Churchills",
+    "brand": "Romeo",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/romeo_y_julieta_petit_churchills.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "BestCigarPrices.com",
+        "price": "£63.99",
+        "previousPrice": "£63.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Romeo y Julieta Petit Churchills cigar&prds=productid:12050265163947251149,headlineOfferDocid:12050265163947251149,imageDocid:9780958045888985393,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£11.90",
+        "dutyVat": "£2.50",
+        "landedCost": "£14.40",
+        "savings": "£5.10",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Romeo y Julieta No.2",
+    "brand": "Romeo",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/romeo_y_julieta_no2.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "The Premium Cigar of the Month Club",
+        "price": "£47.95",
+        "previousPrice": "£47.95",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Romeo y Julieta No.2 cigar&prds=productid:15658307277348787235,headlineOfferDocid:15658307277348787235,imageDocid:9442473669283335759,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£10.50",
+        "dutyVat": "£2.50",
+        "landedCost": "£13.00",
+        "savings": "£4.50",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Hoyo de Monterrey Epicure No.2",
+    "brand": "Hoyo",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/hoyo_de_monterrey_epicure_no2.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "La Casa del Habano Genève",
+        "price": "£115.24",
+        "previousPrice": "£115.24",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Hoyo de Monterrey Epicure No.2 cigar&prds=productid:4932747834607334837,headlineOfferDocid:4932747834607334837,imageDocid:13296655736918583411,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£10.50",
+        "dutyVat": "£2.50",
+        "landedCost": "£13.00",
+        "savings": "£4.50",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Hoyo de Monterrey Epicure Especial",
+    "brand": "Hoyo",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/hoyo_de_monterrey_epicure_especial.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "La Casa del Habano Genève",
+        "price": "£115.64",
+        "previousPrice": "£115.64",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Hoyo de Monterrey Epicure Especial cigar&prds=productid:4932747834607334837,headlineOfferDocid:4932747834607334837,imageDocid:13296655736918583411,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£13.30",
+        "dutyVat": "£2.50",
+        "landedCost": "£15.80",
+        "savings": "£5.70",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Hoyo de Monterrey Palmas Extra",
+    "brand": "Hoyo",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/hoyo_de_monterrey_palmas_extra.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "La Casa del Habano Genève",
+        "price": "£115.24",
+        "previousPrice": "£115.24",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Hoyo de Monterrey Palmas Extra cigar&prds=productid:4932747834607334837,headlineOfferDocid:4932747834607334837,imageDocid:13296655736918583411,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£10.50",
+        "dutyVat": "£2.50",
+        "landedCost": "£13.00",
+        "savings": "£4.50",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Bolivar Petit Coronas",
+    "brand": "Bolivar",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/bolivar_petit_coronas.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Prestige Puros",
+        "price": "£1278.32",
+        "previousPrice": "£1278.32",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Bolivar Petit Coronas cigar&prds=productid:1887517791753681216,headlineOfferDocid:1887517791753681216,imageDocid:4457353195056004543,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£11.20",
+        "dutyVat": "£2.50",
+        "landedCost": "£13.70",
+        "savings": "£4.80",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Bolivar Tubos No.2",
+    "brand": "Bolivar",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/bolivar_tubos_no2.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Denton Cigar Company",
+        "price": "£13.25",
+        "previousPrice": "£13.25",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Bolivar Tubos No.2 cigar&prds=productid:16616074054802150387,headlineOfferDocid:16616074054802150387,imageDocid:1702828324018509589,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£16.10",
+        "dutyVat": "£2.50",
+        "landedCost": "£18.60",
+        "savings": "£6.90",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Bolivar Belicosos Finos",
+    "brand": "Bolivar",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/bolivar_belicosos_finos.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Spirited Gifts",
+        "price": "£79.00",
+        "previousPrice": "£79.00",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Bolivar Belicosos Finos cigar&prds=productid:5839400712377203411,headlineOfferDocid:5839400712377203411,imageDocid:18060270826632438929,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£12.60",
+        "dutyVat": "£2.50",
+        "landedCost": "£15.10",
+        "savings": "£5.40",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Punch Punch",
+    "brand": "Punch",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/punch_punch.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Walmart - Essentials",
+        "price": "£13.50",
+        "previousPrice": "£13.50",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Punch Punch cigar&prds=catalogid:17176640607570377992,headlineOfferDocid:18084307945422354873,imageDocid:16897337919082726096,gpcid:236787504139214435,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£11.20",
+        "dutyVat": "£2.50",
+        "landedCost": "£13.70",
+        "savings": "£4.80",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Punch Double Coronas",
+    "brand": "Punch",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/punch_double_coronas.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Walmart - Essentials",
+        "price": "£24.95",
+        "previousPrice": "£24.95",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Punch Double Coronas cigar&prds=catalogid:2484946670315376115,headlineOfferDocid:674662050854693998,imageDocid:15363380453368115318,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£10.50",
+        "dutyVat": "£2.50",
+        "landedCost": "£13.00",
+        "savings": "£4.50",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Juan Lopez Seleccion No.2",
+    "brand": "Juan",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/juan_lopez_seleccion_no2.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "E-Tailfulfillments",
+        "price": "£603.00",
+        "previousPrice": "£603.00",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Juan Lopez Seleccion No.2 cigar&prds=productid:11941920540966805742,headlineOfferDocid:11941920540966805742,imageDocid:13356950281971462691,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£14.00",
+        "dutyVat": "£2.50",
+        "landedCost": "£16.50",
+        "savings": "£6.00",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "San Cristobal La Punta",
+    "brand": "San",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/san_cristobal_la_punta.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Cigar Factory Outlet",
+        "price": "£16.00",
+        "previousPrice": "£16.00",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=San Cristobal La Punta cigar&prds=productid:2449223192843276390,headlineOfferDocid:2449223192843276390,imageDocid:6603814804370872752,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£11.90",
+        "dutyVat": "£2.50",
+        "landedCost": "£14.40",
+        "savings": "£5.10",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Quai d'Orsay No.50",
+    "brand": "Quai",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/quai_dorsay_no50.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "C.Gars Ltd",
+        "price": "£23.00",
+        "previousPrice": "£23.00",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£16.10",
+        "dutyVat": "£2.50",
+        "landedCost": "£18.60",
+        "savings": "£6.90",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Vegas Robaina Unicos",
+    "brand": "Vegas",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/vegas_robaina_unicos.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "RED Spirits & Wine",
+        "price": "£58.99",
+        "previousPrice": "£58.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Vegas Robaina Unicos cigar&prds=productid:11702404877884331290,headlineOfferDocid:11702404877884331290,imageDocid:15476513304212153130,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£10.50",
+        "dutyVat": "£2.50",
+        "landedCost": "£13.00",
+        "savings": "£4.50",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Oliva Serie V Lancero",
+    "brand": "Oliva",
+    "country": "Nicaragua",
+    "ringGauge": 38,
+    "lengthMm": 178,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/oliva_serie_v_lancero.png",
+    "boxQuantity": 24,
+    "ukPrices": [
+      {
+        "retailer": "Denton Cigar Company",
+        "price": "£15.25",
+        "previousPrice": "£15.25",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Oliva Serie V Lancero cigar&prds=catalogid:7805381474677095428,headlineOfferDocid:276853644886711474,imageDocid:11839514938750466039,rds:PC_17267287205126017493|PROD_PC_17267287205126017493,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£11.20",
+        "dutyVat": "£2.50",
+        "landedCost": "£13.70",
+        "savings": "£4.80",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "My Father The Judge Grand Robusto",
+    "brand": "My Father",
+    "country": "Nicaragua",
+    "ringGauge": 60,
+    "lengthMm": 127,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/my_father_the_judge_grand_robusto.png",
+    "boxQuantity": 23,
+    "ukPrices": [
+      {
+        "retailer": "topcubans.com",
+        "price": "£26.84",
+        "previousPrice": "£26.84",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=My Father The Judge Grand Robusto cigar&prds=productid:12104399636500682124,headlineOfferDocid:12104399636500682124,imageDocid:16551094920644076917,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£12.60",
+        "dutyVat": "£2.50",
+        "landedCost": "£15.10",
+        "savings": "£5.40",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "AJ Fernandez Bellas Artes Robusto",
+    "brand": "AJ Fernandez",
+    "country": "Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 140,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/aj_fernandez_bellas_artes_robusto.png",
+    "boxQuantity": 20,
+    "ukPrices": [
+      {
+        "retailer": "Binny's Beverage Depot",
+        "price": "£11.05",
+        "previousPrice": "£11.05",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=AJ Fernandez Bellas Artes Robusto cigar&prds=productid:13062634389854558503,headlineOfferDocid:13062634389854558503,imageDocid:8094768580775250126,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£12.60",
+        "dutyVat": "£2.50",
+        "landedCost": "£15.10",
+        "savings": "£5.40",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Alec Bradley Black Market Esteli Robusto",
+    "brand": "Alec Bradley",
+    "country": "Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 127,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/alec_bradley_black_market_esteli_robusto.png",
+    "boxQuantity": 24,
+    "ukPrices": [
+      {
+        "retailer": "Binny's Beverage Depot",
+        "price": "£11.55",
+        "previousPrice": "£11.55",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Alec Bradley Black Market Esteli Robusto cigar&prds=productid:18390619897059374712,headlineOfferDocid:18390619897059374712,imageDocid:17608867427174625498,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£10.50",
+        "dutyVat": "£2.50",
+        "landedCost": "£13.00",
+        "savings": "£4.50",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Foundation Charter Oak Maduro Rothschild",
+    "brand": "Foundation",
+    "country": "Nicaragua",
+    "ringGauge": 50,
+    "lengthMm": 114,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/foundation_charter_oak_maduro_rothschild.png",
+    "boxQuantity": 20,
+    "ukPrices": [
+      {
+        "retailer": "Denton Cigar Company",
+        "price": "£8.25",
+        "previousPrice": "£8.25",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Foundation Charter Oak Maduro Rothschild cigar&prds=productid:12113814789208164937,headlineOfferDocid:12113814789208164937,imageDocid:16484722590635626714,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£10.50",
+        "dutyVat": "£2.50",
+        "landedCost": "£13.00",
+        "savings": "£4.50",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Crowned Heads Mil Dias Robusto",
+    "brand": "Crowned Heads",
+    "country": "Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 127,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/crowned_heads_mil_dias_robusto.png",
+    "boxQuantity": 20,
+    "ukPrices": [
+      {
+        "retailer": "corkdorkswine.com",
+        "price": "£11.99",
+        "previousPrice": "£11.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Crowned Heads Mil Dias Robusto cigar&prds=productid:11941942799933924559,headlineOfferDocid:11941942799933924559,imageDocid:7469606927506543498,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£10.50",
+        "dutyVat": "£2.50",
+        "landedCost": "£13.00",
+        "savings": "£4.50",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "EP Carrillo Pledge Prequel",
+    "brand": "EP Carrillo",
+    "country": "Dominican Republic",
+    "ringGauge": 50,
+    "lengthMm": 127,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/ep_carrillo_pledge_prequel.png",
+    "boxQuantity": 24,
+    "ukPrices": [
+      {
+        "retailer": "ramirezliquor.com",
+        "price": "£17.99",
+        "previousPrice": "£17.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=EP Carrillo Pledge Prequel cigar&prds=productid:9144908879400849895,headlineOfferDocid:9144908879400849895,imageDocid:9336557849332743277,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£14.70",
+        "dutyVat": "£2.50",
+        "landedCost": "£17.20",
+        "savings": "£6.30",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Drew Estate Undercrown Maduro Robusto",
+    "brand": "Drew Estate",
+    "country": "Nicaragua",
+    "ringGauge": 54,
+    "lengthMm": 127,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/drew_estate_undercrown_maduro_robusto.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Cigars City",
+        "price": "£33.99",
+        "previousPrice": "£33.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Drew Estate Undercrown Maduro Robusto cigar&prds=productid:12250492084688281036,headlineOfferDocid:12250492084688281036,imageDocid:1895902010131169446,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£15.40",
+        "dutyVat": "£2.50",
+        "landedCost": "£17.90",
+        "savings": "£6.60",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Davidoff Nicaragua Robusto",
+    "brand": "Davidoff",
+    "country": "Dominican Republic",
+    "ringGauge": 50,
+    "lengthMm": 133,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/davidoff_nicaragua_robusto.png",
+    "boxQuantity": 12,
+    "ukPrices": [
+      {
+        "retailer": "Tobacco Leaf",
+        "price": "£99.95",
+        "previousPrice": "£99.95",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Davidoff Nicaragua Robusto cigar&prds=productid:12206046948887497954,headlineOfferDocid:12206046948887497954,imageDocid:14115519476492544253,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£14.70",
+        "dutyVat": "£2.50",
+        "landedCost": "£17.20",
+        "savings": "£6.30",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Padron 4000 Maduro",
+    "brand": "Padron",
+    "country": "Nicaragua",
+    "ringGauge": 54,
+    "lengthMm": 165,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/padron_4000_maduro.png",
+    "boxQuantity": 26,
+    "ukPrices": [
+      {
+        "retailer": "Forbes LFWS",
+        "price": "£16.99",
+        "previousPrice": "£16.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Padron 4000 Maduro cigar&prds=productid:2902515243532736138,headlineOfferDocid:2902515243532736138,imageDocid:14787001121770478067,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£16.10",
+        "dutyVat": "£2.50",
+        "landedCost": "£18.60",
+        "savings": "£6.90",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Plasencia Cosecha 149 Santa Fe Gordo",
+    "brand": "Plasencia",
+    "country": "Honduras",
+    "ringGauge": 52,
+    "lengthMm": 152,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/plasencia_cosecha_149_santa_fe_gordo.png",
+    "boxQuantity": 10,
+    "ukPrices": [
+      {
+        "retailer": "Walmart - Quality Cigar Boxes",
+        "price": "£8.10",
+        "previousPrice": "£8.10",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Plasencia Cosecha 149 Santa Fe Gordo cigar&prds=productid:132471550466758657,headlineOfferDocid:132471550466758657,imageDocid:12662439679884285516,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£14.70",
+        "dutyVat": "£2.50",
+        "landedCost": "£17.20",
+        "savings": "£6.30",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Arturo Fuente Rosado Sungrown Magnum R 52",
+    "brand": "Arturo Fuente",
+    "country": "Dominican Republic",
+    "ringGauge": 52,
+    "lengthMm": 133,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/arturo_fuente_rosado_sungrown_magnum_r_52.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Dennys Discount Liquors",
+        "price": "£15.99",
+        "previousPrice": "£15.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Arturo Fuente Rosado Sungrown Magnum R 52 cigar&prds=productid:10406333278632795373,headlineOfferDocid:10406333278632795373,imageDocid:11334384385374534054,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£11.20",
+        "dutyVat": "£2.50",
+        "landedCost": "£13.70",
+        "savings": "£4.80",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Rocky Patel Vintage 1990 Robusto",
+    "brand": "Rocky Patel",
+    "country": "Honduras",
+    "ringGauge": 50,
+    "lengthMm": 140,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/rocky_patel_vintage_1990_robusto.png",
+    "boxQuantity": 20,
+    "ukPrices": [
+      {
+        "retailer": "bronsonliquors.com",
+        "price": "£13.64",
+        "previousPrice": "£13.64",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Rocky Patel Vintage 1990 Robusto cigar&prds=productid:13398785659080006835,headlineOfferDocid:13398785659080006835,imageDocid:1861520077977623685,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£11.90",
+        "dutyVat": "£2.50",
+        "landedCost": "£14.40",
+        "savings": "£5.10",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Perdomo Habano Bourbon Barrel Aged Robusto",
+    "brand": "Perdomo",
+    "country": "Nicaragua",
+    "ringGauge": 54,
+    "lengthMm": 127,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/perdomo_habano_bourbon_barrel_aged_robusto.png",
+    "boxQuantity": 24,
+    "ukPrices": [
+      {
+        "retailer": "Smokin' Betty's",
+        "price": "£7.50",
+        "previousPrice": "£7.50",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Perdomo Habano Bourbon Barrel Aged Robusto cigar&prds=productid:15175631375260870724,headlineOfferDocid:15175631375260870724,imageDocid:12149881840727148530,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£11.90",
+        "dutyVat": "£2.50",
+        "landedCost": "£14.40",
+        "savings": "£5.10",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Joya de Nicaragua Clasico Medio Siglo",
+    "brand": "Joya de Nicaragua",
+    "country": "Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 102,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/joya_de_nicaragua_clasico_medio_siglo.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "eBay",
+        "price": "£4.50",
+        "previousPrice": "£4.50",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Joya de Nicaragua Clasico Medio Siglo cigar&prds=productid:73070068245793360,headlineOfferDocid:73070068245793360,imageDocid:14019017397487146012,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£15.40",
+        "dutyVat": "£2.50",
+        "landedCost": "£17.90",
+        "savings": "£6.60",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "La Flor Dominicana Air Bender Chisel",
+    "brand": "La Flor Dominicana",
+    "country": "Dominican Republic",
+    "ringGauge": 64,
+    "lengthMm": 152,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/la_flor_dominicana_air_bender_chisel.png",
+    "boxQuantity": 20,
+    "ukPrices": [
+      {
+        "retailer": "BestCigarPrices.com",
+        "price": "£43.97",
+        "previousPrice": "£43.97",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=La Flor Dominicana Air Bender Chisel cigar&prds=productid:9990633664946769279,headlineOfferDocid:9990633664946769279,imageDocid:14861596785228523340,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£14.70",
+        "dutyVat": "£2.50",
+        "landedCost": "£17.20",
+        "savings": "£6.30",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Warped Corto X46",
+    "brand": "Warped",
+    "country": "Nicaragua",
+    "ringGauge": 46,
+    "lengthMm": 127,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/warped_corto_x46.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "The Cigar Chapel",
+        "price": "£13.25",
+        "previousPrice": "£13.25",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Warped Corto X46 cigar&prds=productid:5332607345264804154,headlineOfferDocid:5332607345264804154,imageDocid:573413003601510982,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£14.70",
+        "dutyVat": "£2.50",
+        "landedCost": "£17.20",
+        "savings": "£6.30",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Montecristo Open Regata",
+    "brand": "Montecristo",
+    "country": "Cuba",
+    "ringGauge": 46,
+    "lengthMm": 135,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/montecristo_open_regata.png",
+    "boxQuantity": 20,
+    "ukPrices": [
+      {
+        "retailer": "Palm Beach Liquors",
+        "price": "£83.99",
+        "previousPrice": "£83.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Montecristo Open Regata cigar&prds=catalogid:1168876176250033878,headlineOfferDocid:7200853196828297196,imageDocid:11028102779428885841,gpcid:7438931032689119395,mid:576462878442858722,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£12.60",
+        "dutyVat": "£2.50",
+        "landedCost": "£15.10",
+        "savings": "£5.40",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Cohiba Panetelas",
+    "brand": "Cohiba",
+    "country": "Cuba",
+    "ringGauge": 26,
+    "lengthMm": 115,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/cohiba_panetelas.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "E-Tailfulfillments",
+        "price": "£2248.00",
+        "previousPrice": "£2248.00",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Cohiba Panetelas cigar&prds=productid:998248792225103174,headlineOfferDocid:998248792225103174,imageDocid:15172479560905652146,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£14.70",
+        "dutyVat": "£2.50",
+        "landedCost": "£17.20",
+        "savings": "£6.30",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Partagas Super Partagas",
+    "brand": "Partagas",
+    "country": "Cuba",
+    "ringGauge": 40,
+    "lengthMm": 124,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/partagas_super_partagas.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Tulsa Hills Cigar Cellar & Market",
+        "price": "£16.75",
+        "previousPrice": "£16.75",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Partagas Super Partagas cigar&prds=catalogid:8277311963416888347,headlineOfferDocid:5143114168166401304,imageDocid:4504774364259702199,gpcid:335095825581381879,mid:576462537658987329,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£12.60",
+        "dutyVat": "£2.50",
+        "landedCost": "£15.10",
+        "savings": "£5.40",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Hoyo de Monterrey Palmas Extra",
+    "brand": "Hoyo de Monterrey",
+    "country": "Cuba",
+    "ringGauge": 40,
+    "lengthMm": 140,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/hoyo_de_monterrey_palmas_extra.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "La Casa del Habano Genève",
+        "price": "£115.24",
+        "previousPrice": "£115.24",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Hoyo de Monterrey Palmas Extra cigar&prds=productid:4932747834607334837,headlineOfferDocid:4932747834607334837,imageDocid:13296655736918583411,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£10.50",
+        "dutyVat": "£2.50",
+        "landedCost": "£13.00",
+        "savings": "£4.50",
+        "url": "https://www.montefortunacigars.com/"
+      }
+    ]
+  },
+  {
+    "name": "Plasencia Sixto II Hexagon",
+    "brand": "Plasencia",
+    "country": "Nicaragua",
+    "ringGauge": 60,
+    "lengthMm": 152,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/plasencia_sixto_ii_hexagon.png",
+    "boxQuantity": 10,
+    "ukPrices": [
+      {
+        "retailer": "Davidus Cigars",
+        "price": "£142.45",
+        "previousPrice": "£142.45",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Plasencia Sixto II Hexagon cigar&prds=productid:13847246819028849556,headlineOfferDocid:13847246819028849556,imageDocid:7544169834899650723,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "Montefortuna",
+        "cigarPrice": "£0.00",
+        "dutyVat": "£0.00",
+        "landedCost": "£0.00",
+        "savings": "£0.00",
+        "url": ""
+      }
+    ]
+  }
+]
