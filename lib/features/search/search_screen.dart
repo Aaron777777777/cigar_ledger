@@ -191,125 +191,164 @@ class _SearchScreenState extends State<SearchScreen> {
       builder: (context, _) {
         return Scaffold(
           backgroundColor: const Color(0xFF0B0B0B),
-          body: ListView(
-            padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 14),
-            children: [
-              if (featuredDeal != null)
-                _SearchHeroCard(
-                  cigar: featuredDeal.cigar,
-                  ukSinglePrice: featuredDeal.ukBestSinglePrice,
-                  euSinglePrice: featuredDeal.euBestSinglePrice,
-                  ukBoxPrice: featuredDeal.ukBestBoxPrice,
-                  euBoxPrice: featuredDeal.euBestBoxPrice,
-                  savingPerCigar: featuredDeal.savingPerCigar,
-                  savingPerBox: featuredDeal.savingPerBox,
-                  decisionLabel: featuredDeal.decisionLabel,
-                  dealStrength: featuredDeal.dealStrength,
-                  isPremium: isPremium,
-                  onTap: () async {
-                    await Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (_) =>
-                            CigarDetailScreen(cigar: featuredDeal.cigar),
+          body: Container(
+            decoration: const BoxDecoration(
+              gradient: LinearGradient(
+                begin: Alignment.topCenter,
+                end: Alignment.bottomCenter,
+                colors: [
+                  Color(0xFF090909),
+                  Color(0xFF0D0D0E),
+                  Color(0xFF111111),
+                ],
+              ),
+            ),
+            child: ListView(
+              padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 14),
+              children: [
+                if (featuredDeal != null)
+                  _SearchHeroCard(
+                    cigar: featuredDeal.cigar,
+                    ukSinglePrice: featuredDeal.ukBestSinglePrice,
+                    euSinglePrice: featuredDeal.euBestSinglePrice,
+                    ukBoxPrice: featuredDeal.ukBestBoxPrice,
+                    euBoxPrice: featuredDeal.euBestBoxPrice,
+                    savingPerCigar: featuredDeal.savingPerCigar,
+                    savingPerBox: featuredDeal.savingPerBox,
+                    decisionLabel: featuredDeal.decisionLabel,
+                    dealStrength: featuredDeal.dealStrength,
+                    isPremium: isPremium,
+                    onTap: () async {
+                      await Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (_) =>
+                              CigarDetailScreen(cigar: featuredDeal.cigar),
+                        ),
+                      );
+                      setState(() {});
+                    },
+                  ),
+                const SizedBox(height: 16),
+                Container(
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(18),
+                    gradient: const LinearGradient(
+                      colors: [
+                        Color(0x1FFFFFFF),
+                        Color(0x0DFFFFFF),
+                      ],
+                    ),
+                    border: Border.all(color: const Color(0x22D4AF37)),
+                  ),
+                  child: TextField(
+                    onChanged: (value) {
+                      setState(() {
+                        query = value;
+                      });
+                    },
+                    style: const TextStyle(color: Colors.white),
+                    decoration: const InputDecoration(
+                      hintText: 'Search cigars...',
+                      hintStyle: TextStyle(color: Colors.white38),
+                      prefixIcon:
+                          Icon(Icons.search, color: Color(0xFFD4AF37)),
+                      border: InputBorder.none,
+                      contentPadding: EdgeInsets.symmetric(vertical: 16),
+                    ),
+                  ),
+                ),
+                const SizedBox(height: 14),
+                SizedBox(
+                  height: 42,
+                  child: ListView(
+                    scrollDirection: Axis.horizontal,
+                    children: [
+                      LedgerFilterChip(
+                        label: 'All',
+                        isSelected: selectedFilter == 'All',
+                        onTap: () {
+                          setState(() {
+                            selectedFilter = 'All';
+                          });
+                        },
                       ),
-                    );
-                    setState(() {});
-                  },
+                      const SizedBox(width: 10),
+                      LedgerFilterChip(
+                        label: 'Cuban',
+                        isSelected: selectedFilter == 'Cuban',
+                        onTap: () {
+                          setState(() {
+                            selectedFilter = 'Cuban';
+                          });
+                        },
+                      ),
+                      const SizedBox(width: 10),
+                      LedgerFilterChip(
+                        label: 'New World',
+                        isSelected: selectedFilter == 'New World',
+                        onTap: () {
+                          setState(() {
+                            selectedFilter = 'New World';
+                          });
+                        },
+                      ),
+                      const SizedBox(width: 10),
+                      LedgerFilterChip(
+                        label: 'Best Savings',
+                        isSelected: selectedFilter == 'Best Savings',
+                        onTap: () {
+                          setState(() {
+                            selectedFilter = 'Best Savings';
+                          });
+                        },
+                      ),
+                      const SizedBox(width: 10),
+                      LedgerFilterChip(
+                        label: selectedBrand == 'All Brands'
+                            ? 'Brands'
+                            : selectedBrand,
+                        isSelected: selectedBrand != 'All Brands',
+                        onTap: _showBrandSheet,
+                      ),
+                    ],
+                  ),
                 ),
-              const SizedBox(height: 22),
-              TextField(
-                onChanged: (value) {
-                  setState(() {
-                    query = value;
-                  });
-                },
-                decoration: const InputDecoration(
-                  hintText: 'Search cigars...',
-                  prefixIcon: Icon(Icons.search),
+                const SizedBox(height: 16),
+                const Text(
+                  'ALL CIGARS',
+                  style: TextStyle(
+                    color: Color(0xFFD4AF37),
+                    fontWeight: FontWeight.w800,
+                    letterSpacing: 1.2,
+                  ),
                 ),
-              ),
-              const SizedBox(height: 16),
-              SizedBox(
-                height: 42,
-                child: ListView(
-                  scrollDirection: Axis.horizontal,
-                  children: [
-                    LedgerFilterChip(
-                      label: 'All',
-                      isSelected: selectedFilter == 'All',
-                      onTap: () {
-                        setState(() {
-                          selectedFilter = 'All';
-                        });
-                      },
-                    ),
-                    const SizedBox(width: 10),
-                    LedgerFilterChip(
-                      label: 'Cuban',
-                      isSelected: selectedFilter == 'Cuban',
-                      onTap: () {
-                        setState(() {
-                          selectedFilter = 'Cuban';
-                        });
-                      },
-                    ),
-                    const SizedBox(width: 10),
-                    LedgerFilterChip(
-                      label: 'New World',
-                      isSelected: selectedFilter == 'New World',
-                      onTap: () {
-                        setState(() {
-                          selectedFilter = 'New World';
-                        });
-                      },
-                    ),
-                    const SizedBox(width: 10),
-                    LedgerFilterChip(
-                      label: 'Best Savings',
-                      isSelected: selectedFilter == 'Best Savings',
-                      onTap: () {
-                        setState(() {
-                          selectedFilter = 'Best Savings';
-                        });
-                      },
-                    ),
-                    const SizedBox(width: 10),
-                    LedgerFilterChip(
-                      label: selectedBrand == 'All Brands'
-                          ? 'Brands'
-                          : selectedBrand,
-                      isSelected: selectedBrand != 'All Brands',
-                      onTap: _showBrandSheet,
-                    ),
-                  ],
-                ),
-              ),
-              const SizedBox(height: 20),
-              ...filteredCigars.map((cigar) {
-                final deal = calculateDeal(cigar);
+                const SizedBox(height: 10),
+                ...filteredCigars.map((cigar) {
+                  final deal = calculateDeal(cigar);
 
-                return CigarSearchCard(
-                  cigar: cigar,
-                  dealStrength: deal.dealStrength,
-                  ukSinglePrice: deal.ukBestSinglePrice,
-                  euSinglePrice: deal.euBestSinglePrice,
-                  ukBoxPrice: deal.ukBestBoxPrice,
-                  euBoxPrice: deal.euBestBoxPrice,
-                  savingPerCigar: deal.savingPerCigar,
-                  savingPerBox: deal.savingPerBox,
-                  onTap: () async {
-                    await Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (_) => CigarDetailScreen(cigar: cigar),
-                      ),
-                    );
-                    setState(() {});
-                  },
-                );
-              }),
-            ],
+                  return CigarSearchCard(
+                    cigar: cigar,
+                    dealStrength: deal.dealStrength,
+                    ukSinglePrice: deal.ukBestSinglePrice,
+                    euSinglePrice: deal.euBestSinglePrice,
+                    ukBoxPrice: deal.ukBestBoxPrice,
+                    euBoxPrice: deal.euBestBoxPrice,
+                    savingPerCigar: deal.savingPerCigar,
+                    savingPerBox: deal.savingPerBox,
+                    onTap: () async {
+                      await Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (_) => CigarDetailScreen(cigar: cigar),
+                        ),
+                      );
+                      setState(() {});
+                    },
+                  );
+                }),
+              ],
+            ),
           ),
         );
       },
@@ -360,16 +399,15 @@ class _SearchHeroCard extends StatelessWidget {
 
     final ukDisplayValue = showBox ? ukBoxPrice : ukSinglePrice;
     final euDisplayValue = showBox ? euBoxPrice : euSinglePrice;
-    final hasValidImport =
-        euDisplayValue > 0 && ukDisplayValue > 0 && euDisplayValue < ukDisplayValue;
+    final hasValidImport = euDisplayValue > 0 &&
+        ukDisplayValue > 0 &&
+        euDisplayValue < ukDisplayValue;
 
-    final ukDisplay = ukDisplayValue > 0
-        ? '£${ukDisplayValue.toStringAsFixed(2)}'
-        : '--';
+    final ukDisplay =
+        ukDisplayValue > 0 ? '£${ukDisplayValue.toStringAsFixed(2)}' : '--';
 
-    final euDisplay = euDisplayValue > 0
-        ? '£${euDisplayValue.toStringAsFixed(2)}'
-        : '--';
+    final euDisplay =
+        euDisplayValue > 0 ? '£${euDisplayValue.toStringAsFixed(2)}' : '--';
 
     final savingsLabel = isPremium
         ? showBox
@@ -493,8 +531,6 @@ class _SearchHeroCard extends StatelessWidget {
                       ],
                     ),
                     const SizedBox(height: 16),
-
-                    // Only changed section starts here
                     Row(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
@@ -551,7 +587,7 @@ class _SearchHeroCard extends StatelessWidget {
                                 ],
                               ),
                               border: Border.all(
-                                color: Color(0x88D4AF37),
+                                color: const Color(0x88D4AF37),
                               ),
                               boxShadow: const [
                                 BoxShadow(
@@ -588,8 +624,6 @@ class _SearchHeroCard extends StatelessWidget {
                         ),
                       ],
                     ),
-                    // Only changed section ends here
-
                     const SizedBox(height: 18),
                     Row(
                       children: [

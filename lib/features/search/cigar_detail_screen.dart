@@ -95,72 +95,86 @@ class CigarDetailScreen extends StatelessWidget {
         title: const Text('CIGAR LEDGER'),
         centerTitle: true,
       ),
-      body: SingleChildScrollView(
-        padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 18),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Center(child: _buildCigarImage(cigar.imageUrl)),
-            const SizedBox(height: 28),
-            Text(
-              cigar.name,
-              style: const TextStyle(
-                fontSize: 30,
-                fontWeight: FontWeight.bold,
+      body: Container(
+        decoration: const BoxDecoration(
+          gradient: LinearGradient(
+            begin: Alignment.topCenter,
+            end: Alignment.bottomCenter,
+            colors: [
+              Color(0xFF090909),
+              Color(0xFF0D0D0E),
+              Color(0xFF111111),
+            ],
+          ),
+        ),
+        child: SingleChildScrollView(
+          padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 18),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Center(child: _buildCigarImage(cigar.imageUrl)),
+              const SizedBox(height: 28),
+              Text(
+                cigar.name,
+                style: const TextStyle(
+                  fontSize: 32,
+                  height: 1.1,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
-            ),
-            const SizedBox(height: 6),
-            Text(
-              cigar.brand,
-              style: const TextStyle(
-                fontSize: 18,
-                color: AppColors.textSecondary,
+              const SizedBox(height: 6),
+              Text(
+                cigar.brand,
+                style: const TextStyle(
+                  fontSize: 18,
+                  color: AppColors.textSecondary,
+                ),
               ),
-            ),
-            const SizedBox(height: 18),
-            Wrap(
-              spacing: 8,
-              runSpacing: 8,
-              children: [
-                _chip(cigar.country),
-                _chip('${cigar.ringGauge} Ring'),
-                _chip(cigar.strength),
-                _chip('${cigar.boxQuantity} / box'),
-                _chip('${singleWeight.toStringAsFixed(1)}g est.'),
-              ],
-            ),
-            const SizedBox(height: 30),
-            if (!isPremium)
-              _buildLockedCard(
-                ukSinglePrice: ukSinglePrice,
-                ukBoxPrice: ukBoxPrice,
-                hasEachImport: singleLanded != null,
-                hasBoxImport: boxLanded != null,
-                context: context,
-              )
-            else
-              _buildPremiumCard(
-                headlineImportCheaper: headlineImportCheaper,
-                headlineRetailer: headlineRetailer,
-                headlineUrl: headlineUrl,
-                headlineButtonRetailer: headlineButtonRetailer,
-                ukSinglePrice: ukSinglePrice,
-                euSingleBase: euSingleBase,
-                singleDuty: singleDuty,
-                singleVat: singleVat,
-                singleLanded: singleLanded,
-                singleSaving: singleSaving,
-                ukBoxPrice: ukBoxPrice,
-                euBoxBase: euBoxBase,
-                boxDuty: boxDuty,
-                boxVat: boxVat,
-                boxLanded: boxLanded,
-                boxSaving: boxSaving,
-                boxSavingPerCigar: boxSavingPerCigar,
-                singleImportCheaper: singleImportCheaper,
-                boxImportCheaper: boxImportCheaper,
+              const SizedBox(height: 18),
+              Wrap(
+                spacing: 8,
+                runSpacing: 8,
+                children: [
+                  _chip(cigar.country),
+                  _chip('${cigar.ringGauge} Ring'),
+                  _chip(cigar.strength),
+                  _chip('${cigar.boxQuantity} / box'),
+                  _chip('${singleWeight.toStringAsFixed(1)}g est.'),
+                ],
               ),
-          ],
+              const SizedBox(height: 30),
+              if (!isPremium)
+                _buildLockedCard(
+                  ukSinglePrice: ukSinglePrice,
+                  ukBoxPrice: ukBoxPrice,
+                  hasEachImport: singleLanded != null,
+                  hasBoxImport: boxLanded != null,
+                  context: context,
+                )
+              else
+                _buildPremiumCard(
+                  headlineImportCheaper: headlineImportCheaper,
+                  headlineRetailer: headlineRetailer,
+                  headlineUrl: headlineUrl,
+                  headlineButtonRetailer: headlineButtonRetailer,
+                  ukSinglePrice: ukSinglePrice,
+                  euSingleBase: euSingleBase,
+                  singleDuty: singleDuty,
+                  singleVat: singleVat,
+                  singleLanded: singleLanded,
+                  singleSaving: singleSaving,
+                  ukBoxPrice: ukBoxPrice,
+                  euBoxBase: euBoxBase,
+                  boxDuty: boxDuty,
+                  boxVat: boxVat,
+                  boxLanded: boxLanded,
+                  boxSaving: boxSaving,
+                  boxSavingPerCigar: boxSavingPerCigar,
+                  singleImportCheaper: singleImportCheaper,
+                  boxImportCheaper: boxImportCheaper,
+                ),
+            ],
+          ),
         ),
       ),
     );
@@ -176,16 +190,30 @@ class CigarDetailScreen extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(20),
       decoration: BoxDecoration(
-        color: AppColors.card,
-        borderRadius: BorderRadius.circular(22),
+        gradient: const LinearGradient(
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+          colors: [
+            Color(0xF0141416),
+            Color(0xEE0E0E10),
+          ],
+        ),
+        borderRadius: BorderRadius.circular(24),
         border: Border.all(color: AppColors.borderGoldMedium),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withOpacity(0.35),
+            blurRadius: 24,
+            offset: const Offset(0, 14),
+          ),
+        ],
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const Row(
             children: [
-              DealBadge(label: 'PREMIUM'),
+              DealBadge(label: 'PRO'),
               SizedBox(width: 10),
               Text(
                 'UNLOCK THE BEST DEAL',
@@ -276,7 +304,7 @@ class CigarDetailScreen extends StatelessWidget {
                 );
               },
               child: const Text(
-                'Start 7-day free trial',
+                'Unlock Pro',
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
             ),
@@ -310,9 +338,23 @@ class CigarDetailScreen extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(20),
       decoration: BoxDecoration(
-        color: AppColors.card,
-        borderRadius: BorderRadius.circular(22),
+        gradient: const LinearGradient(
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+          colors: [
+            Color(0xF0141416),
+            Color(0xEE0E0E10),
+          ],
+        ),
+        borderRadius: BorderRadius.circular(24),
         border: Border.all(color: AppColors.borderGoldMedium),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withOpacity(0.35),
+            blurRadius: 24,
+            offset: const Offset(0, 14),
+          ),
+        ],
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -458,8 +500,6 @@ class CigarDetailScreen extends StatelessWidget {
             ),
           ),
           if (headlineUrl.isNotEmpty) ...[
-
-            
             const SizedBox(height: 20),
             _buyButton(
               label: 'Buy from $headlineButtonRetailer',
@@ -579,26 +619,40 @@ class CigarDetailScreen extends StatelessWidget {
     final isRemote =
         imageUrl.startsWith('http://') || imageUrl.startsWith('https://');
 
-    if (isRemote) {
-      return Image.network(
-        imageUrl,
-        height: 260,
-        fit: BoxFit.contain,
-        errorBuilder: (_, __, ___) => _imageFallback(),
-      );
-    }
-
-    return Image.asset(
-      imageUrl,
-      height: 260,
-      fit: BoxFit.contain,
-      errorBuilder: (_, __, ___) => _imageFallback(),
+    return Container(
+      padding: const EdgeInsets.all(10),
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(28),
+        gradient: const LinearGradient(
+          colors: [
+            Color(0x1FFFFFFF),
+            Color(0x0DFFFFFF),
+          ],
+        ),
+        border: Border.all(color: const Color(0x22D4AF37)),
+      ),
+      child: ClipRRect(
+        borderRadius: BorderRadius.circular(20),
+        child: isRemote
+            ? Image.network(
+                imageUrl,
+                height: 240,
+                fit: BoxFit.contain,
+                errorBuilder: (_, __, ___) => _imageFallback(),
+              )
+            : Image.asset(
+                imageUrl,
+                height: 240,
+                fit: BoxFit.contain,
+                errorBuilder: (_, __, ___) => _imageFallback(),
+              ),
+      ),
     );
   }
 
   Widget _imageFallback() {
     return Container(
-      height: 260,
+      height: 240,
       width: 200,
       decoration: BoxDecoration(
         color: const Color(0xFF1A1A1A),

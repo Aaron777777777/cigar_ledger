@@ -21,32 +21,10 @@ class _TopDealsScreenState extends State<TopDealsScreen> {
   bool loading = true;
   String? loadError;
 
-  final PageController _recentlyAddedController =
-      PageController(viewportFraction: 0.345);
-  int _recentlyAddedPage = 0;
-
   @override
   void initState() {
     super.initState();
     loadData();
-    _recentlyAddedController.addListener(_handleRecentlyAddedScroll);
-  }
-
-  @override
-  void dispose() {
-    _recentlyAddedController.removeListener(_handleRecentlyAddedScroll);
-    _recentlyAddedController.dispose();
-    super.dispose();
-  }
-
-  void _handleRecentlyAddedScroll() {
-    if (!_recentlyAddedController.hasClients) return;
-    final nextPage = _recentlyAddedController.page?.round() ?? 0;
-    if (nextPage != _recentlyAddedPage && mounted) {
-      setState(() {
-        _recentlyAddedPage = nextPage;
-      });
-    }
   }
 
   Future<void> loadData() async {
@@ -130,10 +108,6 @@ class _TopDealsScreenState extends State<TopDealsScreen> {
         final heroDeal = deals.first;
         final remainingDeals = deals.skip(1).take(8).toList();
 
-        final recentlyAdded = cigars.length <= 3
-            ? cigars.reversed.toList()
-            : cigars.reversed.take(3).toList();
-
         return Container(
           decoration: const BoxDecoration(
             gradient: LinearGradient(
@@ -149,66 +123,23 @@ class _TopDealsScreenState extends State<TopDealsScreen> {
           child: ListView(
             padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 16),
             children: [
-              const SizedBox(height: 2),
-              const Text(
-                'RECENTLY ADDED',
-                style: TextStyle(
-                  fontSize: 19,
-                  fontWeight: FontWeight.w800,
-                  color: Color(0xFFD4AF37),
-                  letterSpacing: 1.0,
-                ),
-              ),
-              const SizedBox(height: 14),
-              SizedBox(
-                height: 214,
-                child: PageView.builder(
-                  controller: _recentlyAddedController,
-                  padEnds: false,
-                  itemCount: recentlyAdded.length,
-                  itemBuilder: (context, index) {
-                    final cigar = recentlyAdded[index];
-                    return Padding(
-                      padding: EdgeInsets.only(
-                        right: index == recentlyAdded.length - 1 ? 0 : 14,
-                      ),
-                      child: _RecentlyAddedCard(cigar: cigar),
-                    );
-                  },
-                ),
-              ),
-              if (recentlyAdded.length > 1) ...[
-                const SizedBox(height: 10),
-                _PageDots(
-                  count: recentlyAdded.length,
-                  activeIndex:
-                      _recentlyAddedPage.clamp(0, recentlyAdded.length - 1),
-                ),
-              ],
-              const SizedBox(height: 26),
-              const Divider(
-                height: 1,
-                thickness: 1,
-                color: Color(0x14FFFFFF),
-              ),
-              const SizedBox(height: 26),
               const Text(
                 'TOP DEALS',
                 style: TextStyle(
                   fontSize: 22,
                   fontWeight: FontWeight.w800,
                   color: Color(0xFFD4AF37),
-                  letterSpacing: 1.0,
+                  letterSpacing: 1.1,
                 ),
               ),
-              const SizedBox(height: 20),
+              const SizedBox(height: 22),
               _HeroDealCard(
                 deal: heroDeal,
                 showBox: showBox,
                 isPremium: isPremium,
               ),
               if (remainingDeals.isNotEmpty) ...[
-                const SizedBox(height: 18),
+                const SizedBox(height: 20),
                 const Text(
                   'More top deals',
                   style: TextStyle(
@@ -217,7 +148,7 @@ class _TopDealsScreenState extends State<TopDealsScreen> {
                     color: Colors.white,
                   ),
                 ),
-                const SizedBox(height: 12),
+                const SizedBox(height: 14),
                 ...remainingDeals.asMap().entries.map((entry) {
                   final index = entry.key;
                   final deal = entry.value;
@@ -247,228 +178,6 @@ class _TopDealsScreenState extends State<TopDealsScreen> {
           ),
         );
       },
-    );
-  }
-}
-
-class _RecentlyAddedCard extends StatelessWidget {
-  final Cigar cigar;
-
-  const _RecentlyAddedCard({required this.cigar});
-
-  @override
-  Widget build(BuildContext context) {
-    final lines = _buildDisplayLines(cigar.name);
-
-    return Material(
-      color: Colors.transparent,
-      child: InkWell(
-        borderRadius: BorderRadius.circular(24),
-        onTap: () {
-          Navigator.push(
-            context,
-            MaterialPageRoute(
-              builder: (_) => CigarDetailScreen(cigar: cigar),
-            ),
-          );
-        },
-        child: Ink(
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(24),
-            gradient: const LinearGradient(
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight,
-              colors: [
-                Color(0xF0141416),
-                Color(0xEE0E0E10),
-                Color(0xF0101012),
-              ],
-            ),
-            border: Border.all(color: const Color(0x22D4AF37)),
-          ),
-          child: Stack(
-            children: [
-              Column(
-                children: [
-                  Expanded(
-                    child: Container(
-                      width: double.infinity,
-                      padding: const EdgeInsets.fromLTRB(12, 18, 12, 6),
-                      child: ClipRRect(
-                        borderRadius: BorderRadius.circular(18),
-                        child: Container(
-                          color: const Color(0xFF171719),
-                          child: _RecentCigarImage(imageUrl: cigar.imageUrl),
-                        ),
-                      ),
-                    ),
-                  ),
-                  Container(
-                    width: double.infinity,
-                    padding: const EdgeInsets.fromLTRB(14, 10, 14, 14),
-                    decoration: const BoxDecoration(
-                      borderRadius: BorderRadius.vertical(
-                        bottom: Radius.circular(24),
-                      ),
-                      color: Color(0x161A1A1D),
-                    ),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          lines.$1,
-                          maxLines: 2,
-                          overflow: TextOverflow.ellipsis,
-                          style: const TextStyle(
-                            color: Colors.white,
-                            fontSize: 14,
-                            fontWeight: FontWeight.w800,
-                            height: 1.05,
-                          ),
-                        ),
-                        if (lines.$2.isNotEmpty) ...[
-                          const SizedBox(height: 3),
-                          Text(
-                            lines.$2,
-                            maxLines: 1,
-                            overflow: TextOverflow.ellipsis,
-                            style: const TextStyle(
-                              color: Colors.white70,
-                              fontSize: 12,
-                              fontWeight: FontWeight.w500,
-                              height: 1.05,
-                            ),
-                          ),
-                        ],
-                      ],
-                    ),
-                  ),
-                ],
-              ),
-              Positioned(
-                top: 10,
-                left: 10,
-                child: Container(
-                  padding:
-                      const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(13),
-                    color: const Color(0xFF2A2411),
-                    border: Border.all(color: const Color(0x18D4AF37)),
-                  ),
-                  child: const Text(
-                    'NEW',
-                    style: TextStyle(
-                      color: Color(0xFFD4AF37),
-                      fontSize: 9.5,
-                      fontWeight: FontWeight.w800,
-                      letterSpacing: 0.5,
-                    ),
-                  ),
-                ),
-              ),
-            ],
-          ),
-        ),
-      ),
-    );
-  }
-
-  (String, String) _buildDisplayLines(String name) {
-    final cleaned = name.trim();
-    final parts = cleaned.split(RegExp(r'\s+'));
-
-    if (parts.length <= 2) {
-      return (cleaned, '');
-    }
-
-    if (parts.length == 3) {
-      return ('${parts[0]} ${parts[1]}', parts[2]);
-    }
-
-    return (
-      '${parts[0]} ${parts[1]}',
-      parts.skip(2).join(' '),
-    );
-  }
-}
-
-class _RecentCigarImage extends StatelessWidget {
-  final String imageUrl;
-
-  const _RecentCigarImage({required this.imageUrl});
-
-  @override
-  Widget build(BuildContext context) {
-    if (imageUrl.trim().isEmpty) {
-      return const Center(
-        child: Icon(Icons.smoking_rooms, color: Colors.white54, size: 24),
-      );
-    }
-
-    final isRemote =
-        imageUrl.startsWith('http://') || imageUrl.startsWith('https://');
-
-    final imageWidget = isRemote
-        ? Image.network(
-            imageUrl,
-            fit: BoxFit.contain,
-            errorBuilder: (_, __, ___) => const Icon(
-              Icons.smoking_rooms,
-              color: Colors.white54,
-              size: 24,
-            ),
-          )
-        : Image.asset(
-            imageUrl,
-            fit: BoxFit.contain,
-            errorBuilder: (_, __, ___) => const Icon(
-              Icons.smoking_rooms,
-              color: Colors.white54,
-              size: 24,
-            ),
-          );
-
-    return Container(
-      color: const Color(0xFF171719),
-      alignment: Alignment.center,
-      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
-      child: FractionallySizedBox(
-        heightFactor: 0.84,
-        child: imageWidget,
-      ),
-    );
-  }
-}
-
-class _PageDots extends StatelessWidget {
-  final int count;
-  final int activeIndex;
-
-  const _PageDots({
-    required this.count,
-    required this.activeIndex,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: List.generate(
-        count,
-        (index) => AnimatedContainer(
-          duration: const Duration(milliseconds: 180),
-          margin: const EdgeInsets.symmetric(horizontal: 5),
-          width: 8,
-          height: 8,
-          decoration: BoxDecoration(
-            shape: BoxShape.circle,
-            color: index == activeIndex
-                ? const Color(0xFFD4AF37)
-                : const Color(0x33D4AF37),
-          ),
-        ),
-      ),
     );
   }
 }
@@ -557,6 +266,7 @@ class _HeroDealCard extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(height: 16),
+
                 Row(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
@@ -602,7 +312,9 @@ class _HeroDealCard extends StatelessWidget {
                     ),
                   ],
                 ),
+
                 const SizedBox(height: 18),
+
                 Row(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
@@ -684,7 +396,9 @@ class _HeroDealCard extends StatelessWidget {
                     ),
                   ],
                 ),
+
                 const SizedBox(height: 18),
+
                 Row(
                   children: [
                     Expanded(
