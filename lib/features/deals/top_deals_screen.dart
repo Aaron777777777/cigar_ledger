@@ -193,7 +193,7 @@ class _TopDealsScreenState extends State<TopDealsScreen> {
               ),
               const SizedBox(height: 26),
               const Text(
-                'TOP DEALS',
+                'THIS WEEK’S BEST DEALS',
                 style: TextStyle(
                   fontSize: 22,
                   fontWeight: FontWeight.w800,
