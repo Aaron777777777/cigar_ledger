@@ -22,31 +22,20 @@ class _TopDealsScreenState extends State<TopDealsScreen> {
   String? loadError;
 
   final PageController _recentlyAddedController =
-      PageController(viewportFraction: 0.345);
+      PageController(viewportFraction: 0.42);
+
   int _recentlyAddedPage = 0;
 
   @override
   void initState() {
     super.initState();
     loadData();
-    _recentlyAddedController.addListener(_handleRecentlyAddedScroll);
   }
 
   @override
   void dispose() {
-    _recentlyAddedController.removeListener(_handleRecentlyAddedScroll);
     _recentlyAddedController.dispose();
     super.dispose();
-  }
-
-  void _handleRecentlyAddedScroll() {
-    if (!_recentlyAddedController.hasClients) return;
-    final nextPage = _recentlyAddedController.page?.round() ?? 0;
-    if (nextPage != _recentlyAddedPage && mounted) {
-      setState(() {
-        _recentlyAddedPage = nextPage;
-      });
-    }
   }
 
   Future<void> loadData() async {
@@ -165,6 +154,11 @@ class _TopDealsScreenState extends State<TopDealsScreen> {
                 child: PageView.builder(
                   controller: _recentlyAddedController,
                   padEnds: false,
+                  onPageChanged: (index) {
+                    setState(() {
+                      _recentlyAddedPage = index;
+                    });
+                  },
                   itemCount: recentlyAdded.length,
                   itemBuilder: (context, index) {
                     final cigar = recentlyAdded[index];
@@ -183,6 +177,7 @@ class _TopDealsScreenState extends State<TopDealsScreen> {
                   count: recentlyAdded.length,
                   activeIndex:
                       _recentlyAddedPage.clamp(0, recentlyAdded.length - 1),
+                  controller: _recentlyAddedController,
                 ),
               ],
               const SizedBox(height: 26),
@@ -201,7 +196,7 @@ class _TopDealsScreenState extends State<TopDealsScreen> {
                   letterSpacing: 1.0,
                 ),
               ),
-              const SizedBox(height: 20),
+              const SizedBox(height: 14),
               _HeroDealCard(
                 deal: heroDeal,
                 showBox: showBox,
@@ -444,10 +439,12 @@ class _RecentCigarImage extends StatelessWidget {
 class _PageDots extends StatelessWidget {
   final int count;
   final int activeIndex;
+  final PageController controller;
 
   const _PageDots({
     required this.count,
     required this.activeIndex,
+    required this.controller,
   });
 
   @override
@@ -456,16 +453,33 @@ class _PageDots extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: List.generate(
         count,
-        (index) => AnimatedContainer(
-          duration: const Duration(milliseconds: 180),
-          margin: const EdgeInsets.symmetric(horizontal: 5),
-          width: 8,
-          height: 8,
-          decoration: BoxDecoration(
-            shape: BoxShape.circle,
-            color: index == activeIndex
-                ? const Color(0xFFD4AF37)
-                : const Color(0x33D4AF37),
+        (index) => Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 4),
+          child: InkWell(
+            borderRadius: BorderRadius.circular(20),
+            onTap: () {
+              controller.animateToPage(
+                index,
+                duration: const Duration(milliseconds: 320),
+                curve: Curves.easeInOut,
+              );
+            },
+            child: Container(
+              width: 20,
+              height: 20,
+              alignment: Alignment.center,
+              child: AnimatedContainer(
+                duration: const Duration(milliseconds: 180),
+                width: 8,
+                height: 8,
+                decoration: BoxDecoration(
+                  shape: BoxShape.circle,
+                  color: index == activeIndex
+                      ? const Color(0xFFD4AF37)
+                      : const Color(0x33D4AF37),
+                ),
+              ),
+            ),
           ),
         ),
       ),
