@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:share_plus/share_plus.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../../core/import_calculator.dart';
-import '../../core/price_mode.dart';
 import '../../core/theme/app_theme.dart';
 import '../../models/cigar.dart';
 import '../../services/purchase_service.dart';
+import '../../services/watchlist_service.dart';
 import '../../widgets/deal_badge.dart';
 import '../premium/premium_screen.dart';
 
@@ -22,9 +21,11 @@ class CigarDetailScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final isPremium = context.watch<PurchaseService>().isPremium;
+    final watchlist = context.watch<WatchlistService>();
+    final isSaved = watchlist.isSaved(cigar);
 
     final singleWeight = cigar.importWeightGrams;
-    final boxWeight = cigar.importWeightGrams * cigar.boxQuantity;
+    final boxWeight = cigar.importBoxWeightGrams;
 
     final bestUkSingle = _bestUkSingle(cigar.ukPrices);
     final bestEuSingle = _bestEuSingle(cigar.euPrices);
@@ -33,9 +34,8 @@ class CigarDetailScreen extends StatelessWidget {
 
     final ukSinglePrice = bestUkSingle?.singlePriceValue;
     final euSingleBase = bestEuSingle?.singleBasePriceValue;
-    final singleDuty = euSingleBase != null
-        ? ImportCalculator.duty(singleWeight)
-        : null;
+    final singleDuty =
+        euSingleBase != null ? ImportCalculator.duty(singleWeight) : null;
     final singleVat = (euSingleBase != null && singleDuty != null)
         ? ImportCalculator.vat(euSingleBase, singleDuty)
         : null;
@@ -65,143 +65,167 @@ class CigarDetailScreen extends StatelessWidget {
             : null;
     final boxImportCheaper = boxSaving != null && boxSaving > 0;
 
-    return AnimatedBuilder(
-      animation: priceMode,
-      builder: (context, _) {
-        final preferBox = priceMode.showBoxPrice &&
-            ((ukBoxPrice != null && ukBoxPrice > 0) ||
-                (boxLanded != null && boxLanded > 0));
+    final preferBoxHeadline = ukBoxPrice != null || boxLanded != null;
+    final headlineImportCheaper =
+        preferBoxHeadline ? boxImportCheaper : singleImportCheaper;
 
-        final headlineImportCheaper = preferBox
-            ? boxImportCheaper
-            : singleImportCheaper;
+    final headlineRetailer = _headlineRetailer(
+      preferBox: preferBoxHeadline,
+      importCheaper: headlineImportCheaper,
+      bestUkSingle: bestUkSingle,
+      bestEuSingle: bestEuSingle,
+      bestUkBox: bestUkBox,
+      bestEuBox: bestEuBox,
+    );
 
-        final headlineRetailer = _headlineRetailer(
-          preferBox: preferBox,
-          importCheaper: headlineImportCheaper,
-          bestUkSingle: bestUkSingle,
-          bestEuSingle: bestEuSingle,
-          bestUkBox: bestUkBox,
-          bestEuBox: bestEuBox,
-        );
+    final headlineUrl = _headlineUrl(
+      preferBox: preferBoxHeadline,
+      importCheaper: headlineImportCheaper,
+      bestUkSingle: bestUkSingle,
+      bestEuSingle: bestEuSingle,
+      bestUkBox: bestUkBox,
+      bestEuBox: bestEuBox,
+    );
 
-        final headlineUrl = _headlineUrl(
-          preferBox: preferBox,
-          importCheaper: headlineImportCheaper,
-          bestUkSingle: bestUkSingle,
-          bestEuSingle: bestEuSingle,
-          bestUkBox: bestUkBox,
-          bestEuBox: bestEuBox,
-        );
+    final headlineButtonRetailer = _headlineButtonRetailer(
+      preferBox: preferBoxHeadline,
+      importCheaper: headlineImportCheaper,
+      bestUkSingle: bestUkSingle,
+      bestEuSingle: bestEuSingle,
+      bestUkBox: bestUkBox,
+      bestEuBox: bestEuBox,
+    );
 
-        final headlineButtonRetailer = _headlineButtonRetailer(
-          preferBox: preferBox,
-          importCheaper: headlineImportCheaper,
-          bestUkSingle: bestUkSingle,
-          bestEuSingle: bestEuSingle,
-          bestUkBox: bestUkBox,
-          bestEuBox: bestEuBox,
-        );
+    return Scaffold(
+      backgroundColor: AppColors.background,
+      appBar: AppBar(
+        title: const Text('CIGAR LEDGER'),
+        centerTitle: true,
+        actions: [
+          Padding(
+            padding: const EdgeInsets.only(right: 10),
+            child: GestureDetector(
+              onTap: () async {
+                final wasSaved = isSaved;
+                await context.read<WatchlistService>().toggle(cigar);
 
-        return Scaffold(
-          backgroundColor: AppColors.background,
-          appBar: AppBar(
-            title: const Text('CIGAR LEDGER'),
-            centerTitle: true,
-            actions: [
-              IconButton(
-                icon: const Icon(Icons.ios_share_rounded),
-                onPressed: () {
-                  Share.share(
-                    _buildShareText(
-                      cigar: cigar,
-                      headlineRetailer: headlineRetailer,
-                      headlineUrl: headlineUrl,
-                      preferBox: preferBox,
-                      ukSinglePrice: ukSinglePrice,
-                      singleLanded: singleLanded,
-                      singleSaving: singleSaving,
-                      ukBoxPrice: ukBoxPrice,
-                      boxLanded: boxLanded,
-                      boxSaving: boxSaving,
+                ScaffoldMessenger.of(context).hideCurrentSnackBar();
+                ScaffoldMessenger.of(context).showSnackBar(
+                  SnackBar(
+                    content: Text(
+                      wasSaved
+                          ? 'Removed from watchlist'
+                          : 'Added to watchlist',
                     ),
-                    subject: cigar.name,
-                  );
-                },
+                    duration: const Duration(milliseconds: 1100),
+                  ),
+                );
+              },
+              child: Container(
+                width: 38,
+                height: 38,
+                margin: const EdgeInsets.symmetric(vertical: 8),
+                decoration: BoxDecoration(
+                  shape: BoxShape.circle,
+                  color: const Color(0xFF1B1B1D),
+                  border: Border.all(
+                    color: const Color(0x33D4AF37),
+                  ),
+                ),
+                child: Icon(
+                  isSaved ? Icons.favorite : Icons.favorite_border,
+                  color: isSaved
+                      ? const Color(0xFFD4AF37)
+                      : const Color(0x66D4AF37),
+                  size: 20,
+                ),
               ),
-            ],
-          ),
-          body: SingleChildScrollView(
-            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 18),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Center(child: _buildCigarImage(cigar.imageUrl)),
-                const SizedBox(height: 28),
-                Text(
-                  cigar.name,
-                  style: const TextStyle(
-                    fontSize: 30,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
-                const SizedBox(height: 6),
-                Text(
-                  cigar.brand,
-                  style: const TextStyle(
-                    fontSize: 18,
-                    color: AppColors.textSecondary,
-                  ),
-                ),
-                const SizedBox(height: 18),
-                Wrap(
-                  spacing: 8,
-                  runSpacing: 8,
-                  children: [
-                    _chip(cigar.country),
-                    _chip('${cigar.ringGauge} Ring'),
-                    _chip(cigar.strength),
-                    _chip('${cigar.boxQuantity} / box'),
-                    _chip('${singleWeight.toStringAsFixed(1)}g est.'),
-                  ],
-                ),
-                const SizedBox(height: 30),
-                if (!isPremium)
-                  _buildLockedCard(
-                    context: context,
-                    ukSinglePrice: ukSinglePrice,
-                    ukBoxPrice: ukBoxPrice,
-                    hasEachImport: singleLanded != null,
-                    hasBoxImport: boxLanded != null,
-                  )
-                else
-                  _buildPremiumCard(
-                    headlineImportCheaper: headlineImportCheaper,
-                    headlineUsesBox: preferBox,
-                    headlineRetailer: headlineRetailer,
-                    headlineUrl: headlineUrl,
-                    headlineButtonRetailer: headlineButtonRetailer,
-                    ukSinglePrice: ukSinglePrice,
-                    euSingleBase: euSingleBase,
-                    singleDuty: singleDuty,
-                    singleVat: singleVat,
-                    singleLanded: singleLanded,
-                    singleSaving: singleSaving,
-                    ukBoxPrice: ukBoxPrice,
-                    euBoxBase: euBoxBase,
-                    boxDuty: boxDuty,
-                    boxVat: boxVat,
-                    boxLanded: boxLanded,
-                    boxSaving: boxSaving,
-                    boxSavingPerCigar: boxSavingPerCigar,
-                    singleImportCheaper: singleImportCheaper,
-                    boxImportCheaper: boxImportCheaper,
-                  ),
-              ],
             ),
           ),
-        );
-      },
+        ],
+      ),
+      body: Container(
+        decoration: const BoxDecoration(
+          gradient: LinearGradient(
+            begin: Alignment.topCenter,
+            end: Alignment.bottomCenter,
+            colors: [
+              Color(0xFF090909),
+              Color(0xFF0D0D0E),
+              Color(0xFF111111),
+            ],
+          ),
+        ),
+        child: SingleChildScrollView(
+          padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 18),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Center(child: _buildCigarImage(cigar.imageUrl)),
+              const SizedBox(height: 28),
+              Text(
+                cigar.name,
+                style: const TextStyle(
+                  fontSize: 32,
+                  height: 1.1,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              const SizedBox(height: 6),
+              Text(
+                cigar.brand,
+                style: const TextStyle(
+                  fontSize: 18,
+                  color: AppColors.textSecondary,
+                ),
+              ),
+              const SizedBox(height: 18),
+              Wrap(
+                spacing: 8,
+                runSpacing: 8,
+                children: [
+                  _chip(cigar.country),
+                  _chip('${cigar.ringGauge} Ring'),
+                  _chip(cigar.strength),
+                  _chip('${cigar.boxQuantity} / box'),
+                  _chip('${singleWeight.toStringAsFixed(1)}g est.'),
+                ],
+              ),
+              const SizedBox(height: 30),
+              if (!isPremium)
+                _buildLockedCard(
+                  ukSinglePrice: ukSinglePrice,
+                  ukBoxPrice: ukBoxPrice,
+                  hasEachImport: singleLanded != null,
+                  hasBoxImport: boxLanded != null,
+                  context: context,
+                )
+              else
+                _buildPremiumCard(
+                  headlineImportCheaper: headlineImportCheaper,
+                  headlineRetailer: headlineRetailer,
+                  headlineUrl: headlineUrl,
+                  headlineButtonRetailer: headlineButtonRetailer,
+                  ukSinglePrice: ukSinglePrice,
+                  euSingleBase: euSingleBase,
+                  singleDuty: singleDuty,
+                  singleVat: singleVat,
+                  singleLanded: singleLanded,
+                  singleSaving: singleSaving,
+                  ukBoxPrice: ukBoxPrice,
+                  euBoxBase: euBoxBase,
+                  boxDuty: boxDuty,
+                  boxVat: boxVat,
+                  boxLanded: boxLanded,
+                  boxSaving: boxSaving,
+                  boxSavingPerCigar: boxSavingPerCigar,
+                  singleImportCheaper: singleImportCheaper,
+                  boxImportCheaper: boxImportCheaper,
+                ),
+            ],
+          ),
+        ),
+      ),
     );
   }
 
@@ -215,9 +239,23 @@ class CigarDetailScreen extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(20),
       decoration: BoxDecoration(
-        color: AppColors.card,
-        borderRadius: BorderRadius.circular(22),
+        gradient: const LinearGradient(
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+          colors: [
+            Color(0xF0141416),
+            Color(0xEE0E0E10),
+          ],
+        ),
+        borderRadius: BorderRadius.circular(24),
         border: Border.all(color: AppColors.borderGoldMedium),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withOpacity(0.35),
+            blurRadius: 24,
+            offset: const Offset(0, 14),
+          ),
+        ],
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -227,7 +265,7 @@ class CigarDetailScreen extends StatelessWidget {
               DealBadge(label: 'PRO'),
               SizedBox(width: 10),
               Text(
-                'UNLOCK FULL COMPARISON',
+                'UNLOCK THE BEST DEAL',
                 style: TextStyle(
                   color: AppColors.gold,
                   fontWeight: FontWeight.bold,
@@ -327,7 +365,6 @@ class CigarDetailScreen extends StatelessWidget {
 
   Widget _buildPremiumCard({
     required bool headlineImportCheaper,
-    required bool headlineUsesBox,
     required String headlineRetailer,
     required String headlineUrl,
     required String headlineButtonRetailer,
@@ -350,20 +387,34 @@ class CigarDetailScreen extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(20),
       decoration: BoxDecoration(
-        color: AppColors.card,
-        borderRadius: BorderRadius.circular(22),
+        gradient: const LinearGradient(
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+          colors: [
+            Color(0xF0141416),
+            Color(0xEE0E0E10),
+          ],
+        ),
+        borderRadius: BorderRadius.circular(24),
         border: Border.all(color: AppColors.borderGoldMedium),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withOpacity(0.35),
+            blurRadius: 24,
+            offset: const Offset(0, 14),
+          ),
+        ],
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Row(
             children: [
-              DealBadge(label: headlineImportCheaper ? 'BEST IMPORT' : 'BEST UK'),
+              DealBadge(label: headlineImportCheaper ? 'IMPORT LIVE' : 'UK LIVE'),
               const SizedBox(width: 10),
-              Text(
-                headlineImportCheaper ? 'IMPORT DEAL' : 'UK DEAL',
-                style: const TextStyle(
+              const Text(
+                'UK VS EU LANDED',
+                style: TextStyle(
                   color: AppColors.gold,
                   fontWeight: FontWeight.bold,
                   letterSpacing: 1,
@@ -373,15 +424,9 @@ class CigarDetailScreen extends StatelessWidget {
           ),
           if (headlineRetailer.trim().isNotEmpty) ...[
             const SizedBox(height: 18),
-            Text(
-              headlineImportCheaper
-                  ? (headlineUsesBox
-                      ? 'Best import box retailer'
-                      : 'Best import retailer')
-                  : (headlineUsesBox
-                      ? 'Best UK box retailer'
-                      : 'Best UK retailer'),
-              style: const TextStyle(
+            const Text(
+              'Cheapest current retailer',
+              style: TextStyle(
                 color: AppColors.textSecondary,
                 fontSize: 13,
               ),
@@ -426,7 +471,9 @@ class CigarDetailScreen extends StatelessWidget {
                       ? 'Import is currently cheaper on the single-cigar maths.'
                       : 'Import costs £${singleSaving.abs().toStringAsFixed(2)} more per cigar.',
             ),
-            if (euSingleBase != null || singleDuty != null || singleVat != null) ...[
+            if (euSingleBase != null ||
+                singleDuty != null ||
+                singleVat != null) ...[
               const SizedBox(height: 18),
               const Text(
                 'IMPORT BREAKDOWN (PER CIGAR)',
@@ -466,12 +513,12 @@ class CigarDetailScreen extends StatelessWidget {
             _summaryBanner(
               highlight: boxImportCheaper,
               title: boxSaving == null
-                  ? 'Box comparison unavailable'
+                  ? 'No box import pricing available'
                   : boxImportCheaper
                       ? 'SAVE £${boxSaving.toStringAsFixed(0)} PER BOX'
                       : 'UK IS CHEAPER PER BOX',
               subtitle: boxSaving == null
-                  ? 'Both UK and EU box prices are required to show a box deal for this cigar.'
+                  ? 'Add or check EU box pricing for this cigar.'
                   : boxImportCheaper
                       ? '£${(boxSavingPerCigar ?? 0).toStringAsFixed(2)} saving per cigar across the box.'
                       : 'Import costs £${boxSaving.abs().toStringAsFixed(2)} more per box.',
@@ -503,21 +550,10 @@ class CigarDetailScreen extends StatelessWidget {
               color: AppColors.textMuted,
             ),
           ),
-          const SizedBox(height: 8),
-          const Text(
-            'Estimates only. Prices, tax, duty, VAT, stock, and savings may be delayed or inaccurate. Verify with the retailer before purchase.',
-            style: TextStyle(
-              fontSize: 12,
-              color: AppColors.textMuted,
-              height: 1.4,
-            ),
-          ),
           if (headlineUrl.isNotEmpty) ...[
             const SizedBox(height: 20),
             _buyButton(
-              label: headlineUsesBox
-                  ? 'Buy box from $headlineButtonRetailer'
-                  : 'Buy from $headlineButtonRetailer',
+              label: 'Buy from $headlineButtonRetailer',
               url: headlineUrl,
             ),
           ],
@@ -529,32 +565,40 @@ class CigarDetailScreen extends StatelessWidget {
   static RetailerPrice? _bestUkSingle(List<RetailerPrice> prices) {
     final valid = prices.where((p) => (p.singlePriceValue ?? 0) > 0).toList();
     if (valid.isEmpty) return null;
-    valid.sort((a, b) =>
-        (a.singlePriceValue ?? 999999).compareTo(b.singlePriceValue ?? 999999));
+    valid.sort(
+      (a, b) =>
+          (a.singlePriceValue ?? 999999).compareTo(b.singlePriceValue ?? 999999),
+    );
     return valid.first;
   }
 
   static ImportOption? _bestEuSingle(List<ImportOption> prices) {
     final valid = prices.where((p) => (p.singleBasePriceValue ?? 0) > 0).toList();
     if (valid.isEmpty) return null;
-    valid.sort((a, b) => (a.singleBasePriceValue ?? 999999)
-        .compareTo(b.singleBasePriceValue ?? 999999));
+    valid.sort(
+      (a, b) => (a.singleBasePriceValue ?? 999999)
+          .compareTo(b.singleBasePriceValue ?? 999999),
+    );
     return valid.first;
   }
 
   static RetailerPrice? _bestUkBox(List<RetailerPrice> prices) {
     final valid = prices.where((p) => (p.boxPriceValue ?? 0) > 0).toList();
     if (valid.isEmpty) return null;
-    valid.sort((a, b) =>
-        (a.boxPriceValue ?? 999999).compareTo(b.boxPriceValue ?? 999999));
+    valid.sort(
+      (a, b) =>
+          (a.boxPriceValue ?? 999999).compareTo(b.boxPriceValue ?? 999999),
+    );
     return valid.first;
   }
 
   static ImportOption? _bestEuBox(List<ImportOption> prices) {
     final valid = prices.where((p) => (p.boxBasePriceValue ?? 0) > 0).toList();
     if (valid.isEmpty) return null;
-    valid.sort((a, b) => (a.boxBasePriceValue ?? 999999)
-        .compareTo(b.boxBasePriceValue ?? 999999));
+    valid.sort(
+      (a, b) =>
+          (a.boxBasePriceValue ?? 999999).compareTo(b.boxBasePriceValue ?? 999999),
+    );
     return valid.first;
   }
 
@@ -618,61 +662,6 @@ class CigarDetailScreen extends StatelessWidget {
     return bestUkSingle?.url.trim() ?? '';
   }
 
-  static String _buildShareText({
-    required Cigar cigar,
-    required String headlineRetailer,
-    required String headlineUrl,
-    required bool preferBox,
-    required double? ukSinglePrice,
-    required double? singleLanded,
-    required double? singleSaving,
-    required double? ukBoxPrice,
-    required double? boxLanded,
-    required double? boxSaving,
-  }) {
-    final lines = <String>[
-      'Cigar Ledger deal',
-      cigar.name,
-      cigar.brand,
-    ];
-
-    if (preferBox && ukBoxPrice != null && boxLanded != null) {
-      lines
-        ..add('')
-        ..add('Per box')
-        ..add('Best UK box: £${ukBoxPrice.toStringAsFixed(2)}')
-        ..add('EU landed box: £${boxLanded.toStringAsFixed(2)}');
-
-      if (boxSaving != null && boxSaving > 0) {
-        lines.add('Save: £${boxSaving.toStringAsFixed(0)} per box');
-      }
-    } else if (ukSinglePrice != null && singleLanded != null) {
-      lines
-        ..add('')
-        ..add('Per cigar')
-        ..add('Best UK: £${ukSinglePrice.toStringAsFixed(2)}')
-        ..add('EU landed: £${singleLanded.toStringAsFixed(2)}');
-
-      if (singleSaving != null && singleSaving > 0) {
-        lines.add('Save: £${singleSaving.toStringAsFixed(2)} per cigar');
-      }
-    }
-
-    if (headlineRetailer.trim().isNotEmpty) {
-      lines
-        ..add('')
-        ..add('Best retailer: ${headlineRetailer.trim().toUpperCase()}');
-    }
-
-    if (headlineUrl.trim().isNotEmpty) {
-      lines
-        ..add('')
-        ..add('Buy: $headlineUrl');
-    }
-
-    return lines.join('\n');
-  }
-
   Widget _buildCigarImage(String imageUrl) {
     if (imageUrl.trim().isEmpty) {
       return _imageFallback();
@@ -681,26 +670,40 @@ class CigarDetailScreen extends StatelessWidget {
     final isRemote =
         imageUrl.startsWith('http://') || imageUrl.startsWith('https://');
 
-    if (isRemote) {
-      return Image.network(
-        imageUrl,
-        height: 260,
-        fit: BoxFit.contain,
-        errorBuilder: (_, __, ___) => _imageFallback(),
-      );
-    }
-
-    return Image.asset(
-      imageUrl,
-      height: 260,
-      fit: BoxFit.contain,
-      errorBuilder: (_, __, ___) => _imageFallback(),
+    return Container(
+      padding: const EdgeInsets.all(10),
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(28),
+        gradient: const LinearGradient(
+          colors: [
+            Color(0x1FFFFFFF),
+            Color(0x0DFFFFFF),
+          ],
+        ),
+        border: Border.all(color: const Color(0x22D4AF37)),
+      ),
+      child: ClipRRect(
+        borderRadius: BorderRadius.circular(20),
+        child: isRemote
+            ? Image.network(
+                imageUrl,
+                height: 240,
+                fit: BoxFit.contain,
+                errorBuilder: (_, __, ___) => _imageFallback(),
+              )
+            : Image.asset(
+                imageUrl,
+                height: 240,
+                fit: BoxFit.contain,
+                errorBuilder: (_, __, ___) => _imageFallback(),
+              ),
+      ),
     );
   }
 
   Widget _imageFallback() {
     return Container(
-      height: 260,
+      height: 240,
       width: 200,
       decoration: BoxDecoration(
         color: const Color(0xFF1A1A1A),
@@ -837,7 +840,7 @@ class _LockedPriceRow extends StatelessWidget {
               borderRadius: BorderRadius.circular(10),
             ),
             child: const Text(
-              'Pro',
+              'Premium',
               style: TextStyle(
                 color: AppColors.gold,
                 fontWeight: FontWeight.bold,

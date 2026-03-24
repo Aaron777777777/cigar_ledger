@@ -1,12 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+
 import 'services/purchase_service.dart';
+import 'services/watchlist_service.dart';
 
 import 'core/theme/app_theme.dart';
 import 'core/price_mode.dart';
 import 'features/search/search_screen.dart';
 import 'features/premium/premium_screen.dart';
 import 'features/deals/top_deals_screen.dart';
+import 'features/watchlist/watchlist_screen.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -14,9 +17,15 @@ Future<void> main() async {
   final purchaseService = PurchaseService();
   await purchaseService.init();
 
+  final watchlistService = WatchlistService();
+  await watchlistService.init();
+
   runApp(
-    ChangeNotifierProvider.value(
-      value: purchaseService,
+    MultiProvider(
+      providers: [
+        ChangeNotifierProvider.value(value: purchaseService),
+        ChangeNotifierProvider.value(value: watchlistService),
+      ],
       child: const CigarLedgerApp(),
     ),
   );
@@ -51,12 +60,14 @@ class _AppShellState extends State<AppShell> {
     final screens = [
       const SearchScreen(),
       const TopDealsScreen(),
+      const WatchlistScreen(),
       const PremiumScreen(),
     ];
 
     final titles = [
       'CIGAR LEDGER',
       'TOP DEALS',
+      'WATCHLIST',
       'PRO',
     ];
 
@@ -168,6 +179,10 @@ class _AppShellState extends State<AppShell> {
               BottomNavigationBarItem(
                 icon: Icon(Icons.local_fire_department),
                 label: 'Deals',
+              ),
+              BottomNavigationBarItem(
+                icon: Icon(Icons.favorite_border),
+                label: 'Watchlist',
               ),
               BottomNavigationBarItem(
                 icon: Icon(Icons.workspace_premium_outlined),

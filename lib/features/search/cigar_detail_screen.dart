@@ -6,6 +6,7 @@ import '../../core/import_calculator.dart';
 import '../../core/theme/app_theme.dart';
 import '../../models/cigar.dart';
 import '../../services/purchase_service.dart';
+import '../../services/watchlist_service.dart';
 import '../../widgets/deal_badge.dart';
 import '../premium/premium_screen.dart';
 
@@ -20,6 +21,9 @@ class CigarDetailScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final isPremium = context.watch<PurchaseService>().isPremium;
+    final watchlist = context.watch<WatchlistService>();
+    final isSaved = watchlist.isSaved(cigar);
+
     final singleWeight = cigar.importWeightGrams;
     final boxWeight = cigar.importBoxWeightGrams;
 
@@ -94,6 +98,48 @@ class CigarDetailScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('CIGAR LEDGER'),
         centerTitle: true,
+        actions: [
+          Padding(
+            padding: const EdgeInsets.only(right: 10),
+            child: GestureDetector(
+              onTap: () async {
+                final wasSaved = isSaved;
+                await context.read<WatchlistService>().toggle(cigar);
+
+                ScaffoldMessenger.of(context).hideCurrentSnackBar();
+                ScaffoldMessenger.of(context).showSnackBar(
+                  SnackBar(
+                    content: Text(
+                      wasSaved
+                          ? 'Removed from watchlist'
+                          : 'Added to watchlist',
+                    ),
+                    duration: const Duration(milliseconds: 1100),
+                  ),
+                );
+              },
+              child: Container(
+                width: 38,
+                height: 38,
+                margin: const EdgeInsets.symmetric(vertical: 8),
+                decoration: BoxDecoration(
+                  shape: BoxShape.circle,
+                  color: const Color(0xFF1B1B1D),
+                  border: Border.all(
+                    color: const Color(0x33D4AF37),
+                  ),
+                ),
+                child: Icon(
+                  isSaved ? Icons.favorite : Icons.favorite_border,
+                  color: isSaved
+                      ? const Color(0xFFD4AF37)
+                      : const Color(0x66D4AF37),
+                  size: 20,
+                ),
+              ),
+            ),
+          ),
+        ],
       ),
       body: Container(
         decoration: const BoxDecoration(
