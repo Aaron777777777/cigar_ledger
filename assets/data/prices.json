@@ -5250,5 +5250,64 @@
     ],
     "weightGrams": 4.5,
     "weightSource": ""
-  }
+  },
+  {
+  "name": "Camacho Connecticut Toro",
+  "brand": "Camacho",
+  "country": "Honduras",
+  "ringGauge": 50,
+  "lengthMm": 152,
+  "strength": "Medium",
+  "imageUrl": "assets/cigars/camacho_connecticut_toro.png",
+  "boxQuantity": 20,
+  "ukPrices": [
+    {
+      "retailer": "cgars",
+      "price": "£25.99",
+      "previousPrice": "£25.99",
+      "stock": "In Stock",
+      "url": "https://www.cgarsltd.co.uk/camacho-connecticut-toro-cigar-single-p-59185.html?keywords=Camacho+Connecticut+",
+      "boxPrice": "£514",
+      "previousBoxPrice": "£514",
+      "boxUrl": "https://www.cgarsltd.co.uk/camacho-connecticut-toro-cigar-box-p-59186.html?keywords=Camacho+Connecticut+"
+    },
+    {
+      "retailer": "havanahouse",
+      "price": "£24.16",
+      "previousPrice": "£24.16",
+      "stock": "In Stock",
+      "url": "https://www.havanahouse.co.uk/product/camacho-connecticut-toro-cigar-single/",
+      "boxPrice": "£483",
+      "previousBoxPrice": "£483",
+      "boxUrl": "https://www.havanahouse.co.uk/product/camacho-connecticut-toro-cigar-box-of-20/"
+    },
+    {
+      "retailer": "simplycigars",
+      "price": "TODO",
+      "previousPrice": "TODO",
+      "stock": "In Stock",
+      "url": "TODO",
+      "boxPrice": "TODO",
+      "previousBoxPrice": "TODO",
+      "boxUrl": "TODO"
+    }
+  ],
+  "euPrices": [
+    {
+      "retailer": "egm",
+      "price": "£9.99",
+      "cigarPrice": "£9.99",
+      "dutyVat": "",
+      "landedCost": "",
+      "savings": "",
+      "url": "https://egmcigars.com/en-gb/products/camacho-connecticut-toro-cello-20s?variant=45166262288641",
+      "boxPrice": "£182.99",
+      "previousBoxPrice": "£182.99",
+      "stock": "In Stock",
+      "boxUrl": "https://egmcigars.com/en-gb/products/camacho-connecticut-toro-cello-20s?variant=45166262223105"
+    }
+  ],
+  "weightGrams": 14.58,
+  "weightSource": ""
+}
 ]
