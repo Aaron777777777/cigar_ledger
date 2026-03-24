@@ -4720,65 +4720,6 @@
     "weightSource": "verified: Neptune Cigar"
   },
   {
-    "name": "Arturo Fuente Chateau Fuente",
-    "brand": "Arturo Fuente",
-    "country": "Dominican Republic",
-    "ringGauge": 50,
-    "lengthMm": 127,
-    "strength": "Medium",
-    "imageUrl": "assets/cigars/arturo_fuente_chateau_fuente.png",
-    "boxQuantity": 20,
-    "ukPrices": [
-      {
-        "retailer": "cgars",
-        "price": "£18.99",
-        "previousPrice": "£18.99",
-        "stock": "In Stock",
-        "url": "https://www.cgarsltd.co.uk/",
-        "boxPrice": "",
-        "previousBoxPrice": "",
-        "boxUrl": ""
-      },
-      {
-        "retailer": "havanahouse",
-        "price": "",
-        "previousPrice": "",
-        "stock": "",
-        "url": "",
-        "boxPrice": "",
-        "previousBoxPrice": "",
-        "boxUrl": ""
-      },
-      {
-        "retailer": "simplycigars",
-        "price": "",
-        "previousPrice": "",
-        "stock": "",
-        "url": "",
-        "boxPrice": "",
-        "previousBoxPrice": "",
-        "boxUrl": ""
-      }
-    ],
-    "euPrices": [
-      {
-        "retailer": "egm",
-        "price": "",
-        "cigarPrice": "",
-        "dutyVat": "",
-        "landedCost": "",
-        "savings": "",
-        "url": "",
-        "boxPrice": "",
-        "previousBoxPrice": "",
-        "stock": "",
-        "boxUrl": ""
-      }
-    ],
-    "weightGrams": 10.8,
-    "weightSource": "verified: Neptune Cigar"
-  },
-  {
     "name": "Davidoff Signature No.2",
     "brand": "Davidoff",
     "country": "Dominican Republic",
@@ -4836,65 +4777,6 @@
     ],
     "weightGrams": 8.4,
     "weightSource": "verified: Neptune Cigar"
-  },
-  {
-    "name": "Davidoff Millennium Robusto",
-    "brand": "Davidoff",
-    "country": "Dominican Republic",
-    "ringGauge": 50,
-    "lengthMm": 133,
-    "strength": "Medium-Full",
-    "imageUrl": "assets/cigars/davidoff_millennium_robusto.png",
-    "boxQuantity": 20,
-    "ukPrices": [
-      {
-        "retailer": "cgars",
-        "price": "£44.99",
-        "previousPrice": "£44.99",
-        "stock": "In Stock",
-        "url": "https://www.cgarsltd.co.uk/",
-        "boxPrice": "",
-        "previousBoxPrice": "",
-        "boxUrl": ""
-      },
-      {
-        "retailer": "havanahouse",
-        "price": "",
-        "previousPrice": "",
-        "stock": "",
-        "url": "",
-        "boxPrice": "",
-        "previousBoxPrice": "",
-        "boxUrl": ""
-      },
-      {
-        "retailer": "simplycigars",
-        "price": "",
-        "previousPrice": "",
-        "stock": "",
-        "url": "",
-        "boxPrice": "",
-        "previousBoxPrice": "",
-        "boxUrl": ""
-      }
-    ],
-    "euPrices": [
-      {
-        "retailer": "egm",
-        "price": "",
-        "cigarPrice": "",
-        "dutyVat": "",
-        "landedCost": "",
-        "savings": "",
-        "url": "",
-        "boxPrice": "",
-        "previousBoxPrice": "",
-        "stock": "",
-        "boxUrl": ""
-      }
-    ],
-    "weightGrams": 12,
-    "weightSource": "estimated: matched vitola"
   },
   {
     "name": "Drew Estate Liga Privada No. 9 Toro",
@@ -5309,5 +5191,61 @@
   ],
   "weightGrams": 14.58,
   "weightSource": ""
+},
+{
+  "name": "Davidoff Millennium Robusto",
+  "brand": "Davidoff",
+  "country": "Dominican Republic",
+  "ringGauge": 50,
+  "lengthMm": 133,
+  "strength": "Medium-Full",
+  "imageUrl": "assets/cigars/davidoff_millennium_blend_robusto.png",
+  "boxQuantity": 25,
+  "ukPrices": [
+    {
+      "retailer": "cgars",
+      "price": "££38.49",
+      "previousPrice": "££38.49",
+      "stock": "In Stock",
+      "url": "https://www.cgarsltd.co.uk/davidoff-millennium-robusto-cigar-single-p-58754.html?keywords=davidoff+millen",
+      "boxPrice": "£0.00",
+      "previousBoxPrice": "£0.00",
+      "boxUrl": ""
+    },
+    {
+      "retailer": "havanahouse",
+      "price": "£47.95",
+      "previousPrice": "£47.95",
+      "stock": "In Stock",
+      "url": "https://www.havanahouse.co.uk/product/davidoff-millennium-robusto-cigar-single/",
+      "boxPrice": "£0.00",
+      "previousBoxPrice": "£0.00",
+      "boxUrl": ""
+    },
+    {
+      "retailer": "simplycigars",
+      "price": "£0.00",
+      "previousPrice": "£0.00",
+      "stock": "Out of Stock",
+      "url": "",
+      "boxPrice": "£0.00",
+      "previousBoxPrice": "£0.00",
+      "boxUrl": ""
+    }
+  ],
+  "euPrices": [
+    {
+      "retailer": "egm",
+      "price": "£28.99",
+      "previousPrice": "£28.99",
+      "stock": "In Stock",
+      "url": "https://egmcigars.com/en-gb/products/davidoff-millennium-blend-robusto-cigar?variant=43848300462337",
+      "boxPrice": "££711.99",
+      "previousBoxPrice": "£711.99",
+      "boxUrl": "https://egmcigars.com/en-gb/products/davidoff-millennium-blend-robusto-cigar?variant=43085403324673"
+      }
+    ],
+    "weightGrams": 13,
+    "weightSource": ""
 }
 ]

@@ -43,17 +43,17 @@ class CigarSearchCard extends StatelessWidget {
 
         final ukDisplayValue = showBox ? ukBoxPrice : ukSinglePrice;
         final euDisplayValue = showBox ? euBoxPrice : euSinglePrice;
+        final hasCurrentModeComparison =
+            ukDisplayValue > 0 && euDisplayValue > 0;
         final hasImportAdvantage =
-            euDisplayValue > 0 &&
-            ukDisplayValue > 0 &&
-            euDisplayValue < ukDisplayValue;
+            hasCurrentModeComparison && euDisplayValue < ukDisplayValue;
 
-        final ukDisplay = ukDisplayValue > 0
-            ? '£${ukDisplayValue.toStringAsFixed(2)}'
-            : '--';
-        final euDisplay = euDisplayValue > 0
-            ? '£${euDisplayValue.toStringAsFixed(2)}'
-            : '--';
+        if (!hasCurrentModeComparison) {
+          return const SizedBox.shrink();
+        }
+
+        final ukDisplay = '£${ukDisplayValue.toStringAsFixed(2)}';
+        final euDisplay = '£${euDisplayValue.toStringAsFixed(2)}';
 
         final savingText = showBox
             ? 'SAVE £${savingPerBox.toStringAsFixed(0)} PER BOX'

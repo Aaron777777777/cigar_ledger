@@ -2,7 +2,7 @@ name: cigar_ledger
 description: "Cigar price intelligence for UK buyers"
 publish_to: 'none'
 
-version: 1.0.42+44
+version: 1.0.45+47
 
 environment:
   sdk: ">=3.3.0 <4.0.0"

@@ -130,6 +130,35 @@ class _SearchScreenState extends State<SearchScreen> {
     return list;
   }
 
+  bool _hasCurrentModeComparison(Cigar cigar, {required bool showBox}) {
+    final deal = calculateDeal(cigar);
+    final hasUkPrice = showBox
+        ? deal.ukBestBoxPrice > 0
+        : deal.ukBestSinglePrice > 0;
+    final hasEuPrice = showBox
+        ? deal.euBestBoxPrice > 0
+        : deal.euBestSinglePrice > 0;
+
+    return hasUkPrice && hasEuPrice;
+  }
+
+  DealResult? _featuredDealForMode({required bool showBox}) {
+    for (final deal in DealEngine.biggestSavings(cigars)) {
+      final hasUkPrice = showBox
+          ? deal.ukBestBoxPrice > 0
+          : deal.ukBestSinglePrice > 0;
+      final hasEuPrice = showBox
+          ? deal.euBestBoxPrice > 0
+          : deal.euBestSinglePrice > 0;
+
+      if (hasUkPrice && hasEuPrice) {
+        return deal;
+      }
+    }
+
+    return null;
+  }
+
   void _showBrandSheet() {
     showModalBottomSheet(
       context: context,
@@ -183,12 +212,17 @@ class _SearchScreenState extends State<SearchScreen> {
       );
     }
 
-    final featuredDeal = biggestDeals.isNotEmpty ? biggestDeals.first : null;
     final isPremium = context.watch<PurchaseService>().isPremium;
 
     return AnimatedBuilder(
       animation: priceMode,
       builder: (context, _) {
+        final showBox = priceMode.showBoxPrice;
+        final featuredDeal = _featuredDealForMode(showBox: showBox);
+        final visibleCigars = filteredCigars
+            .where((cigar) => _hasCurrentModeComparison(cigar, showBox: showBox))
+            .toList();
+
         return Scaffold(
           backgroundColor: const Color(0xFF0B0B0B),
           body: Container(
@@ -324,29 +358,71 @@ class _SearchScreenState extends State<SearchScreen> {
                   ),
                 ),
                 const SizedBox(height: 10),
-                ...filteredCigars.map((cigar) {
-                  final deal = calculateDeal(cigar);
-
-                  return CigarSearchCard(
-                    cigar: cigar,
-                    dealStrength: deal.dealStrength,
-                    ukSinglePrice: deal.ukBestSinglePrice,
-                    euSinglePrice: deal.euBestSinglePrice,
-                    ukBoxPrice: deal.ukBestBoxPrice,
-                    euBoxPrice: deal.euBestBoxPrice,
-                    savingPerCigar: deal.savingPerCigar,
-                    savingPerBox: deal.savingPerBox,
-                    onTap: () async {
-                      await Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (_) => CigarDetailScreen(cigar: cigar),
+                if (visibleCigars.isEmpty)
+                  Container(
+                    padding: const EdgeInsets.all(18),
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(24),
+                      gradient: const LinearGradient(
+                        begin: Alignment.topLeft,
+                        end: Alignment.bottomRight,
+                        colors: [
+                          Color(0xF0141416),
+                          Color(0xEE0E0E10),
+                        ],
+                      ),
+                      border: Border.all(color: const Color(0x26D4AF37)),
+                    ),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          showBox
+                              ? 'No cigars with full box comparison match this filter yet.'
+                              : 'No cigars with full per-cigar comparison match this filter yet.',
+                          style: const TextStyle(
+                            color: Colors.white,
+                            fontWeight: FontWeight.w700,
+                            fontSize: 16,
+                            height: 1.3,
+                          ),
                         ),
-                      );
-                      setState(() {});
-                    },
-                  );
-                }),
+                        const SizedBox(height: 6),
+                        const Text(
+                          'Try another filter or switch price mode to see more complete comparisons.',
+                          style: TextStyle(
+                            color: Colors.white70,
+                            fontSize: 14,
+                            height: 1.4,
+                          ),
+                        ),
+                      ],
+                    ),
+                  )
+                else
+                  ...visibleCigars.map((cigar) {
+                    final deal = calculateDeal(cigar);
+
+                    return CigarSearchCard(
+                      cigar: cigar,
+                      dealStrength: deal.dealStrength,
+                      ukSinglePrice: deal.ukBestSinglePrice,
+                      euSinglePrice: deal.euBestSinglePrice,
+                      ukBoxPrice: deal.ukBestBoxPrice,
+                      euBoxPrice: deal.euBestBoxPrice,
+                      savingPerCigar: deal.savingPerCigar,
+                      savingPerBox: deal.savingPerBox,
+                      onTap: () async {
+                        await Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (_) => CigarDetailScreen(cigar: cigar),
+                          ),
+                        );
+                        setState(() {});
+                      },
+                    );
+                  }),
               ],
             ),
           ),
