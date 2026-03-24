@@ -75,6 +75,7 @@ class _AppShellState extends State<AppShell> {
       animation: priceMode,
       builder: (context, _) {
         final isDealsTab = currentIndex == 1;
+        final showPriceToggle = currentIndex != 3;
 
         return Scaffold(
           appBar: AppBar(
@@ -117,51 +118,53 @@ class _AppShellState extends State<AppShell> {
               ],
             ),
             centerTitle: true,
-            actions: [
-              Padding(
-                padding: const EdgeInsets.only(right: 10),
-                child: GestureDetector(
-                  onTap: () {
-                    priceMode.toggle();
-                  },
-                  child: AnimatedContainer(
-                    duration: const Duration(milliseconds: 200),
-                    padding: const EdgeInsets.symmetric(
-                      horizontal: 14,
-                      vertical: 6,
-                    ),
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(999),
-                      gradient: priceMode.showBoxPrice
-                          ? const LinearGradient(
-                              colors: [
-                                Color(0xFFD4AF37),
-                                Color(0xFFB8942F),
-                              ],
-                            )
-                          : null,
-                      color: priceMode.showBoxPrice
-                          ? null
-                          : const Color(0xFF1A1A1A),
-                      border: Border.all(
-                        color: const Color(0x33D4AF37),
+            actions: showPriceToggle
+                ? [
+                    Padding(
+                      padding: const EdgeInsets.only(right: 10),
+                      child: GestureDetector(
+                        onTap: () {
+                          priceMode.toggle();
+                        },
+                        child: AnimatedContainer(
+                          duration: const Duration(milliseconds: 200),
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: 14,
+                            vertical: 6,
+                          ),
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(999),
+                            gradient: priceMode.showBoxPrice
+                                ? const LinearGradient(
+                                    colors: [
+                                      Color(0xFFD4AF37),
+                                      Color(0xFFB8942F),
+                                    ],
+                                  )
+                                : null,
+                            color: priceMode.showBoxPrice
+                                ? null
+                                : const Color(0xFF1A1A1A),
+                            border: Border.all(
+                              color: const Color(0x33D4AF37),
+                            ),
+                          ),
+                          child: Text(
+                            priceMode.showBoxPrice ? 'BOX' : 'EACH',
+                            style: TextStyle(
+                              fontSize: 12,
+                              fontWeight: FontWeight.w800,
+                              letterSpacing: 0.6,
+                              color: priceMode.showBoxPrice
+                                  ? const Color(0xFF111111)
+                                  : Colors.white70,
+                            ),
+                          ),
+                        ),
                       ),
                     ),
-                    child: Text(
-                      priceMode.showBoxPrice ? 'BOX' : 'EACH',
-                      style: TextStyle(
-                        fontSize: 12,
-                        fontWeight: FontWeight.w800,
-                        letterSpacing: 0.6,
-                        color: priceMode.showBoxPrice
-                            ? const Color(0xFF111111)
-                            : Colors.white70,
-                      ),
-                    ),
-                  ),
-                ),
-              ),
-            ],
+                  ]
+                : [],
           ),
           body: screens[currentIndex],
           bottomNavigationBar: BottomNavigationBar(

@@ -1,0 +1,5445 @@
+[
+  {
+    "name": "Plasencia Alma Fuerte Generacion V",
+    "brand": "Plasencia",
+    "country": "Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 165,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/plasencia_alma_fuerte_generacion_v.png",
+    "boxQuantity": 10,
+    "ukPrices": [
+      {
+        "retailer": "C.Gars",
+        "price": "£34.99",
+        "previousPrice": "£34.99",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/plasencia-alma-fuerte-generacion-cigar-single-p-30358.html"
+      },
+      {
+        "retailer": "cgars",
+        "price": "£34.99",
+        "previousPrice": "£34.99",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/plasencia-alma-fuerte-generacion-cigar-single-p-30358.html?keywords=Plasencia+Alma+Fuerte+Generacion+V"
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "£35",
+        "previousPrice": "£35",
+        "stock": "In Stock",
+        "url": "https://www.havanahouse.co.uk/product/plasencia-alma-fuerte-generacion-v-cigar-single/"
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "£36.28",
+        "previousPrice": "£36.28",
+        "stock": "In Stock",
+        "url": "https://www.simplycigars.co.uk/plasencia-alma-fuerte-generacion-cigar-single-p-3948.html"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "21.99",
+        "cigarPrice": "£21.99",
+        "dutyVat": "£0.00",
+        "landedCost": "£21.99",
+        "savings": "£0.00",
+        "url": "https://egmcigars.com/en-gb/products/plasencia-alma-fuerte-generacion-v-cigar?variant=43665364287745"
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "35",
+        "cigarPrice": "£35",
+        "dutyVat": "£0.00",
+        "landedCost": "£35",
+        "savings": "£0.00",
+        "url": "https://cigarworld.co.uk/products/plasencia-alma-fuerte-generacion-v-cigar-1-single?_pos=1&_psq=Plasencia+Alma+Fuerte+Generacion+V&_ss=e&_v=1.0"
+      }
+    ],
+    "weightGrams": 21.6,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Davidoff Winston Churchill The Late Hour Robusto",
+    "brand": "Davidoff",
+    "country": "Dominican Republic",
+    "ringGauge": 52,
+    "lengthMm": 133,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/davidoff_winston_churchill_the_late_hour_robusto.png",
+    "boxQuantity": 20,
+    "ukPrices": [
+      {
+        "retailer": "The Party Source",
+        "price": "£27.20",
+        "previousPrice": "£27.20",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Davidoff Winston Churchill The Late Hour Robusto cigar&prds=productid:367600729123186942,headlineOfferDocid:367600729123186942,imageDocid:1464189301606760644,pvt:hg&hl=en&gl=us&udm=28"
+      },
+      {
+        "retailer": "cgars",
+        "price": "£47.99",
+        "previousPrice": "£47.99",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/davidoff-winston-churchill-the-late-hour-robusto-cigar-single-p-25559.html?keywords=Davidoff+Winston+Churchill+The+Late+Hour+Robusto"
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "£49.73",
+        "previousPrice": "£49.73",
+        "stock": "In Stock",
+        "url": "https://www.havanahouse.co.uk/product/davidoff-winston-churchill-late-hour-robusto-cigar-single/"
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "£52.37",
+        "previousPrice": "£52.37",
+        "stock": "In Stock",
+        "url": "https://www.simplycigars.co.uk/davidoff-winston-churchill-the-late-hour-robusto-cigar-single-p-3753.html"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "26.99",
+        "cigarPrice": "£26.99",
+        "dutyVat": "£0.00",
+        "landedCost": "£26.99",
+        "savings": "£0.00",
+        "url": "https://egmcigars.com/en-gb/products/davidoff-winston-churchill-late-hour-robusto-cigar?_pos=1&_psq=Davidoff+Winston+Churchill+The+Late+Hour+Robusto&_ss=e&_v=1.0"
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "48",
+        "cigarPrice": "£48",
+        "dutyVat": "£0.00",
+        "landedCost": "£48",
+        "savings": "£0.00",
+        "url": "https://cigarworld.co.uk/products/davidoff-winston-churchill-the-late-hour-robusto-cigar-1-single?_pos=1&_psq=Davidoff+Winston+Churchill+The+Late+Hour+Robusto&_ss=e&_v=1.0"
+      }
+    ],
+    "weightGrams": 17.4,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Padron 1964 Anniversary Exclusivo Maduro",
+    "brand": "Padron",
+    "country": "Nicaragua",
+    "ringGauge": 50,
+    "lengthMm": 140,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/padron_1964_anniversary_exclusivo_maduro.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "The Humidour Cigar Shoppe",
+        "price": "£21.49",
+        "previousPrice": "£21.49",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Padron 1964 Anniversary Exclusivo Maduro cigar&prds=productid:3611240321615811427,headlineOfferDocid:3611240321615811427,imageDocid:5002811064453086186,pvt:hg&hl=en&gl=us&udm=28"
+      },
+      {
+        "retailer": "cgars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 17.6,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Cohiba Siglo II",
+    "brand": "Cohiba",
+    "country": "Cuba",
+    "ringGauge": 42,
+    "lengthMm": 129,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/cohiba_siglo_ii.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Havana House",
+        "price": "£35.00",
+        "previousPrice": "£35.00",
+        "stock": "In Stock",
+        "url": "https://www.havanahouse.co.uk/product/cohiba-siglo-ii-cigar-single/"
+      },
+      {
+        "retailer": "cgars",
+        "price": "£41.99",
+        "previousPrice": "£41.99",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/cohiba-siglo-cigar-single-p-429.html?keywords=Cohiba+Siglo+II"
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "£42",
+        "previousPrice": "£42",
+        "stock": "In Stock",
+        "url": "https://www.havanahouse.co.uk/product/cohiba-siglo-ii-cigar-single/"
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "£43.97",
+        "previousPrice": "£43.97",
+        "stock": "In Stock",
+        "url": "https://www.simplycigars.co.uk/cohiba-siglo-single-cigar-p-452.html"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "38.99",
+        "cigarPrice": "£38.99",
+        "dutyVat": "£0.00",
+        "landedCost": "£38.99",
+        "savings": "£0.00",
+        "url": "https://egmcigars.com/en-gb/products/cohiba-siglo-2-slb?variant=9061330223151"
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "40",
+        "cigarPrice": "£40",
+        "dutyVat": "£0.00",
+        "landedCost": "£40",
+        "savings": "£0.00",
+        "url": "https://cigarworld.co.uk/products/cohiba-siglo-ii-single?_pos=3&_psq=Cohiba+Siglo+II&_ss=e&_v=1.0"
+      }
+    ],
+    "weightGrams": 13.7,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Arturo Fuente Don Carlos Robusto",
+    "brand": "Arturo Fuente",
+    "country": "Dominican Republic",
+    "ringGauge": 50,
+    "lengthMm": 133,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/arturo_fuente_don_carlos_robusto.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Fairview Buy Rite",
+        "price": "£11.99",
+        "previousPrice": "£11.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Arturo Fuente Don Carlos Robusto cigar&prds=productid:5670742683914857654,headlineOfferDocid:5670742683914857654,imageDocid:1224437635977991763,pvt:hg&hl=en&gl=us&udm=28"
+      },
+      {
+        "retailer": "cgars",
+        "price": "£33.99",
+        "previousPrice": "£33.99",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/arturo-fuente-don-carlos-robusto-cigar-single-p-10530.html?keywords=Arturo+Fuente+Don+Carlos+Robusto"
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "£32.66",
+        "previousPrice": "£32.66",
+        "stock": "In Stock",
+        "url": "https://www.havanahouse.co.uk/product/arturo-fuente-don-carlos-robusto-cigar-single/"
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 16.8,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Montecristo No. 2",
+    "brand": "Montecristo",
+    "country": "Cuba",
+    "ringGauge": 52,
+    "lengthMm": 156,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/montecristo_no_2.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Havana House",
+        "price": "£38.75",
+        "previousPrice": "£38.75",
+        "stock": "In Stock",
+        "url": "https://www.havanahouse.co.uk/product/montecristo-no-2-cigar-single/"
+      },
+      {
+        "retailer": "cgars",
+        "price": "£46.49",
+        "previousPrice": "£46.49",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/montecristo-cigar-single-p-506.html?keywords=Montecristo+No++2"
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "£46.50",
+        "previousPrice": "£46.50",
+        "stock": "In Stock",
+        "url": "https://www.havanahouse.co.uk/product/montecristo-no-2-cigar-single/"
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "£50.44",
+        "previousPrice": "£50.44",
+        "stock": "In Stock",
+        "url": "https://www.simplycigars.co.uk/montecristo-no2-single-cigar-p-1541.html"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "31.99",
+        "cigarPrice": "£31.99",
+        "dutyVat": "£0.00",
+        "landedCost": "£31.99",
+        "savings": "£0.00",
+        "url": "https://egmcigars.com/en-gb/products/montecristo-no-2?variant=9008363700271"
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "44.50",
+        "cigarPrice": "£44.50",
+        "dutyVat": "£0.00",
+        "landedCost": "£44.50",
+        "savings": "£0.00",
+        "url": "https://cigarworld.co.uk/products/montecristo-no-2-single?_pos=2&_sid=857f25437&_ss=r44.50"
+      }
+    ],
+    "weightGrams": 20.4,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Partagas Serie D No. 4",
+    "brand": "Partagas",
+    "country": "Cuba",
+    "ringGauge": 50,
+    "lengthMm": 124,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/partagas_serie_d_no_4.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Tulsa Hills Cigar Cellar & Market",
+        "price": "£16.75",
+        "previousPrice": "£16.75",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Partagas Serie D No. 4 cigar&prds=catalogid:8277311963416888347,headlineOfferDocid:5143114168166401304,imageDocid:4504774364259702199,gpcid:335095825581381879,mid:576462537658987329,pvt:hg&hl=en&gl=us&udm=28"
+      },
+      {
+        "retailer": "cgars",
+        "price": "£38.49",
+        "previousPrice": "£38.49",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/partagas-serie-cigar-single-p-528.html?keywords=Partagas+Serie+D+No++4"
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "£38.50",
+        "previousPrice": "£38.50",
+        "stock": "In Stock",
+        "url": "https://www.havanahouse.co.uk/product/partagas-series-d-no-4-cigar-single/"
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "£41.02",
+        "previousPrice": "£41.02",
+        "stock": "In Stock",
+        "url": "https://www.simplycigars.co.uk/advanced_search_result.php?keywords=Partagas+Serie+D+No.+4&search=GO&ajax_prod_id=1541"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "26.99",
+        "cigarPrice": "£26.99",
+        "dutyVat": "£0.00",
+        "landedCost": "£26.99",
+        "savings": "£0.00",
+        "url": "https://egmcigars.com/en-gb/products/partagas-serie-d-no-4?variant=9008379592751"
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "37",
+        "cigarPrice": "£37",
+        "dutyVat": "£0.00",
+        "landedCost": "£37",
+        "savings": "£0.00",
+        "url": "https://cigarworld.co.uk/products/partagas-serie-d-no-4-single?_pos=1&_psq=Partagas+Serie+D+No.+4&_ss=e&_v=1.0"
+      }
+    ],
+    "weightGrams": 15.6,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Romeo y Julieta Wide Churchills",
+    "brand": "Romeo y Julieta",
+    "country": "Cuba",
+    "ringGauge": 55,
+    "lengthMm": 130,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/romeo_y_julieta_wide_churchills.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "£46.79",
+        "previousPrice": "£46.79",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/romeo-julieta-wide-churchill-cigar-single-p-8998.html?keywords=Romeo+y+Julieta+Wide+Churchill"
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "£46.80",
+        "previousPrice": "£46.80",
+        "stock": "In Stock",
+        "url": "https://www.havanahouse.co.uk/product/romeo-y-julieta-wide-churchill-cigar-single/"
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "£49.86",
+        "previousPrice": "£49.86",
+        "stock": "In Stock",
+        "url": "https://www.simplycigars.co.uk/romeo-julieta-wide-churchill-single-cigar-p-2182.html"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "30.99",
+        "cigarPrice": "£30.99",
+        "dutyVat": "£0.00",
+        "landedCost": "£30.99",
+        "savings": "£0.00",
+        "url": "https://egmcigars.com/en-gb/products/romeo-y-julieta-wide-churchill?variant=9008371957807"
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "40.55",
+        "cigarPrice": "£40.55",
+        "dutyVat": "£0.00",
+        "landedCost": "£40.55",
+        "savings": "£0.00",
+        "url": "https://cigarworld.co.uk/products/romeo-y-julieta-wide-churchill-single?_pos=1&_psq=Romeo+y+Julieta+Wide+Churchill&_ss=e&_v=1.0"
+      }
+    ],
+    "weightGrams": 18.0,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Oliva Serie V Melanio Figurado",
+    "brand": "Oliva",
+    "country": "Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 165,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/oliva_serie_v_melanio_figurados.png",
+    "boxQuantity": 10,
+    "ukPrices": [
+      {
+        "retailer": "cigarbus.com",
+        "price": "£169.80",
+        "previousPrice": "£169.80",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Oliva Serie V Melanio Figurado cigar&prds=productid:8006660130856709891,headlineOfferDocid:8006660130856709891,imageDocid:15619328417515486501,pvt:hg&hl=en&gl=us&udm=28"
+      },
+      {
+        "retailer": "cgars",
+        "price": "£44.99",
+        "previousPrice": "£44.99",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/oliva-serie-melanio-gran-reserva-figurado-cigar-single-p-16152.html"
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "210.99",
+        "cigarPrice": "£210.99",
+        "dutyVat": "£0.00",
+        "landedCost": "£210.99",
+        "savings": "£0.00",
+        "url": "https://egmcigars.com/en-gb/products/oliva-serie-v-melanio-figurado?_pos=1&_psq=Oliva+Serie+V+Melanio+Figurado&_ss=e&_v=1.0"
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "38",
+        "cigarPrice": "£38",
+        "dutyVat": "£0.00",
+        "landedCost": "£38",
+        "savings": "£0.00",
+        "url": "https://cigarworld.co.uk/products/oliva-serie-v-melanio-gran-reserva-figurado-cigar-1-single?_pos=1&_psq=Oliva+Serie+V+Melanio+Figurado&_ss=e&_v=1.0"
+      }
+    ],
+    "weightGrams": 21.6,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "My Father Le Bijou 1922 Torpedo Box Press",
+    "brand": "My Father",
+    "country": "Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 156,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/my_father_le_bijou_1922_torpedo_box_press.png",
+    "boxQuantity": 23,
+    "ukPrices": [
+      {
+        "retailer": "thecigarhub.com",
+        "price": "£98.44",
+        "previousPrice": "£98.44",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=My Father Le Bijou 1922 Torpedo Box Press cigar&prds=productid:1265197978513970134,headlineOfferDocid:1265197978513970134,imageDocid:958695208201107418,pvt:hg&hl=en&gl=us&udm=28"
+      },
+      {
+        "retailer": "cgars",
+        "price": "£46.99",
+        "previousPrice": "£46.99",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/father-bijou-1922-torpedo-box-pressed-cigar-single-p-28899.html"
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "£49.78",
+        "previousPrice": "£49.78",
+        "stock": "In Stock",
+        "url": "https://www.simplycigars.co.uk/father-bijou-1922-torpedo-box-pressed-single-cigar-p-3911.html"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 20.4,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Hoyo de Monterrey Epicure No. 2",
+    "brand": "Hoyo de Monterrey",
+    "country": "Cuba",
+    "ringGauge": 50,
+    "lengthMm": 124,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/hoyo_de_monterrey_epicure_no_2.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "La Casa del Habano Genève",
+        "price": "£115.64",
+        "previousPrice": "£115.64",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Hoyo de Monterrey Epicure No. 2 cigar&prds=productid:4932747834607334837,headlineOfferDocid:4932747834607334837,imageDocid:13296655736918583411,pvt:hg&hl=en&gl=us&udm=28"
+      },
+      {
+        "retailer": "cgars",
+        "price": "£38.99",
+        "previousPrice": "£38.99",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/hoyo-monterrey-epicure-cigar-single-p-476.html?keywords=Hoyo+de+Monterrey+Epicure+No++2"
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "£36.80",
+        "previousPrice": "£36.80",
+        "stock": "In Stock",
+        "url": "https://www.havanahouse.co.uk/product/hoyo-de-monterrey-epicure-no-2-cigar-single/"
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "£39.23",
+        "previousPrice": "£39.23",
+        "stock": "In Stock",
+        "url": "https://www.simplycigars.co.uk/hoyo-monterrey-epicure-no2-single-cigar-p-1720.html"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "23.99",
+        "cigarPrice": "£23.99",
+        "dutyVat": "£0.00",
+        "landedCost": "£23.99",
+        "savings": "£0.00",
+        "url": "https://egmcigars.com/en-gb/products/hoyo-de-monterrey-epicure-no-2-slb?variant=9008394633263"
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "35.50",
+        "cigarPrice": "£35.50",
+        "dutyVat": "£0.00",
+        "landedCost": "£35.50",
+        "savings": "£0.00",
+        "url": "https://cigarworld.co.uk/products/hoyo-de-monterrey-epicure-no-2-cigar-1-single?_pos=1&_sid=b641ad877&_ss=r"
+      }
+    ],
+    "weightGrams": 15.6,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Bolivar Belicosos Finos",
+    "brand": "Bolivar",
+    "country": "Cuba",
+    "ringGauge": 52,
+    "lengthMm": 140,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/bolivar_belicosos_finos.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Spirited Gifts",
+        "price": "£79.00",
+        "previousPrice": "£79.00",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Bolivar Belicosos Finos cigar&prds=productid:5839400712377203411,headlineOfferDocid:5839400712377203411,imageDocid:18060270826632438929,pvt:hg&hl=en&gl=us&udm=28"
+      },
+      {
+        "retailer": "cgars",
+        "price": "£38.99",
+        "previousPrice": "£38.99",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/bolivar-belicosos-finos-cigar-single-p-408.html?keywords=Bolivar+Belicosos+Finos"
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "£38.70",
+        "previousPrice": "£38.70",
+        "stock": "In Stock",
+        "url": "https://www.havanahouse.co.uk/product/bolivar-belicosos-finos-cigar-single/"
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "£41.48",
+        "previousPrice": "£41.48",
+        "stock": "In Stock",
+        "url": "https://www.simplycigars.co.uk/bolivar-belicosos-finos-single-cigar-p-1773.html"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "22.99",
+        "cigarPrice": "£22.99",
+        "dutyVat": "£0.00",
+        "landedCost": "£22.99",
+        "savings": "£0.00",
+        "url": "https://egmcigars.com/en-gb/products/bolivar-belicosos?variant=37316867555486"
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "37",
+        "cigarPrice": "£37",
+        "dutyVat": "£0.00",
+        "landedCost": "£37",
+        "savings": "£0.00",
+        "url": "https://cigarworld.co.uk/products/bolivar-belicosos-finos-cigar-1-single?_pos=1&_psq=Bolivar+Belicosos+Finos&_ss=e&_v=1.0"
+      }
+    ],
+    "weightGrams": 18.3,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Punch Punch",
+    "brand": "Punch",
+    "country": "Cuba",
+    "ringGauge": 46,
+    "lengthMm": 143,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/punch_punch.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Walmart - Essentials",
+        "price": "£13.50",
+        "previousPrice": "£13.50",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Punch Punch cigar&prds=catalogid:17176640607570377992,headlineOfferDocid:18084307945422354873,imageDocid:16897337919082726096,gpcid:236787504139214435,pvt:hg&hl=en&gl=us&udm=28"
+      },
+      {
+        "retailer": "cgars",
+        "price": "£35.99",
+        "previousPrice": "£35.99",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/punch-punch-cigar-single-p-277.html?keywords=Punch+Punch"
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "£36",
+        "previousPrice": "£36",
+        "stock": "In Stock",
+        "url": "https://www.havanahouse.co.uk/product/punch-punch-cigar-single/"
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "£38.46",
+        "previousPrice": "£38.46",
+        "stock": "In Stock",
+        "url": "https://www.simplycigars.co.uk/punch-punch-single-cigar-p-1805.html"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "27.99",
+        "cigarPrice": "£27.99",
+        "dutyVat": "£0.00",
+        "landedCost": "£27.99",
+        "savings": "£0.00",
+        "url": "https://egmcigars.com/en-gb/products/punch-punch?variant=42735489220865"
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "34.50",
+        "cigarPrice": "£34.50",
+        "dutyVat": "£0.00",
+        "landedCost": "£34.50",
+        "savings": "£0.00",
+        "url": "https://cigarworld.co.uk/products/punch-punch-single?_pos=1&_psq=punch+punch&_ss=e&_v=1.0"
+      }
+    ],
+    "weightGrams": 16.6,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Juan Lopez Seleccion No. 2",
+    "brand": "Juan Lopez",
+    "country": "Cuba",
+    "ringGauge": 50,
+    "lengthMm": 124,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/juan_lopez_seleccion_no_2.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "£30.99",
+        "previousPrice": "£30.99",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/juan-lopez-seleccion-cigar-single-p-495.html?keywords=Juan+Lopez+Seleccion+No++2"
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "£31.70",
+        "previousPrice": "£31.70",
+        "stock": "In Stock",
+        "url": "https://www.havanahouse.co.uk/product/juan-lopez-seleccion-no-2-cigar-single/"
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "£33.90",
+        "previousPrice": "£33.90",
+        "stock": "In Stock",
+        "url": "https://www.simplycigars.co.uk/juan-lopez-seleccion-single-cigar-p-1629.html"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "22.99",
+        "cigarPrice": "£22.99",
+        "dutyVat": "£0.00",
+        "landedCost": "£22.99",
+        "savings": "£0.00",
+        "url": "https://egmcigars.com/en-gb/products/juan-lopez-seleccion-no-2-slb?variant=40248758829214"
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "31",
+        "cigarPrice": "£31",
+        "dutyVat": "£0.00",
+        "landedCost": "£31",
+        "savings": "£0.00",
+        "url": "https://cigarworld.co.uk/products/juan-lopez-seleccion-no-2-cigar-1-single?_pos=1&_psq=Juan+Lopez+Seleccion+No.+2&_ss=e&_v=1.0"
+      }
+    ],
+    "weightGrams": 15.6,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Drew Estate Liga Privada No. 9 Robusto",
+    "brand": "Drew Estate",
+    "country": "Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 127,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/drew_estate_liga_privada_no_9_robusto.png",
+    "boxQuantity": 24,
+    "ukPrices": [
+      {
+        "retailer": "Cigars City",
+        "price": "£114.99",
+        "previousPrice": "£114.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Drew Estate Liga Privada No. 9 Robusto cigar&prds=productid:5716724251065109801,headlineOfferDocid:5716724251065109801,imageDocid:13735299585269115780,pvt:hg&hl=en&gl=us&udm=28"
+      },
+      {
+        "retailer": "cgars",
+        "price": "£42.99",
+        "previousPrice": "£42.99",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/drew-estate-liga-privada-robusto-cigar-single-p-26334.html?keywords=Drew+Estate+Liga+Privada+No++9+Robusto"
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 16.6,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "EP Carrillo Encore Majestic",
+    "brand": "EP Carrillo",
+    "country": "Dominican Republic",
+    "ringGauge": 52,
+    "lengthMm": 140,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/ep_carrillo_encore_majestic.png",
+    "boxQuantity": 20,
+    "ukPrices": [
+      {
+        "retailer": "Humidor Cigar Lounge",
+        "price": "£13.50",
+        "previousPrice": "£13.50",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=EP Carrillo Encore Majestic cigar&prds=productid:11493475800389216915,headlineOfferDocid:11493475800389216915,imageDocid:14986423642885693126,pvt:hg&hl=en&gl=us&udm=28"
+      },
+      {
+        "retailer": "cgars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 18.3,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Alec Bradley Magic Toast Robusto",
+    "brand": "Alec Bradley",
+    "country": "Honduras",
+    "ringGauge": 52,
+    "lengthMm": 127,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/alec_bradley_magic_toast_robusto.png",
+    "boxQuantity": 20,
+    "ukPrices": [
+      {
+        "retailer": "Payless Cigars & Pipes",
+        "price": "£269.94",
+        "previousPrice": "£269.94",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Alec Bradley Magic Toast Robusto cigar&prds=productid:1248940231627071823,headlineOfferDocid:1248940231627071823,imageDocid:15480095810202046384,pvt:hg&hl=en&gl=us&udm=28"
+      },
+      {
+        "retailer": "cgars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 16.6,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Foundation Olmec Claro Robusto",
+    "brand": "Foundation",
+    "country": "Nicaragua",
+    "ringGauge": 50,
+    "lengthMm": 127,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/foundation_olmec_claro_robusto.png",
+    "boxQuantity": 12,
+    "ukPrices": [
+      {
+        "retailer": "Cigars City",
+        "price": "£144.99",
+        "previousPrice": "£144.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Foundation Olmec Claro Robusto cigar&prds=productid:11577649250137759207,headlineOfferDocid:11577649250137759207,imageDocid:16396076123522214651,pvt:hg&hl=en&gl=us&udm=28"
+      },
+      {
+        "retailer": "cgars",
+        "price": "£25.49",
+        "previousPrice": "£25.49",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/foundation-olmec-claro-robusto-cigar-single-p-59784.html"
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "£22.96",
+        "previousPrice": "£22.96",
+        "stock": "In Stock",
+        "url": "https://www.havanahouse.co.uk/product/foundation-olmec-claro-robusto-cigar-single/"
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 16.0,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Crowned Heads Le Careme Robusto",
+    "brand": "Crowned Heads",
+    "country": "Nicaragua",
+    "ringGauge": 50,
+    "lengthMm": 127,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/crowned_heads_le_careme_robusto.png",
+    "boxQuantity": 24,
+    "ukPrices": [
+      {
+        "retailer": "saintgoose.wine",
+        "price": "£12.00",
+        "previousPrice": "£12.00",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Crowned Heads Le Careme Robusto cigar&prds=productid:8272544042323136748,headlineOfferDocid:8272544042323136748,imageDocid:2831998117694691700,pvt:hg&hl=en&gl=us&udm=28"
+      },
+      {
+        "retailer": "cgars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 16.0,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "AJ Fernandez New World Dorado Robusto",
+    "brand": "AJ Fernandez",
+    "country": "Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 133,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/aj_fernandez_new_world_dorado_robusto.png",
+    "boxQuantity": 20,
+    "ukPrices": [
+      {
+        "retailer": "The Cigar Vault Oakdale",
+        "price": "£10.50",
+        "previousPrice": "£10.50",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=AJ Fernandez New World Dorado Robusto cigar&prds=productid:12652735563503514843,headlineOfferDocid:12652735563503514843,imageDocid:7393591024402681509,pvt:hg&hl=en&gl=us&udm=28"
+      },
+      {
+        "retailer": "cgars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 17.4,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Davidoff Yamasa Robusto",
+    "brand": "Davidoff",
+    "country": "Dominican Republic",
+    "ringGauge": 52,
+    "lengthMm": 133,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/davidoff_yamasa_robusto.png",
+    "boxQuantity": 12,
+    "ukPrices": [
+      {
+        "retailer": "eBay",
+        "price": "£5.50",
+        "previousPrice": "£5.50",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Davidoff Yamasa Robusto cigar&prds=productid:8574226808275418392,headlineOfferDocid:8574226808275418392,imageDocid:10922870635790541161,pvt:hg&hl=en&gl=us&udm=28"
+      },
+      {
+        "retailer": "cgars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 17.4,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Padron 2000 Maduro",
+    "brand": "Padron",
+    "country": "Nicaragua",
+    "ringGauge": 50,
+    "lengthMm": 127,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/padron_2000_maduro.png",
+    "boxQuantity": 26,
+    "ukPrices": [
+      {
+        "retailer": "Affordable Spirits",
+        "price": "£13.99",
+        "previousPrice": "£13.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Padron 2000 Maduro cigar&prds=productid:13569570434067996752,headlineOfferDocid:13569570434067996752,imageDocid:3943931975171142416,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 16.0,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Plasencia Reserva Original Robustos",
+    "brand": "Plasencia",
+    "country": "Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 127,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/plasencia_reserva_original_robustos.png",
+    "boxQuantity": 20,
+    "ukPrices": [
+      {
+        "retailer": "topcubans.com",
+        "price": "£12.18",
+        "previousPrice": "£12.18",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Plasencia Reserva Original Robustos cigar&prds=productid:10563243292681369450,headlineOfferDocid:10563243292681369450,imageDocid:10851945573393912945,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 16.6,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Oliva Serie V Double Robusto",
+    "brand": "Oliva",
+    "country": "Nicaragua",
+    "ringGauge": 54,
+    "lengthMm": 127,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/oliva_serie_v_double_robusto.png",
+    "boxQuantity": 24,
+    "ukPrices": [
+      {
+        "retailer": "Denton Cigar Company",
+        "price": "£11.25",
+        "previousPrice": "£11.25",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Oliva Serie V Double Robusto cigar&prds=catalogid:4119320945111130308,headlineOfferDocid:16358956611632513291,imageDocid:12113982777517479756,rds:PC_4605636761579072425|PROD_PC_4605636761579072425,gpcid:4605636761579072425,mid:576462454116792879,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 17.3,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Arturo Fuente Hemingway Short Story",
+    "brand": "Arturo Fuente",
+    "country": "Dominican Republic",
+    "ringGauge": 49,
+    "lengthMm": 102,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/arturo_fuente_hemingway_short_story.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "CigarHustler.com",
+        "price": "£11.55",
+        "previousPrice": "£11.55",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Arturo Fuente Hemingway Short Story cigar&prds=catalogid:16021176316846064099,headlineOfferDocid:14395571611146283185,imageDocid:264191559282563336,rds:PC_12832087116990209043|PROD_PC_12832087116990209043,gpcid:12832087116990209043,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 12.6,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Rocky Patel Sixty Robusto",
+    "brand": "Rocky Patel",
+    "country": "Nicaragua",
+    "ringGauge": 50,
+    "lengthMm": 127,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/rocky_patel_sixty_robusto.png",
+    "boxQuantity": 20,
+    "ukPrices": [
+      {
+        "retailer": "Franklin's Wine and Spirit",
+        "price": "£24.99",
+        "previousPrice": "£24.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Rocky Patel Sixty Robusto cigar&prds=productid:5869723031775161579,headlineOfferDocid:5869723031775161579,imageDocid:15089462256783388096,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 16.0,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Perdomo 20th Anniversary Maduro Robusto",
+    "brand": "Perdomo",
+    "country": "Nicaragua",
+    "ringGauge": 56,
+    "lengthMm": 127,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/perdomo_20th_anniversary_maduro_robusto.png",
+    "boxQuantity": 24,
+    "ukPrices": [
+      {
+        "retailer": "Rudy's Cigar Shop",
+        "price": "£260.00",
+        "previousPrice": "£260.00",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Perdomo 20th Anniversary Maduro Robusto cigar&prds=productid:12778433899257416763,headlineOfferDocid:12778433899257416763,imageDocid:2963681886387156538,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 17.9,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Joya de Nicaragua Antano 1970 Consul",
+    "brand": "Joya de Nicaragua",
+    "country": "Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 114,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/joya_de_nicaragua_antano_1970_consul.png",
+    "boxQuantity": 20,
+    "ukPrices": [
+      {
+        "retailer": "vitolafinecigars.com",
+        "price": "£23.99",
+        "previousPrice": "£23.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Joya de Nicaragua Antano 1970 Consul cigar&prds=productid:12797658001968084184,headlineOfferDocid:12797658001968084184,imageDocid:983607718166975793,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 14.9,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "La Flor Dominicana Double Ligero Chiselito",
+    "brand": "La Flor Dominicana",
+    "country": "Dominican Republic",
+    "ringGauge": 44,
+    "lengthMm": 127,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/la_flor_dominicana_double_ligero_chiselito.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Tuxedo Wine & Spirits",
+        "price": "£14.99",
+        "previousPrice": "£14.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=La Flor Dominicana Double Ligero Chiselito cigar&prds=productid:3133571120719047073,headlineOfferDocid:3133571120719047073,imageDocid:3105564365992829690,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 14.1,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Warped La Colmena No. 44",
+    "brand": "Warped",
+    "country": "Dominican Republic",
+    "ringGauge": 44,
+    "lengthMm": 127,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/warped_la_colmena_no_44.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "The Cigar Chapel",
+        "price": "£22.00",
+        "previousPrice": "£22.00",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Warped La Colmena No. 44 cigar&prds=productid:673607927878583478,headlineOfferDocid:673607927878583478,imageDocid:573413003601510982,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 14.1,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Montecristo No. 4",
+    "brand": "Montecristo",
+    "country": "Cuba",
+    "ringGauge": 42,
+    "lengthMm": 129,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/montecristo_no_4.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Palm Beach Liquors",
+        "price": "£83.99",
+        "previousPrice": "£83.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Montecristo No. 4 cigar&prds=catalogid:1168876176250033878,headlineOfferDocid:7200853196828297196,imageDocid:11028102779428885841,gpcid:7438931032689119395,mid:576462878442858722,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 13.7,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Montecristo No. 3",
+    "brand": "Montecristo",
+    "country": "Cuba",
+    "ringGauge": 42,
+    "lengthMm": 142,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/montecristo_no_3.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Palm Beach Liquors",
+        "price": "£83.99",
+        "previousPrice": "£83.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Montecristo No. 3 cigar&prds=catalogid:1168876176250033878,headlineOfferDocid:7200853196828297196,imageDocid:11028102779428885841,gpcid:7438931032689119395,mid:576462878442858722,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 15.0,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Cohiba Siglo I",
+    "brand": "Cohiba",
+    "country": "Cuba",
+    "ringGauge": 40,
+    "lengthMm": 102,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/cohiba_siglo_i.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "topcubans.com",
+        "price": "£40.07",
+        "previousPrice": "£40.07",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Cohiba Siglo I cigar&prds=productid:9129572346077830095,headlineOfferDocid:9129572346077830095,imageDocid:10851945573393912945,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 10.3,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Cohiba Siglo IV",
+    "brand": "Cohiba",
+    "country": "Cuba",
+    "ringGauge": 46,
+    "lengthMm": 143,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/cohiba_siglo_iv.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "CigarHustler.com",
+        "price": "£215.99",
+        "previousPrice": "£215.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Cohiba Siglo IV cigar&prds=productid:17237672343747534703,headlineOfferDocid:17237672343747534703,imageDocid:4135375444776532761,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 16.6,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Cohiba Siglo VI",
+    "brand": "Cohiba",
+    "country": "Cuba",
+    "ringGauge": 52,
+    "lengthMm": 150,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/cohiba_siglo_vi.png",
+    "boxQuantity": 25,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 19.7,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Romeo y Julieta No. 2",
+    "brand": "Romeo y Julieta",
+    "country": "Cuba",
+    "ringGauge": 52,
+    "lengthMm": 156,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/romeo_y_julieta_no_2.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "The Premium Cigar of the Month Club",
+        "price": "£47.95",
+        "previousPrice": "£47.95",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Romeo y Julieta No. 2 cigar&prds=productid:15658307277348787235,headlineOfferDocid:15658307277348787235,imageDocid:9442473669283335759,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 20.4,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Romeo y Julieta Petit Churchills",
+    "brand": "Romeo y Julieta",
+    "country": "Cuba",
+    "ringGauge": 50,
+    "lengthMm": 102,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/romeo_y_julieta_petit_churchills.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "BestCigarPrices.com",
+        "price": "£63.99",
+        "previousPrice": "£63.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Romeo y Julieta Petit Churchills cigar&prds=productid:12050265163947251149,headlineOfferDocid:12050265163947251149,imageDocid:9780958045888985393,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 12.9,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Partagas Serie D No. 5",
+    "brand": "Partagas",
+    "country": "Cuba",
+    "ringGauge": 50,
+    "lengthMm": 110,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/partagas_serie_d_no_5.png",
+    "boxQuantity": 25,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 13.9,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Partagas Serie E No. 2",
+    "brand": "Partagas",
+    "country": "Cuba",
+    "ringGauge": 54,
+    "lengthMm": 140,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/partagas_serie_e_no_2.png",
+    "boxQuantity": 25,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 19.0,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Hoyo de Monterrey Epicure Especial",
+    "brand": "Hoyo de Monterrey",
+    "country": "Cuba",
+    "ringGauge": 50,
+    "lengthMm": 141,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/hoyo_de_monterrey_epicure_especial.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "La Casa del Habano Genève",
+        "price": "£115.64",
+        "previousPrice": "£115.64",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Hoyo de Monterrey Epicure Especial cigar&prds=productid:4932747834607334837,headlineOfferDocid:4932747834607334837,imageDocid:13296655736918583411,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 17.8,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Hoyo de Monterrey Le Hoyo de Rio Seco",
+    "brand": "Hoyo de Monterrey",
+    "country": "Cuba",
+    "ringGauge": 56,
+    "lengthMm": 140,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/hoyo_de_monterrey_le_hoyo_de_rio_seco.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "La Casa del Habano Genève",
+        "price": "£115.64",
+        "previousPrice": "£115.64",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Hoyo de Monterrey Le Hoyo de Rio Seco cigar&prds=productid:4932747834607334837,headlineOfferDocid:4932747834607334837,imageDocid:13296655736918583411,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 19.8,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Bolivar Petit Coronas",
+    "brand": "Bolivar",
+    "country": "Cuba",
+    "ringGauge": 42,
+    "lengthMm": 129,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/bolivar_petit_coronas.png",
+    "boxQuantity": 25,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 13.7,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Bolivar Tubos No. 2",
+    "brand": "Bolivar",
+    "country": "Cuba",
+    "ringGauge": 52,
+    "lengthMm": 156,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/bolivar_tubos_no_2.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Denton Cigar Company",
+        "price": "£13.25",
+        "previousPrice": "£13.25",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Bolivar Tubos No. 2 cigar&prds=productid:16616074054802150387,headlineOfferDocid:16616074054802150387,imageDocid:1702828324018509589,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 20.4,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Punch Double Coronas",
+    "brand": "Punch",
+    "country": "Cuba",
+    "ringGauge": 49,
+    "lengthMm": 194,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/punch_double_coronas.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Walmart - Essentials",
+        "price": "£24.95",
+        "previousPrice": "£24.95",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Punch Double Coronas cigar&prds=catalogid:2484946670315376115,headlineOfferDocid:674662050854693998,imageDocid:15363380453368115318,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 24.0,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Quai d'Orsay No. 50",
+    "brand": "Quai d'Orsay",
+    "country": "Cuba",
+    "ringGauge": 50,
+    "lengthMm": 110,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/quai_dorsay_no_50.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "C.Gars Ltd",
+        "price": "£24.00",
+        "previousPrice": "£24.00",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 13.9,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Vegas Robaina Unicos",
+    "brand": "Vegas Robaina",
+    "country": "Cuba",
+    "ringGauge": 52,
+    "lengthMm": 156,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/vegas_robaina_unicos.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "RED Spirits & Wine",
+        "price": "£58.99",
+        "previousPrice": "£58.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Vegas Robaina Unicos cigar&prds=productid:11702404877884331290,headlineOfferDocid:11702404877884331290,imageDocid:15476513304212153130,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 20.4,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "San Cristobal La Punta",
+    "brand": "San Cristobal",
+    "country": "Cuba",
+    "ringGauge": 52,
+    "lengthMm": 140,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/san_cristobal_la_punta.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Cigar Factory Outlet",
+        "price": "£16.00",
+        "previousPrice": "£16.00",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=San Cristobal La Punta cigar&prds=productid:2449223192843276390,headlineOfferDocid:2449223192843276390,imageDocid:6603814804370872752,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 18.3,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "euPrices": [],
+    "weightGrams": 16.8,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Padron 3000 Maduro",
+    "brand": "Padron",
+    "country": "Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 140,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/padron_3000_maduro.png",
+    "boxQuantity": 26,
+    "ukPrices": [
+      {
+        "retailer": "Mirage Wine & Liquor",
+        "price": "£16.99",
+        "previousPrice": "£16.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Padron 3000 Maduro cigar&prds=productid:6860251214893430028,headlineOfferDocid:6860251214893430028,imageDocid:12431784174966282017,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 18.3,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Plasencia Alma del Campo Tribu",
+    "brand": "Plasencia",
+    "country": "Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 127,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/plasencia_alma_del_campo_tribu.png",
+    "boxQuantity": 10,
+    "ukPrices": [
+      {
+        "retailer": "Denton Cigar Company",
+        "price": "£15.99",
+        "previousPrice": "£15.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Plasencia Alma del Campo Tribu cigar&prds=productid:4005334434123863323,headlineOfferDocid:4005334434123863323,imageDocid:10469135968382372953,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 16.6,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Montecristo No.2",
+    "brand": "Montecristo",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/montecristo_no2.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Secreto Cigar Vault",
+        "price": "£189.00",
+        "previousPrice": "£189.00",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Montecristo No.2 cigar&prds=productid:6338440680574622680,headlineOfferDocid:6338440680574622680,imageDocid:4701351820658801057,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 0.0,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Montecristo No.3",
+    "brand": "Montecristo",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/montecristo_no3.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Secreto Cigar Vault",
+        "price": "£189.00",
+        "previousPrice": "£189.00",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Montecristo No.3 cigar&prds=productid:6338440680574622680,headlineOfferDocid:6338440680574622680,imageDocid:4701351820658801057,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 0.0,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Montecristo No.4",
+    "brand": "Montecristo",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/montecristo_no4.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Palm Beach Liquors",
+        "price": "£83.99",
+        "previousPrice": "£83.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Montecristo No.4 cigar&prds=catalogid:1168876176250033878,headlineOfferDocid:7200853196828297196,imageDocid:11028102779428885841,gpcid:7438931032689119395,mid:576462878442858722,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 0.0,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Montecristo Especial No.2",
+    "brand": "Montecristo",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/montecristo_especial_no2.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "secondwindsurplus.com",
+        "price": "£15.95",
+        "previousPrice": "£15.95",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Montecristo Especial No.2 cigar&prds=productid:12445907387189585515,headlineOfferDocid:12445907387189585515,imageDocid:2316325805946326971,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 0.0,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Montecristo Joyitas",
+    "brand": "Montecristo",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/montecristo_joyitas.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Palm Beach Liquors",
+        "price": "£83.99",
+        "previousPrice": "£83.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Montecristo Joyitas cigar&prds=catalogid:1168876176250033878,headlineOfferDocid:7200853196828297196,imageDocid:11028102779428885841,gpcid:7438931032689119395,mid:576462878442858722,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 0.0,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Partagas Serie D No.4",
+    "brand": "Partagas",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/partagas_serie_d_no4.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Payless Cigars & Pipes",
+        "price": "£28.61",
+        "previousPrice": "£28.61",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Partagas Serie D No.4 cigar&prds=productid:782225039684783520,headlineOfferDocid:782225039684783520,imageDocid:16447118073850989365,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 0.0,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Partagas Serie D No.5",
+    "brand": "Partagas",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/partagas_serie_d_no5.png",
+    "boxQuantity": 25,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 0.0,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Partagas Serie E No.2",
+    "brand": "Partagas",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/partagas_serie_e_no2.png",
+    "boxQuantity": 25,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 0.0,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Partagas Super Partagas",
+    "brand": "Partagas",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/partagas_super_partagas.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Tulsa Hills Cigar Cellar & Market",
+        "price": "£16.75",
+        "previousPrice": "£16.75",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Partagas Super Partagas cigar&prds=catalogid:8277311963416888347,headlineOfferDocid:5143114168166401304,imageDocid:4504774364259702199,gpcid:335095825581381879,mid:576462537658987329,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 0.0,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Romeo y Julieta Churchills",
+    "brand": "Romeo",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/romeo_y_julieta_churchills.png",
+    "boxQuantity": 25,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 0.0,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Romeo y Julieta Belicosos",
+    "brand": "Romeo",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/romeo_y_julieta_belicosos.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "cigarbus.com",
+        "price": "£74.63",
+        "previousPrice": "£74.63",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Romeo y Julieta Belicosos cigar&prds=productid:6033719266024925865,headlineOfferDocid:6033719266024925865,imageDocid:7474052509847314273,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 0.0,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Romeo y Julieta No.2",
+    "brand": "Romeo",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/romeo_y_julieta_no2.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "The Premium Cigar of the Month Club",
+        "price": "£47.95",
+        "previousPrice": "£47.95",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Romeo y Julieta No.2 cigar&prds=productid:15658307277348787235,headlineOfferDocid:15658307277348787235,imageDocid:9442473669283335759,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 0.0,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Hoyo de Monterrey Epicure No.2",
+    "brand": "Hoyo",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/hoyo_de_monterrey_epicure_no2.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "La Casa del Habano Genève",
+        "price": "£115.24",
+        "previousPrice": "£115.24",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Hoyo de Monterrey Epicure No.2 cigar&prds=productid:4932747834607334837,headlineOfferDocid:4932747834607334837,imageDocid:13296655736918583411,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 0.0,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Hoyo de Monterrey Palmas Extra",
+    "brand": "Hoyo",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/hoyo_de_monterrey_palmas_extra.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "La Casa del Habano Genève",
+        "price": "£115.24",
+        "previousPrice": "£115.24",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Hoyo de Monterrey Palmas Extra cigar&prds=productid:4932747834607334837,headlineOfferDocid:4932747834607334837,imageDocid:13296655736918583411,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 0.0,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Bolivar Tubos No.2",
+    "brand": "Bolivar",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/bolivar_tubos_no2.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Denton Cigar Company",
+        "price": "£13.25",
+        "previousPrice": "£13.25",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Bolivar Tubos No.2 cigar&prds=productid:16616074054802150387,headlineOfferDocid:16616074054802150387,imageDocid:1702828324018509589,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 0.0,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Juan Lopez Seleccion No.2",
+    "brand": "Juan",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/juan_lopez_seleccion_no2.png",
+    "boxQuantity": 25,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 0.0,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Quai d'Orsay No.50",
+    "brand": "Quai",
+    "country": "Unknown",
+    "ringGauge": 0,
+    "lengthMm": 0,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/quai_dorsay_no50.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "C.Gars Ltd",
+        "price": "£23.00",
+        "previousPrice": "£23.00",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 0.0,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Oliva Serie V Lancero",
+    "brand": "Oliva",
+    "country": "Nicaragua",
+    "ringGauge": 38,
+    "lengthMm": 178,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/oliva_serie_v_lancero.png",
+    "boxQuantity": 24,
+    "ukPrices": [
+      {
+        "retailer": "Denton Cigar Company",
+        "price": "£15.25",
+        "previousPrice": "£15.25",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Oliva Serie V Lancero cigar&prds=catalogid:7805381474677095428,headlineOfferDocid:276853644886711474,imageDocid:11839514938750466039,rds:PC_17267287205126017493|PROD_PC_17267287205126017493,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 17.0,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "My Father The Judge Grand Robusto",
+    "brand": "My Father",
+    "country": "Nicaragua",
+    "ringGauge": 60,
+    "lengthMm": 127,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/my_father_the_judge_grand_robusto.png",
+    "boxQuantity": 23,
+    "ukPrices": [
+      {
+        "retailer": "topcubans.com",
+        "price": "£26.84",
+        "previousPrice": "£26.84",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=My Father The Judge Grand Robusto cigar&prds=productid:12104399636500682124,headlineOfferDocid:12104399636500682124,imageDocid:16551094920644076917,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 19.2,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "AJ Fernandez Bellas Artes Robusto",
+    "brand": "AJ Fernandez",
+    "country": "Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 140,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/aj_fernandez_bellas_artes_robusto.png",
+    "boxQuantity": 20,
+    "ukPrices": [
+      {
+        "retailer": "Binny's Beverage Depot",
+        "price": "£11.05",
+        "previousPrice": "£11.05",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=AJ Fernandez Bellas Artes Robusto cigar&prds=productid:13062634389854558503,headlineOfferDocid:13062634389854558503,imageDocid:8094768580775250126,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 18.3,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Alec Bradley Black Market Esteli Robusto",
+    "brand": "Alec Bradley",
+    "country": "Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 127,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/alec_bradley_black_market_esteli_robusto.png",
+    "boxQuantity": 24,
+    "ukPrices": [
+      {
+        "retailer": "Binny's Beverage Depot",
+        "price": "£11.55",
+        "previousPrice": "£11.55",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Alec Bradley Black Market Esteli Robusto cigar&prds=productid:18390619897059374712,headlineOfferDocid:18390619897059374712,imageDocid:17608867427174625498,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 16.6,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Foundation Charter Oak Maduro Rothschild",
+    "brand": "Foundation",
+    "country": "Nicaragua",
+    "ringGauge": 50,
+    "lengthMm": 114,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/foundation_charter_oak_maduro_rothschild.png",
+    "boxQuantity": 20,
+    "ukPrices": [
+      {
+        "retailer": "Denton Cigar Company",
+        "price": "£8.25",
+        "previousPrice": "£8.25",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Foundation Charter Oak Maduro Rothschild cigar&prds=productid:12113814789208164937,headlineOfferDocid:12113814789208164937,imageDocid:16484722590635626714,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 14.4,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Crowned Heads Mil Dias Robusto",
+    "brand": "Crowned Heads",
+    "country": "Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 127,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/crowned_heads_mil_dias_robusto.png",
+    "boxQuantity": 20,
+    "ukPrices": [
+      {
+        "retailer": "corkdorkswine.com",
+        "price": "£11.99",
+        "previousPrice": "£11.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Crowned Heads Mil Dias Robusto cigar&prds=productid:11941942799933924559,headlineOfferDocid:11941942799933924559,imageDocid:7469606927506543498,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 16.6,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "EP Carrillo Pledge Prequel",
+    "brand": "EP Carrillo",
+    "country": "Dominican Republic",
+    "ringGauge": 50,
+    "lengthMm": 127,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/ep_carrillo_pledge_prequel.png",
+    "boxQuantity": 24,
+    "ukPrices": [
+      {
+        "retailer": "ramirezliquor.com",
+        "price": "£17.99",
+        "previousPrice": "£17.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=EP Carrillo Pledge Prequel cigar&prds=productid:9144908879400849895,headlineOfferDocid:9144908879400849895,imageDocid:9336557849332743277,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 16.0,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Drew Estate Undercrown Maduro Robusto",
+    "brand": "Drew Estate",
+    "country": "Nicaragua",
+    "ringGauge": 54,
+    "lengthMm": 127,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/drew_estate_undercrown_maduro_robusto.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Cigars City",
+        "price": "£33.99",
+        "previousPrice": "£33.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Drew Estate Undercrown Maduro Robusto cigar&prds=productid:12250492084688281036,headlineOfferDocid:12250492084688281036,imageDocid:1895902010131169446,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 17.3,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Davidoff Nicaragua Robusto",
+    "brand": "Davidoff",
+    "country": "Dominican Republic",
+    "ringGauge": 50,
+    "lengthMm": 133,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/davidoff_nicaragua_robusto.png",
+    "boxQuantity": 12,
+    "ukPrices": [
+      {
+        "retailer": "Tobacco Leaf",
+        "price": "£99.95",
+        "previousPrice": "£99.95",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Davidoff Nicaragua Robusto cigar&prds=productid:12206046948887497954,headlineOfferDocid:12206046948887497954,imageDocid:14115519476492544253,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 16.8,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Padron 4000 Maduro",
+    "brand": "Padron",
+    "country": "Nicaragua",
+    "ringGauge": 54,
+    "lengthMm": 165,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/padron_4000_maduro.png",
+    "boxQuantity": 26,
+    "ukPrices": [
+      {
+        "retailer": "Forbes LFWS",
+        "price": "£16.99",
+        "previousPrice": "£16.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Padron 4000 Maduro cigar&prds=productid:2902515243532736138,headlineOfferDocid:2902515243532736138,imageDocid:14787001121770478067,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 22.5,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Plasencia Cosecha 149 Santa Fe Gordo",
+    "brand": "Plasencia",
+    "country": "Honduras",
+    "ringGauge": 52,
+    "lengthMm": 152,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/plasencia_cosecha_149_santa_fe_gordo.png",
+    "boxQuantity": 10,
+    "ukPrices": [
+      {
+        "retailer": "Walmart - Quality Cigar Boxes",
+        "price": "£8.10",
+        "previousPrice": "£8.10",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Plasencia Cosecha 149 Santa Fe Gordo cigar&prds=productid:132471550466758657,headlineOfferDocid:132471550466758657,imageDocid:12662439679884285516,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 19.9,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Arturo Fuente Rosado Sungrown Magnum R 52",
+    "brand": "Arturo Fuente",
+    "country": "Dominican Republic",
+    "ringGauge": 52,
+    "lengthMm": 133,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/arturo_fuente_rosado_sungrown_magnum_r_52.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "Dennys Discount Liquors",
+        "price": "£15.99",
+        "previousPrice": "£15.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Arturo Fuente Rosado Sungrown Magnum R 52 cigar&prds=productid:10406333278632795373,headlineOfferDocid:10406333278632795373,imageDocid:11334384385374534054,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 17.4,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Rocky Patel Vintage 1990 Robusto",
+    "brand": "Rocky Patel",
+    "country": "Honduras",
+    "ringGauge": 50,
+    "lengthMm": 140,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/rocky_patel_vintage_1990_robusto.png",
+    "boxQuantity": 20,
+    "ukPrices": [
+      {
+        "retailer": "bronsonliquors.com",
+        "price": "£13.64",
+        "previousPrice": "£13.64",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Rocky Patel Vintage 1990 Robusto cigar&prds=productid:13398785659080006835,headlineOfferDocid:13398785659080006835,imageDocid:1861520077977623685,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 17.6,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Perdomo Habano Bourbon Barrel Aged Robusto",
+    "brand": "Perdomo",
+    "country": "Nicaragua",
+    "ringGauge": 54,
+    "lengthMm": 127,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/perdomo_habano_bourbon_barrel_aged_robusto.png",
+    "boxQuantity": 24,
+    "ukPrices": [
+      {
+        "retailer": "Smokin' Betty's",
+        "price": "£7.50",
+        "previousPrice": "£7.50",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Perdomo Habano Bourbon Barrel Aged Robusto cigar&prds=productid:15175631375260870724,headlineOfferDocid:15175631375260870724,imageDocid:12149881840727148530,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 17.3,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Joya de Nicaragua Clasico Medio Siglo",
+    "brand": "Joya de Nicaragua",
+    "country": "Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 102,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/joya_de_nicaragua_clasico_medio_siglo.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "eBay",
+        "price": "£4.50",
+        "previousPrice": "£4.50",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Joya de Nicaragua Clasico Medio Siglo cigar&prds=productid:73070068245793360,headlineOfferDocid:73070068245793360,imageDocid:14019017397487146012,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 13.4,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "La Flor Dominicana Air Bender Chisel",
+    "brand": "La Flor Dominicana",
+    "country": "Dominican Republic",
+    "ringGauge": 64,
+    "lengthMm": 152,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/la_flor_dominicana_air_bender_chisel.png",
+    "boxQuantity": 20,
+    "ukPrices": [
+      {
+        "retailer": "BestCigarPrices.com",
+        "price": "£43.97",
+        "previousPrice": "£43.97",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=La Flor Dominicana Air Bender Chisel cigar&prds=productid:9990633664946769279,headlineOfferDocid:9990633664946769279,imageDocid:14861596785228523340,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 24.5,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Warped Corto X46",
+    "brand": "Warped",
+    "country": "Nicaragua",
+    "ringGauge": 46,
+    "lengthMm": 127,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/warped_corto_x46.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "The Cigar Chapel",
+        "price": "£13.25",
+        "previousPrice": "£13.25",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Warped Corto X46 cigar&prds=productid:5332607345264804154,headlineOfferDocid:5332607345264804154,imageDocid:573413003601510982,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 14.7,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Montecristo Open Regata",
+    "brand": "Montecristo",
+    "country": "Cuba",
+    "ringGauge": 46,
+    "lengthMm": 135,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/montecristo_open_regata.png",
+    "boxQuantity": 20,
+    "ukPrices": [
+      {
+        "retailer": "Palm Beach Liquors",
+        "price": "£83.99",
+        "previousPrice": "£83.99",
+        "stock": "In Stock",
+        "url": "https://www.google.com/search?ibp=oshop&q=Montecristo Open Regata cigar&prds=catalogid:1168876176250033878,headlineOfferDocid:7200853196828297196,imageDocid:11028102779428885841,gpcid:7438931032689119395,mid:576462878442858722,pvt:hg&hl=en&gl=us&udm=28"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 15.6,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Cohiba Panetelas",
+    "brand": "Cohiba",
+    "country": "Cuba",
+    "ringGauge": 26,
+    "lengthMm": 115,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/cohiba_panetelas.png",
+    "boxQuantity": 25,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 7.5,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Plasencia Sixto II Hexagon",
+    "brand": "Plasencia",
+    "country": "Nicaragua",
+    "ringGauge": 60,
+    "lengthMm": 152,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/plasencia_sixto_ii_hexagon.png",
+    "boxQuantity": 10,
+    "ukPrices": [
+      {
+        "retailer": "Smoke-King",
+        "price": "£36.25",
+        "previousPrice": "£36.25",
+        "stock": "In Stock",
+        "url": "https://www.smoke-king.co.uk/products/plasencia-alma-fuerte-sixto-ii-hexagono-cigar-single"
+      }
+    ],
+    "euPrices": [],
+    "weightGrams": 23.0,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Cohiba Siglo III",
+    "brand": "Cohiba",
+    "country": "Cuba",
+    "ringGauge": 42,
+    "lengthMm": 155,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/cohiba_siglo_iii.png",
+    "boxQuantity": 25,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 16.4,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Cohiba Siglo V",
+    "brand": "Cohiba",
+    "country": "Cuba",
+    "ringGauge": 43,
+    "lengthMm": 170,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/cohiba_siglo_v.png",
+    "boxQuantity": 25,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 18.4,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Montecristo No. 1",
+    "brand": "Montecristo",
+    "country": "Cuba",
+    "ringGauge": 42,
+    "lengthMm": 165,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/montecristo_no_1.png",
+    "boxQuantity": 25,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 17.5,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Hoyo de Monterrey Epicure No. 1",
+    "brand": "Hoyo de Monterrey",
+    "country": "Cuba",
+    "ringGauge": 46,
+    "lengthMm": 143,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/hoyo_de_monterrey_epicure_no_1.png",
+    "boxQuantity": 25,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 16.6,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Hoyo de Monterrey Le Hoyo de San Juan",
+    "brand": "Hoyo de Monterrey",
+    "country": "Cuba",
+    "ringGauge": 54,
+    "lengthMm": 150,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/hoyo_de_monterrey_le_hoyo_de_san_juan.png",
+    "boxQuantity": 25,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 20.4,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Partagas Shorts",
+    "brand": "Partagas",
+    "country": "Cuba",
+    "ringGauge": 42,
+    "lengthMm": 110,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/partagas_shorts.png",
+    "boxQuantity": 25,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 11.6,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Partagas Lusitanias",
+    "brand": "Partagas",
+    "country": "Cuba",
+    "ringGauge": 49,
+    "lengthMm": 194,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/partagas_lusitanias.png",
+    "boxQuantity": 25,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 24.0,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Punch Coronations",
+    "brand": "Punch",
+    "country": "Cuba",
+    "ringGauge": 42,
+    "lengthMm": 129,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/punch_coronations.png",
+    "boxQuantity": 25,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 13.7,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Oliva Serie O Robusto",
+    "brand": "Oliva",
+    "country": "Nicaragua",
+    "ringGauge": 50,
+    "lengthMm": 127,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/oliva_serie_o_robusto.png",
+    "boxQuantity": 20,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 16.0,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Oliva Serie G Robusto",
+    "brand": "Oliva",
+    "country": "Nicaragua",
+    "ringGauge": 50,
+    "lengthMm": 127,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/oliva_serie_g_robusto.png",
+    "boxQuantity": 25,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 16.0,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Arturo Fuente Hemingway Classic",
+    "brand": "Arturo Fuente",
+    "country": "Dominican Republic",
+    "ringGauge": 48,
+    "lengthMm": 178,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/arturo_fuente_hemingway_classic.png",
+    "boxQuantity": 25,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 21.5,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "AJ Fernandez Enclave Robusto",
+    "brand": "AJ Fernandez",
+    "country": "Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 127,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/aj_fernandez_enclave_robusto.png",
+    "boxQuantity": 20,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 16.6,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "My Father Flor de Las Antillas Toro",
+    "brand": "My Father",
+    "country": "Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 152,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/my_father_flor_de_las_antillas_toro.png",
+    "boxQuantity": 20,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 19.9,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Davidoff Signature 2000",
+    "brand": "Davidoff",
+    "country": "Dominican Republic",
+    "ringGauge": 43,
+    "lengthMm": 129,
+    "strength": "Mild-Medium",
+    "imageUrl": "assets/cigars/davidoff_signature_2000.png",
+    "boxQuantity": 25,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 14.0,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Davidoff Escurio Robusto",
+    "brand": "Davidoff",
+    "country": "Dominican Republic",
+    "ringGauge": 54,
+    "lengthMm": 114,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/davidoff_escurio_robusto.png",
+    "boxQuantity": 12,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 15.5,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Montecristo Double Edmundo",
+    "brand": "Montecristo",
+    "country": "Cuba",
+    "ringGauge": 50,
+    "lengthMm": 155,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/montecristo_double_edmundo.png",
+    "boxQuantity": 25,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 19.5,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Montecristo Open Master",
+    "brand": "Montecristo",
+    "country": "Cuba",
+    "ringGauge": 50,
+    "lengthMm": 124,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/montecristo_open_master.png",
+    "boxQuantity": 20,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 15.6,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Bolivar Royal Coronas",
+    "brand": "Bolivar",
+    "country": "Cuba",
+    "ringGauge": 50,
+    "lengthMm": 124,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/bolivar_royal_coronas.png",
+    "boxQuantity": 25,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 15.6,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Partagas Aristocrats",
+    "brand": "Partagas",
+    "country": "Cuba",
+    "ringGauge": 40,
+    "lengthMm": 129,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/partagas_aristocrats.png",
+    "boxQuantity": 25,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 13.0,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Oliva Serie V Torpedo",
+    "brand": "Oliva",
+    "country": "Nicaragua",
+    "ringGauge": 56,
+    "lengthMm": 152,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/oliva_serie_v_torpedo.png",
+    "boxQuantity": 24,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 21.4,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Montecristo Open Junior",
+    "brand": "Montecristo",
+    "country": "Cuba",
+    "ringGauge": 38,
+    "lengthMm": 110,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/montecristo_open_junior.png",
+    "boxQuantity": 20,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 10.5,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Montecristo Open Eagle",
+    "brand": "Montecristo",
+    "country": "Cuba",
+    "ringGauge": 54,
+    "lengthMm": 150,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/montecristo_open_eagle.png",
+    "boxQuantity": 20,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 20.4,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Montecristo Petit Edmundo",
+    "brand": "Montecristo",
+    "country": "Cuba",
+    "ringGauge": 52,
+    "lengthMm": 110,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/montecristo_petit_edmundo.png",
+    "boxQuantity": 25,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 14.4,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Montecristo Media Corona",
+    "brand": "Montecristo",
+    "country": "Cuba",
+    "ringGauge": 44,
+    "lengthMm": 90,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/montecristo_media_corona.png",
+    "boxQuantity": 25,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 10.0,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Partagas Mille Fleurs",
+    "brand": "Partagas",
+    "country": "Cuba",
+    "ringGauge": 42,
+    "lengthMm": 129,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/partagas_mille_fleurs.png",
+    "boxQuantity": 25,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 13.7,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Partagas 8-9-8 Varnished",
+    "brand": "Partagas",
+    "country": "Cuba",
+    "ringGauge": 43,
+    "lengthMm": 170,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/partagas_8_9_8_varnished.png",
+    "boxQuantity": 25,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 18.4,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Romeo y Julieta Mille Fleurs",
+    "brand": "Romeo y Julieta",
+    "country": "Cuba",
+    "ringGauge": 42,
+    "lengthMm": 129,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/romeo_y_julieta_mille_fleurs.png",
+    "boxQuantity": 25,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 13.7,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Romeo y Julieta Short Churchills",
+    "brand": "Romeo y Julieta",
+    "country": "Cuba",
+    "ringGauge": 50,
+    "lengthMm": 124,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/romeo_y_julieta_short_churchills.png",
+    "boxQuantity": 25,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 15.6,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Hoyo de Monterrey Epicure No.1",
+    "brand": "Hoyo de Monterrey",
+    "country": "Cuba",
+    "ringGauge": 46,
+    "lengthMm": 143,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/hoyo_de_monterrey_epicure_no_1.png",
+    "boxQuantity": 25,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 16.6,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Hoyo de Monterrey Le Hoyo du Depute",
+    "brand": "Hoyo de Monterrey",
+    "country": "Cuba",
+    "ringGauge": 38,
+    "lengthMm": 110,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/hoyo_de_monterrey_le_hoyo_du_depute.png",
+    "boxQuantity": 25,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 10.5,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Punch Short de Punch",
+    "brand": "Punch",
+    "country": "Cuba",
+    "ringGauge": 50,
+    "lengthMm": 120,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/punch_short_de_punch.png",
+    "boxQuantity": 25,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 15.1,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Punch Petit Coronas",
+    "brand": "Punch",
+    "country": "Cuba",
+    "ringGauge": 42,
+    "lengthMm": 129,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/punch_petit_coronas.png",
+    "boxQuantity": 25,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 13.7,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Juan Lopez Eminentes",
+    "brand": "Juan Lopez",
+    "country": "Cuba",
+    "ringGauge": 52,
+    "lengthMm": 132,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/juan_lopez_eminentes.png",
+    "boxQuantity": 25,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 17.3,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Juan Lopez Seleccion No.1",
+    "brand": "Juan Lopez",
+    "country": "Cuba",
+    "ringGauge": 46,
+    "lengthMm": 143,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/juan_lopez_seleccion_no_1.png",
+    "boxQuantity": 25,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 16.6,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Oliva Connecticut Reserve Robusto",
+    "brand": "Oliva",
+    "country": "Nicaragua",
+    "ringGauge": 50,
+    "lengthMm": 127,
+    "strength": "Mild-Medium",
+    "imageUrl": "assets/cigars/oliva_connecticut_reserve_robusto.png",
+    "boxQuantity": 20,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 16.0,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Oliva Master Blends 3 Robusto",
+    "brand": "Oliva",
+    "country": "Nicaragua",
+    "ringGauge": 50,
+    "lengthMm": 127,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/oliva_master_blends_3_robusto.png",
+    "boxQuantity": 20,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 16.0,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Padron 1964 Anniversary Torpedo Maduro",
+    "brand": "Padron",
+    "country": "Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 156,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/padron_1964_anniversary_torpedo_maduro.png",
+    "boxQuantity": 25,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 20.4,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Davidoff Nicaragua Robusto Box Press",
+    "brand": "Davidoff",
+    "country": "Nicaragua",
+    "ringGauge": 48,
+    "lengthMm": 127,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/davidoff_nicaragua_robusto_box_press.png",
+    "boxQuantity": 12,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 15.4,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Plasencia Alma del Campo Tribu Robusto",
+    "brand": "Plasencia",
+    "country": "Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 127,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/plasencia_alma_del_campo_tribu_robusto.png",
+    "boxQuantity": 10,
+    "ukPrices": [],
+    "euPrices": [],
+    "weightGrams": 16.6,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Foundation Tabernacle Robusto",
+    "brand": "Foundation",
+    "country": "Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 127,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/foundation_tabernacle_robusto.png",
+    "boxQuantity": 24,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 16.6,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Plasencia Alma Fuerte Sixto II",
+    "brand": "Plasencia",
+    "country": "Nicaragua",
+    "ringGauge": 60,
+    "lengthMm": 152,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/plasencia_alma_fuerte_sixto_ii.png",
+    "boxQuantity": 10,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "£38.99",
+        "previousPrice": "£38.99",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/plasencia-alma-fuerte-sixto-cigar-single-p-30392.html"
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "£35.20",
+        "previousPrice": "£35.20",
+        "stock": "In Stock",
+        "url": "https://www.havanahouse.co.uk/product/plasencia-alma-fuerte-sixto-ii-cigar-single/"
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "£40.28",
+        "previousPrice": "£40.28",
+        "stock": "In Stock",
+        "url": "https://www.simplycigars.co.uk/plasencia-alma-fuerte-sixto-single-cigar-p-5034.html"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "21.99",
+        "cigarPrice": "£21.99",
+        "dutyVat": "£0.00",
+        "landedCost": "£21.99",
+        "savings": "£0.00",
+        "url": "https://egmcigars.com/en-gb/products/plasencia-alma-fuerte-sixto-ii-cigar?variant=43665093132545"
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "38",
+        "cigarPrice": "£38",
+        "dutyVat": "£0.00",
+        "landedCost": "£38",
+        "savings": "£0.00",
+        "url": "https://cigarworld.co.uk/products/plasencia-alma-fuerte-sixto-ii-cigar-1-single?_pos=2&_sid=484efe963&_ss=r"
+      }
+    ],
+    "weightGrams": 22.7,
+    "weightSource": "verified: Neptune Cigar"
+  },
+  {
+    "name": "Plasencia Alma Fuerte Robustus II",
+    "brand": "Plasencia",
+    "country": "Nicaragua",
+    "ringGauge": 55,
+    "lengthMm": 127,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/plasencia_alma_fuerte_robustus_ii.png",
+    "boxQuantity": 10,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "£32.99",
+        "previousPrice": "£32.99",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/plasencia-alma-fuerte-colorado-claro-robustus-cigar-single-p-58034.html?keywords=Plasencia+Alma+Fuerte+Robustus+II"
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "£25.96",
+        "previousPrice": "£25.96",
+        "stock": "In Stock",
+        "url": "https://www.havanahouse.co.uk/product/plasencia-alma-fuerte-colorado-claro-robustus-ii-cigar-single/"
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 17.6,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Plasencia Alma del Campo Guajiro",
+    "brand": "Plasencia",
+    "country": "Nicaragua",
+    "ringGauge": 54,
+    "lengthMm": 140,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/plasencia_alma_del_campo_guajiro.png",
+    "boxQuantity": 10,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "16.99",
+        "cigarPrice": "£16.99",
+        "dutyVat": "£0.00",
+        "landedCost": "£16.99",
+        "savings": "£0.00",
+        "url": "https://egmcigars.com/en-gb/products/plasencia-alma-del-campo-guajiro-cigar?variant=43665427726593"
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 19.0,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Plasencia Alma del Campo Sendero",
+    "brand": "Plasencia",
+    "country": "Nicaragua",
+    "ringGauge": 56,
+    "lengthMm": 150,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/plasencia_alma_del_campo_sendero.png",
+    "boxQuantity": 10,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "£24.99",
+        "previousPrice": "£24.99",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/plasencia-alma-del-campo-sendero-cigar-single-p-30368.html"
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "16.99",
+        "cigarPrice": "£16.99",
+        "dutyVat": "£0.00",
+        "landedCost": "£16.99",
+        "savings": "£0.00",
+        "url": "https://egmcigars.com/en-gb/products/plasencia-alma-del-campo-sendero-cigar?variant=43665431920897"
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 21.2,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Plasencia Cosecha 146 Monte Carlo",
+    "brand": "Plasencia",
+    "country": "Honduras/Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 152,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/plasencia_cosecha_146_monte_carlo.png",
+    "boxQuantity": 10,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 19.9,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Plasencia Cosecha 149 Santa Fe",
+    "brand": "Plasencia",
+    "country": "Honduras",
+    "ringGauge": 52,
+    "lengthMm": 127,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/plasencia_cosecha_149_santa_fe.png",
+    "boxQuantity": 10,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "13.99",
+        "cigarPrice": "£13.99",
+        "dutyVat": "£0.00",
+        "landedCost": "£13.99",
+        "savings": "£0.00",
+        "url": "https://egmcigars.com/en-gb/products/plasencia-cosecha-149-santa-fe?_pos=1&_sid=57a95d2f4&_ss=r"
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 16.6,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Plasencia Reserva 1898 Robusto",
+    "brand": "Plasencia",
+    "country": "Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 127,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/plasencia_reserva_1898_robusto.png",
+    "boxQuantity": 20,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 16.6,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Plasencia Reserva Original Churchill",
+    "brand": "Plasencia",
+    "country": "Nicaragua",
+    "ringGauge": 50,
+    "lengthMm": 178,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/plasencia_reserva_original_churchill.png",
+    "boxQuantity": 20,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 22.4,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Plasencia Alma Fuerte Colorado Claro Robustus II",
+    "brand": "Plasencia",
+    "country": "Nicaragua",
+    "ringGauge": 55,
+    "lengthMm": 127,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/plasencia_alma_fuerte_colorado_claro_robustus_ii.png",
+    "boxQuantity": 10,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "£32.99",
+        "previousPrice": "£32.99",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/plasencia-alma-fuerte-colorado-claro-robustus-cigar-single-p-58034.html"
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "£25.96",
+        "previousPrice": "£25.96",
+        "stock": "In Stock",
+        "url": "https://www.havanahouse.co.uk/product/plasencia-alma-fuerte-colorado-claro-robustus-ii-cigar-single/"
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 17.6,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Plasencia Reserva Original Corona",
+    "brand": "Plasencia",
+    "country": "Nicaragua",
+    "ringGauge": 44,
+    "lengthMm": 152,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/plasencia_reserva_original_corona.png",
+    "boxQuantity": 20,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "£15.99",
+        "previousPrice": "£15.99",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/plasencia-reserva-original-corona-corta-cigar-single-p-64026.html?keywords=Plasencia+Reserva+Original"
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "£13.99",
+        "previousPrice": "£13.99",
+        "stock": "In Stock",
+        "url": "https://www.havanahouse.co.uk/product/plasencia-reserva-original-corona-corta-cigar-single/"
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "9.99",
+        "cigarPrice": "£9.99",
+        "dutyVat": "£0.00",
+        "landedCost": "£9.99",
+        "savings": "£0.00",
+        "url": "https://egmcigars.com/en-gb/products/plasencia-reserva-original-corona-cigar?variant=43667146473729"
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 16.9,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Plasencia Reserva Original Nesticos",
+    "brand": "Plasencia",
+    "country": "Nicaragua",
+    "ringGauge": 36,
+    "lengthMm": 114,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/plasencia_reserva_original_nesticos.png",
+    "boxQuantity": 20,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "5.99",
+        "cigarPrice": "£5.99",
+        "dutyVat": "£0.00",
+        "landedCost": "£5.99",
+        "savings": "£0.00",
+        "url": "https://egmcigars.com/en-gb/products/plasencia-reserva-original-nesticos-cigar?variant=43666939838721"
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 10.3,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Plasencia Cosecha 151 La Tradicion",
+    "brand": "Plasencia",
+    "country": "Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 140,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/plasencia_cosecha_151_la_tradicion.png",
+    "boxQuantity": 10,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "£27.99",
+        "previousPrice": "£27.99",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/plasencia-cosecha-151-tradicion-toro-cigar-single-p-62378.html"
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "£31.96",
+        "previousPrice": "£31.96",
+        "stock": "In Stock",
+        "url": "https://www.havanahouse.co.uk/product/plasencia-cosecha-151-la-tradicion-toro-cigar-single/"
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "15.99",
+        "cigarPrice": "£15.99",
+        "dutyVat": "£0.00",
+        "landedCost": "£15.99",
+        "savings": "£0.00",
+        "url": "https://egmcigars.com/en-gb/products/plasencia-cosecha-151-la-tradicion-cigar?variant=44626589450497"
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 18.3,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Plasencia Cosecha 151 San Diego",
+    "brand": "Plasencia",
+    "country": "Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 127,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/plasencia_cosecha_151_san_diego.png",
+    "boxQuantity": 10,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "13.99",
+        "cigarPrice": "£13.99",
+        "dutyVat": "£0.00",
+        "landedCost": "£13.99",
+        "savings": "£0.00",
+        "url": "https://egmcigars.com/en-gb/products/plasencia-cosecha-151-san-diego-cigar?variant=44626525782273"
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 16.6,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Padron 5000 Maduro",
+    "brand": "Padron",
+    "country": "Nicaragua",
+    "ringGauge": 56,
+    "lengthMm": 140,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/padron_5000_maduro.png",
+    "boxQuantity": 26,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 19.8,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Oliva Serie V Robusto",
+    "brand": "Oliva",
+    "country": "Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 127,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/oliva_serie_v_robusto.png",
+    "boxQuantity": 24,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "£31.99",
+        "previousPrice": "£31.99",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/oliva-serie-melanio-gran-reserva-robusto-cigar-single-p-13643.html?keywords=Melanio+Gran+Reserva+Robusto"
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "£35.75",
+        "previousPrice": "£35.75",
+        "stock": "In Stock",
+        "url": "https://www.simplycigars.co.uk/oliva-serie-melanio-gran-reserva-robusto-cigar-single-p-4325.html"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 16.6,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "My Father Le Bijou 1922 Robusto",
+    "brand": "My Father",
+    "country": "Nicaragua",
+    "ringGauge": 50,
+    "lengthMm": 127,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/my_father_le_bijou_1922_robusto.png",
+    "boxQuantity": 23,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 16.0,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Drew Estate Liga Privada T52 Robusto",
+    "brand": "Drew Estate",
+    "country": "Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 127,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/drew_estate_liga_privada_t52_robusto.png",
+    "boxQuantity": 24,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "£32.99",
+        "previousPrice": "£32.99",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/drew-estate-liga-privada-t52-robusto-cigar-single-p-26135.html"
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 16.6,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Foundation The Tabernacle Robusto",
+    "brand": "Foundation",
+    "country": "Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 127,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/foundation_the_tabernacle_robusto.png",
+    "boxQuantity": 12,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 16.6,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Davidoff Nicaragua Toro",
+    "brand": "Davidoff",
+    "country": "Nicaragua",
+    "ringGauge": 54,
+    "lengthMm": 140,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/davidoff_nicaragua_toro.png",
+    "boxQuantity": 12,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "£44.49",
+        "previousPrice": "£44.49",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/davidoff-nicaragua-toro-cello-cigar-single-p-13647.html?keywords=Davidoff+Nicaragua+Toro"
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "£44.56",
+        "previousPrice": "£44.56",
+        "stock": "In Stock",
+        "url": "https://www.havanahouse.co.uk/product/davidoff-nicaragua-toro-cigar-single/"
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "£43.85",
+        "previousPrice": "£43.85",
+        "stock": "In Stock",
+        "url": "https://www.simplycigars.co.uk/davidoff-nicaragua-box-pressed-toro-single-cigar-p-4255.html"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "24.99",
+        "cigarPrice": "£24.99",
+        "dutyVat": "£0.00",
+        "landedCost": "£24.99",
+        "savings": "£0.00",
+        "url": "https://egmcigars.com/en-gb/products/davidoff-nicaragua-toro-cigar?variant=45616435986689"
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 19.0,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Arturo Fuente Don Carlos No. 2",
+    "brand": "Arturo Fuente",
+    "country": "Dominican Republic",
+    "ringGauge": 55,
+    "lengthMm": 152,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/arturo_fuente_don_carlos_no_2.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "£43.49",
+        "previousPrice": "£43.49",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/arturo-fuente-don-carlos-cigar-single-p-10526.html"
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "£38.99",
+        "previousPrice": "£38.99",
+        "stock": "In Stock",
+        "url": "https://www.havanahouse.co.uk/product/arturo-fuente-don-carlos-no-2-cigar-single/"
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 21.1,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Cohiba Robusto",
+    "brand": "Cohiba",
+    "country": "Cuba",
+    "ringGauge": 50,
+    "lengthMm": 124,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/cohiba_robusto.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "£72.99",
+        "previousPrice": "£72.99",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/cohiba-robustos-cigar-single-p-426.html?keywords=Cohiba+Robusto"
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "£80",
+        "previousPrice": "£80",
+        "stock": "In Stock",
+        "url": "https://www.havanahouse.co.uk/product/cohiba-robusto-cigar-single/"
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "£76.90",
+        "previousPrice": "£76.90",
+        "stock": "In Stock",
+        "url": "https://www.simplycigars.co.uk/cohiba-robusto-single-cigar-p-449.html"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "61.99",
+        "cigarPrice": "£61.99",
+        "dutyVat": "£0.00",
+        "landedCost": "£61.99",
+        "savings": "£0.00",
+        "url": "https://egmcigars.com/en-gb/products/cohiba-robusto-slb?variant=9061373673519"
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 15.6,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Cohiba Esplendidos",
+    "brand": "Cohiba",
+    "country": "Cuba",
+    "ringGauge": 47,
+    "lengthMm": 178,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/cohiba_esplendidos.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "£144",
+        "previousPrice": "£144",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/cohiba-esplendidos-cigar-single-p-422.html?keywords=Cohiba+Esplendidos"
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "£137",
+        "previousPrice": "£137",
+        "stock": "In Stock",
+        "url": "https://www.havanahouse.co.uk/product/cohiba-esplendidos-cigar-single/"
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "£125.02",
+        "previousPrice": "£125.02",
+        "stock": "In Stock",
+        "url": "https://www.simplycigars.co.uk/cohiba-esplendidos-cigar-single-cigar-p-446.html"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "100.99",
+        "cigarPrice": "£100.99",
+        "dutyVat": "£0.00",
+        "landedCost": "£100.99",
+        "savings": "£0.00",
+        "url": "https://egmcigars.com/en-gb/products/cohiba-esplendidos-bn-1?variant=9074557124655"
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "120",
+        "cigarPrice": "£120",
+        "dutyVat": "£0.00",
+        "landedCost": "£120",
+        "savings": "£0.00",
+        "url": "https://cigarworld.co.uk/products/cohiba-esplendidos-cigar-single?_pos=1&_psq=Cohiba+Esplendidos&_ss=e&_v=1.0"
+      }
+    ],
+    "weightGrams": 21.1,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Drew Estate Liga Privada Unico Flying Pig",
+    "brand": "Drew Estate",
+    "country": "Nicaragua",
+    "ringGauge": 60,
+    "lengthMm": 127,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/drew_estate_liga_privada_unico_flying_pig.png",
+    "boxQuantity": 12,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 19.2,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Drew Estate Liga Privada Unico Dirty Rat",
+    "brand": "Drew Estate",
+    "country": "Nicaragua",
+    "ringGauge": 44,
+    "lengthMm": 127,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/drew_estate_liga_privada_unico_dirty_rat.png",
+    "boxQuantity": 10,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "£27.49",
+        "previousPrice": "£27.49",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/drew-estate-liga-privada-unico-dirty-rat-cigar-single-p-26106.html?keywords=Drew+Estate+Liga+Privada+Unico+Dirty+Rat"
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 14.1,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Davidoff Signature 6000",
+    "brand": "Davidoff",
+    "country": "Dominican Republic",
+    "ringGauge": 48,
+    "lengthMm": 127,
+    "strength": "Mild-Medium",
+    "imageUrl": "assets/cigars/davidoff_signature_6000.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "£38.99",
+        "previousPrice": "£38.99",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/davidoff-signature-6000-robusto-cigar-single-p-11932.html?keywords=Davidoff+Signature+6000"
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "£34.96",
+        "previousPrice": "£34.96",
+        "stock": "In Stock",
+        "url": "https://www.havanahouse.co.uk/product/davidoff-signature-6000-robusto-cigar-single/"
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 15.4,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Arturo Fuente Opus X Perfecxion No.2",
+    "brand": "Arturo Fuente",
+    "country": "Dominican Republic",
+    "ringGauge": 48,
+    "lengthMm": 152,
+    "strength": "Full",
+    "imageUrl": "assets/cigars/arturo_fuente_opus_x_perfecxion_no_2.png",
+    "boxQuantity": 29,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 18.4,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Plasencia Alma del Fuego Conception",
+    "brand": "Plasencia",
+    "country": "Nicaragua",
+    "ringGauge": 54,
+    "lengthMm": 152,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/plasencia_alma_del_fuego_conception.png",
+    "boxQuantity": 10,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 20.7,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Plasencia Alma del Fuego Candente",
+    "brand": "Plasencia",
+    "country": "Nicaragua",
+    "ringGauge": 50,
+    "lengthMm": 127,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/plasencia_alma_del_fuego_candente.png",
+    "boxQuantity": 10,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "£23.49",
+        "previousPrice": "£23.49",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/plasencia-alma-del-fuego-candente-cigar-single-p-37700.html"
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "£21.46",
+        "previousPrice": "£21.46",
+        "stock": "In Stock",
+        "url": "https://www.havanahouse.co.uk/product/plasencia-alma-del-fuego-candente-cigar-single/"
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "£24.13",
+        "previousPrice": "£24.13",
+        "stock": "In Stock",
+        "url": "https://www.simplycigars.co.uk/plasencia-alma-del-fuego-candente-single-cigar-p-3944.html"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 16.0,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Plasencia Alma del Cielo Amanecer Hexagono",
+    "brand": "Plasencia",
+    "country": "Nicaragua",
+    "ringGauge": 60,
+    "lengthMm": 152,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/plasencia_alma_del_cielo_amanecer_hexagono.png",
+    "boxQuantity": 10,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "£33.99",
+        "previousPrice": "£33.99",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/plasencia-alma-del-cielo-amanecer-hexagono-cigar-single-p-63123.html"
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "£36.95",
+        "previousPrice": "£36.95",
+        "stock": "In Stock",
+        "url": "https://www.havanahouse.co.uk/product/plasencia-alma-del-cielo-amanecer-sixty-cigar-single/"
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "24.99",
+        "cigarPrice": "£24.99",
+        "dutyVat": "£0.00",
+        "landedCost": "£24.99",
+        "savings": "£0.00",
+        "url": "https://egmcigars.com/en-gb/products/plasencia-alma-del-cielo-amanecer?variant=46361292144897"
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 23.0,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Plasencia Reserva Original Toro",
+    "brand": "Plasencia",
+    "country": "Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 152,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/plasencia_reserva_original_toro.png",
+    "boxQuantity": 20,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "10.99",
+        "cigarPrice": "£10.99",
+        "dutyVat": "£0.00",
+        "landedCost": "£10.99",
+        "savings": "£0.00",
+        "url": "https://egmcigars.com/en-gb/products/plasencia-reserva-original-toro-cigar?_pos=1&_psq=Plasencia+Reserva+Original+Toro&_ss=e&_v=1.0"
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 19.9,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Plasencia Reserva Original Cortez",
+    "brand": "Plasencia",
+    "country": "Nicaragua",
+    "ringGauge": 56,
+    "lengthMm": 140,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/plasencia_reserva_original_cortez.png",
+    "boxQuantity": 20,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "12.99",
+        "cigarPrice": "£12.99",
+        "dutyVat": "£0.00",
+        "landedCost": "£12.99",
+        "savings": "£0.00",
+        "url": "https://egmcigars.com/en-gb/products/plasencia-reserva-original-cortes-cigar?variant=43667124781313"
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 19.8,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Plasencia Reserva Original Perfectico",
+    "brand": "Plasencia",
+    "country": "Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 159,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/plasencia_reserva_original_perfectico.png",
+    "boxQuantity": 20,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 20.8,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Plasencia Reserva 1898 Corona",
+    "brand": "Plasencia",
+    "country": "Nicaragua",
+    "ringGauge": 43,
+    "lengthMm": 152,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/plasencia_reserva_1898_corona.png",
+    "boxQuantity": 20,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 16.5,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Plasencia Reserva 1898 Toro",
+    "brand": "Plasencia",
+    "country": "Nicaragua",
+    "ringGauge": 54,
+    "lengthMm": 152,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/plasencia_reserva_1898_toro.png",
+    "boxQuantity": 20,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 20.7,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Plasencia Cosecha 149 Azacualpa",
+    "brand": "Plasencia",
+    "country": "Honduras",
+    "ringGauge": 52,
+    "lengthMm": 152,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/plasencia_cosecha_149_azacualpa.png",
+    "boxQuantity": 10,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 19.9,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Plasencia Cosecha 146 San Agustin",
+    "brand": "Plasencia",
+    "country": "Honduras/Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 127,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/plasencia_cosecha_146_san_agustin.png",
+    "boxQuantity": 10,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 16.6,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Plasencia Cosecha 151 Corona Gorda",
+    "brand": "Plasencia",
+    "country": "Honduras",
+    "ringGauge": 46,
+    "lengthMm": 146,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/plasencia_cosecha_151_corona_gorda.png",
+    "boxQuantity": 10,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 16.9,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Plasencia Alma del Campo Madrono",
+    "brand": "Plasencia",
+    "country": "Nicaragua",
+    "ringGauge": 58,
+    "lengthMm": 165,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/plasencia_alma_del_campo_madrono.png",
+    "boxQuantity": 10,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "19.99",
+        "cigarPrice": "£19.99",
+        "dutyVat": "£0.00",
+        "landedCost": "£19.99",
+        "savings": "£0.00",
+        "url": "https://egmcigars.com/en-gb/products/plasencia-alma-del-campo-madrono-cigar?variant=43665445519617"
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": ""
+      }
+    ],
+    "weightGrams": 24.1,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "Montecristo No.5",
+    "brand": "Montecristo",
+    "country": "Cuba",
+    "ringGauge": 40,
+    "lengthMm": 102,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/montecristo_no_5.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "£19.99",
+        "previousPrice": "£19.99",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/montecristo-cigar-single-p-509.html?keywords=Montecristo+No+5"
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "£20.70",
+        "previousPrice": "£20.70",
+        "stock": "In Stock",
+        "url": "https://www.havanahouse.co.uk/product/montecristo-no-5-cigar-single/"
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "£22",
+        "previousPrice": "£22",
+        "stock": "In Stock",
+        "url": "https://www.simplycigars.co.uk/montecristo-no5-cigar-single-cigar-p-519.html"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "21.99",
+        "cigarPrice": "£21.99",
+        "dutyVat": "£0.00",
+        "landedCost": "£21.99",
+        "savings": "£0.00",
+        "url": "https://egmcigars.com/en-gb/products/montecristo-no-5?variant=9075206586415"
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "19.90",
+        "cigarPrice": "£19.90",
+        "dutyVat": "£0.00",
+        "landedCost": "£19.90",
+        "savings": "£0.00",
+        "url": "https://cigarworld.co.uk/products/montecristo-no-5-single?_pos=1&_psq=Montecristo+No.+5+Cigar&_ss=e&_v=1.0"
+      }
+    ],
+    "weightGrams": 10.3,
+    "weightSource": "estimated: size formula"
+  },
+  {
+    "name": "H. Upmann Magnum 46",
+    "brand": "H. Upmann",
+    "country": "Cuba",
+    "ringGauge": 46,
+    "lengthMm": 143,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/h_upmann_magnum_46.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "£34.99",
+        "previousPrice": "£34.99",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/upmann-magnum-cigar-single-p-464.html"
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "£36.80",
+        "previousPrice": "£36.80",
+        "stock": "In Stock",
+        "url": "https://www.havanahouse.co.uk/product/h-upmann-magnum-46-cigar-single/"
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "£39.23",
+        "previousPrice": "£39.23",
+        "stock": "In Stock",
+        "url": "https://www.simplycigars.co.uk/upmann-magnum-single-cigar-p-1736.html"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "28.99",
+        "cigarPrice": "£28.99",
+        "dutyVat": "£0.00",
+        "landedCost": "£28.99",
+        "savings": "£0.00",
+        "url": "https://egmcigars.com/en-gb/products/h-upmann-magnum-46-slb?variant=37400139071646"
+      },
+      {
+        "retailer": "cigarworld",
+        "price": "35.50",
+        "cigarPrice": "£35.50",
+        "dutyVat": "£0.00",
+        "landedCost": "£35.50",
+        "savings": "£0.00",
+        "url": "https://cigarworld.co.uk/products/h-upmann-magnum-46-cigar-1-single?_pos=2&_psq=H.+Upmann+Magnum+46&_ss=e&_v=1.0"
+      }
+    ],
+    "weightGrams": 16.6,
+    "weightSource": "estimated: size formula"
+  }
+]

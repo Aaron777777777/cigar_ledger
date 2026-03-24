@@ -5072,7 +5072,124 @@
     ],
     "weightGrams": 16.1,
     "weightSource": "verified: Neptune Cigar"
-  }
+
+},
+{
+  "name": "Davidoff Millennium Robusto",
+  "brand": "Davidoff",
+  "country": "Dominican Republic",
+  "ringGauge": 50,
+  "lengthMm": 133,
+  "strength": "Medium-Full",
+  "imageUrl": "assets/cigars/davidoff_millennium_blend_robusto.png",
+  "boxQuantity": 25,
+  "ukPrices": [
+    {
+      "retailer": "cgars",
+      "price": "££38.49",
+      "previousPrice": "££38.49",
+      "stock": "In Stock",
+      "url": "https://www.cgarsltd.co.uk/davidoff-millennium-robusto-cigar-single-p-58754.html?keywords=davidoff+millen",
+      "boxPrice": "£0.00",
+      "previousBoxPrice": "£0.00",
+      "boxUrl": ""
+    },
+    {
+      "retailer": "havanahouse",
+      "price": "£47.95",
+      "previousPrice": "£47.95",
+      "stock": "In Stock",
+      "url": "https://www.havanahouse.co.uk/product/davidoff-millennium-robusto-cigar-single/",
+      "boxPrice": "£0.00",
+      "previousBoxPrice": "£0.00",
+      "boxUrl": ""
+    },
+    {
+      "retailer": "simplycigars",
+      "price": "£0.00",
+      "previousPrice": "£0.00",
+      "stock": "Out of Stock",
+      "url": "",
+      "boxPrice": "£0.00",
+      "previousBoxPrice": "£0.00",
+      "boxUrl": ""
+    }
+  ],
+  "euPrices": [
+    {
+      "retailer": "egm",
+      "price": "£28.99",
+      "previousPrice": "£28.99",
+      "stock": "In Stock",
+      "url": "https://egmcigars.com/en-gb/products/davidoff-millennium-blend-robusto-cigar?variant=43848300462337",
+      "boxPrice": "££711.99",
+      "previousBoxPrice": "£711.99",
+      "boxUrl": "https://egmcigars.com/en-gb/products/davidoff-millennium-blend-robusto-cigar?variant=43085403324673"
+      }
+    ],
+    "weightGrams": 13,
+    "weightSource": ""
+
+},
+{
+  "name": "Zino Nicaragua Short Torpedo",
+  "brand": "Zino",
+  "country": "Nicaragua",
+  "ringGauge": 52,
+  "lengthMm": 102,
+  "strength": "Medium",
+  "imageUrl": "assets/cigars/zino_nicaragua_short_torpedo.png",
+  "boxQuantity": 25,
+  "ukPrices": [
+    {
+      "retailer": "cgars",
+      "price": "£14.99",
+      "previousPrice": "£14.99",
+      "stock": "In Stock",
+      "url": "https://www.cgarsltd.co.uk/zino-nicaragua-short-torpedo-cigar-single-p-55622.html?keywords=zino+torp",
+      "boxPrice": "£352.99",
+      "previousBoxPrice": "£352.99",
+      "boxUrl": "https://www.cgarsltd.co.uk/zino-nicaragua-short-torpedo-cigar-box-p-55623.html"
+    },
+    {
+      "retailer": "havanahouse",
+      "price": "£16.66",
+      "previousPrice": "£16.66",
+      "stock": "£16.66",
+      "url": "https://www.havanahouse.co.uk/product/zino-nicaragua-short-torpedo-cigar-single/",
+      "boxPrice": "£395",
+      "previousBoxPrice": "£395",
+      "boxUrl": "https://www.havanahouse.co.uk/product/zino-nicaragua-short-torpedo-cigar-box-of-25/"
+    },
+    {
+      "retailer": "simplycigars",
+      "price": "£15.76",
+      "previousPrice": "£15.76",
+      "stock": "In Stock",
+      "url": "https://www.simplycigars.co.uk/zino-nicaragua-short-torpedo-cigar-single-cigar-p-5047.html?keywords=zino+short+tor",
+      "boxPrice": "£393.89",
+      "previousBoxPrice": "£393.89",
+      "boxUrl": "https://www.simplycigars.co.uk/zino-nicaragua-short-torpedo-box-cigars-p-5048.html"
+    }
+  ],
+  "euPrices": [
+    {
+      "retailer": "egm",
+      "price": "£6.99",
+      "cigarPrice": "£6.99",
+      "dutyVat": "",
+      "landedCost": "",
+      "savings": "",
+      "url": "https://egmcigars.com/en-gb/products/zino-nicaragua-short-torpedo-cigars?variant=45625280987393",
+      "boxPrice": "£155.99",
+      "previousBoxPrice": "£155.99",
+      "stock": "In Stock",
+      "boxUrl": "https://egmcigars.com/en-gb/products/zino-nicaragua-short-torpedo-cigars?variant=45625280921857"
+    }
+  ],
+  "weightGrams": 12,
+  "weightSource": ""
+}
   ,
   {
     "name": "Camacho Corojo Robusto",
@@ -5191,61 +5308,5 @@
   ],
   "weightGrams": 14.58,
   "weightSource": ""
-},
-{
-  "name": "Davidoff Millennium Robusto",
-  "brand": "Davidoff",
-  "country": "Dominican Republic",
-  "ringGauge": 50,
-  "lengthMm": 133,
-  "strength": "Medium-Full",
-  "imageUrl": "assets/cigars/davidoff_millennium_blend_robusto.png",
-  "boxQuantity": 25,
-  "ukPrices": [
-    {
-      "retailer": "cgars",
-      "price": "££38.49",
-      "previousPrice": "££38.49",
-      "stock": "In Stock",
-      "url": "https://www.cgarsltd.co.uk/davidoff-millennium-robusto-cigar-single-p-58754.html?keywords=davidoff+millen",
-      "boxPrice": "£0.00",
-      "previousBoxPrice": "£0.00",
-      "boxUrl": ""
-    },
-    {
-      "retailer": "havanahouse",
-      "price": "£47.95",
-      "previousPrice": "£47.95",
-      "stock": "In Stock",
-      "url": "https://www.havanahouse.co.uk/product/davidoff-millennium-robusto-cigar-single/",
-      "boxPrice": "£0.00",
-      "previousBoxPrice": "£0.00",
-      "boxUrl": ""
-    },
-    {
-      "retailer": "simplycigars",
-      "price": "£0.00",
-      "previousPrice": "£0.00",
-      "stock": "Out of Stock",
-      "url": "",
-      "boxPrice": "£0.00",
-      "previousBoxPrice": "£0.00",
-      "boxUrl": ""
-    }
-  ],
-  "euPrices": [
-    {
-      "retailer": "egm",
-      "price": "£28.99",
-      "previousPrice": "£28.99",
-      "stock": "In Stock",
-      "url": "https://egmcigars.com/en-gb/products/davidoff-millennium-blend-robusto-cigar?variant=43848300462337",
-      "boxPrice": "££711.99",
-      "previousBoxPrice": "£711.99",
-      "boxUrl": "https://egmcigars.com/en-gb/products/davidoff-millennium-blend-robusto-cigar?variant=43085403324673"
-      }
-    ],
-    "weightGrams": 13,
-    "weightSource": ""
-}
+  }
 ]
