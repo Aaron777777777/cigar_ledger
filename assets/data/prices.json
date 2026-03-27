@@ -49,8 +49,8 @@
         "landedCost": "£20.99",
         "savings": "£0.00",
         "url": "https://egmcigars.com/en-gb/products/plasencia-alma-fuerte-generacion-v-cigar?variant=43665364287745",
-        "boxPrice": "£206.99",
-        "previousBoxPrice": "£206.99",
+        "boxPrice": "£205.99",
+        "previousBoxPrice": "£205.99",
         "stock": "In Stock",
         "boxUrl": "https://egmcigars.com/en-gb/products/plasencia-alma-fuerte-generacion-v-cigar?_pos=1&_psq=Plasencia+Alma+Fuerte+Generacion+V&_ss=e&_v=1.0"
       }
@@ -128,47 +128,24 @@
     "boxQuantity": 25,
     "ukPrices": [
       {
-        "retailer": "cgars",
-        "price": "£41.99",
-        "previousPrice": "£41.99",
+        "retailer": "jjfox",
+        "price": "£44.00",
+        "previousPrice": "£44.00",
         "stock": "In Stock",
-        "url": "https://www.cgarsltd.co.uk/cohiba-siglo-cigar-single-p-429.html?keywords=Cohiba+Siglo+II",
-        "boxPrice": "£1049",
-        "previousBoxPrice": "£1049",
-        "boxUrl": "https://www.cgarsltd.co.uk/cohiba-siglo-cigar-cabinet-p-72.html?keywords=Cohiba+Siglo+II"
-      },
-      {
-        "retailer": "havanahouse",
-        "price": "£42.00",
-        "previousPrice": "£42.00",
-        "stock": "In Stock",
-        "url": "https://www.havanahouse.co.uk/product/cohiba-siglo-ii-cigar-single/",
-        "boxPrice": "£1050",
-        "previousBoxPrice": "£1050",
-        "boxUrl": "https://www.havanahouse.co.uk/product/cohiba-siglo-ii-cigar-box-of-25/"
-      },
-      {
-        "retailer": "simplycigars",
-        "price": "£43.97",
-        "previousPrice": "£43.97",
-        "stock": "In Stock",
-        "url": "https://www.simplycigars.co.uk/cohiba-siglo-single-cigar-p-452.html",
-        "boxPrice": "£1058.06",
-        "previousBoxPrice": "£1058.06",
-        "boxUrl": "https://www.simplycigars.co.uk/cohiba-siglo-cabinet-cigars-p-1419.html"
+        "url": "https://www.jjfox.co.uk/cohiba-siglo-ii-632.html"
       }
     ],
     "euPrices": [
       {
         "retailer": "egm",
-        "price": "38.99",
-        "cigarPrice": "£38.99",
+        "price": "37.99",
+        "cigarPrice": "£37.99",
         "dutyVat": "£0.00",
-        "landedCost": "£38.99",
+        "landedCost": "£37.99",
         "savings": "£0.00",
         "url": "https://egmcigars.com/en-gb/products/cohiba-siglo-2-slb?variant=9061330223151",
-        "boxPrice": "£900.99",
-        "previousBoxPrice": "£900.99",
+        "boxPrice": "£892.99",
+        "previousBoxPrice": "£892.99",
         "stock": "In Stock",
         "boxUrl": "https://egmcigars.com/en-gb/products/cohiba-siglo-2-slb?variant=43509978052"
       }
@@ -208,13 +185,13 @@
       },
       {
         "retailer": "simplycigars",
-        "price": "£32.66",
-        "previousPrice": "£32.66",
-        "stock": "In Stock",
-        "url": "https://www.havanahouse.co.uk/product/arturo-fuente-don-carlos-robusto-cigar-single/",
-        "boxPrice": "£760",
-        "previousBoxPrice": "£760",
-        "boxUrl": "https://www.havanahouse.co.uk/product/arturo-fuente-don-carlos-robusto-cigar-box-of-25/"
+        "price": "",
+        "previousPrice": "",
+        "stock": "",
+        "url": "",
+        "boxPrice": "",
+        "previousBoxPrice": "",
+        "boxUrl": ""
       }
     ],
     "euPrices": [
@@ -246,34 +223,11 @@
     "boxQuantity": 25,
     "ukPrices": [
       {
-        "retailer": "cgars",
-        "price": "£46.49",
-        "previousPrice": "£46.49",
-        "stock": "In Stock",
-        "url": "https://www.cgarsltd.co.uk/montecristo-cigar-single-p-506.html?keywords=Montecristo+No++2",
-        "boxPrice": "£1109",
-        "previousBoxPrice": "£1109",
-        "boxUrl": "https://www.cgarsltd.co.uk/montecristo-cigar-box-p-146.html?keywords=Montecristo+No++2+box"
-      },
-      {
         "retailer": "havanahouse",
-        "price": "£38.75",
-        "previousPrice": "£38.75",
+        "price": "£50.00",
+        "previousPrice": "£50.00",
         "stock": "In Stock",
-        "url": "https://www.havanahouse.co.uk/product/montecristo-no-2-cigar-single/",
-        "boxPrice": "£1112.60",
-        "previousBoxPrice": "£1112.60",
-        "boxUrl": "https://www.havanahouse.co.uk/product/montecristo-no-2-box-of-25/"
-      },
-      {
-        "retailer": "simplycigars",
-        "price": "£50.44",
-        "previousPrice": "£50.44",
-        "stock": "In Stock",
-        "url": "https://www.simplycigars.co.uk/montecristo-no2-single-cigar-p-1541.html",
-        "boxPrice": "",
-        "previousBoxPrice": "",
-        "boxUrl": ""
+        "url": "https://www.havanahouse.co.uk/product/montecristo-no-2-cigar-single/"
       }
     ],
     "euPrices": [
@@ -288,7 +242,7 @@
         "boxPrice": "£859.08",
         "previousBoxPrice": "£859.08",
         "stock": "In Stock",
-        "boxUrl": "https://www.simplycigars.co.uk/montecristo-especial-no2-box-cigars-p-1467.html"
+        "boxUrl": "https://egmcigars.com/en-gb/products/montecristo-no-2?variant=765914120196"
       }
     ],
     "weightGrams": 14.26,
@@ -411,124 +365,7 @@
     ],
     "weightGrams": 16.0,
     "weightSource": "estimated: size formula"
-  },
-  {
-    "name": "Oliva Serie V Melanio Figurado",
-    "brand": "Oliva",
-    "country": "Nicaragua",
-    "ringGauge": 52,
-    "lengthMm": 165,
-    "strength": "Medium-Full",
-    "imageUrl": "assets/cigars/oliva_serie_v_melanio_figurados.png",
-    "boxQuantity": 10,
-    "ukPrices": [
-      {
-        "retailer": "cgars",
-        "price": "£44.99",
-        "previousPrice": "£44.99",
-        "stock": "In Stock",
-        "url": "https://www.cgarsltd.co.uk/oliva-serie-melanio-gran-reserva-figurado-cigar-single-p-16152.html",
-        "boxPrice": "£426.99",
-        "previousBoxPrice": "£426.99",
-        "boxUrl": "https://www.cgarsltd.co.uk/oliva-serie-melanio-gran-reserva-figurado-cigar-box-p-16153.html?keywords=Oliva+Serie+V+Melanio+Figurado"
-      },
-      {
-        "retailer": "havanahouse",
-        "price": "",
-        "previousPrice": "",
-        "stock": "",
-        "url": "",
-        "boxPrice": "",
-        "previousBoxPrice": "",
-        "boxUrl": ""
-      },
-      {
-        "retailer": "simplycigars",
-        "price": "",
-        "previousPrice": "",
-        "stock": "",
-        "url": "",
-        "boxPrice": "",
-        "previousBoxPrice": "",
-        "boxUrl": ""
-      }
-    ],
-    "euPrices": [
-      {
-        "retailer": "egm",
-        "price": "209.99",
-        "cigarPrice": "£209.99",
-        "dutyVat": "£0.00",
-        "landedCost": "£210.99",
-        "savings": "£0.00",
-        "url": "https://egmcigars.com/en-gb/products/oliva-serie-v-melanio-figurado?_pos=1&_psq=Oliva+Serie+V+Melanio+Figurado&_ss=e&_v=1.0",
-        "boxPrice": "£209.99",
-        "previousBoxPrice": "£209.99",
-        "stock": "In Stock",
-        "boxUrl": "https://egmcigars.com/en-gb/products/oliva-serie-v-melanio-maduro-figurado?_pos=2&_psq=Oliva+Serie+V+Melanio+Figurado&_ss=e&_v=1.0"
-      }
-    ],
-    "weightGrams": 15.1,
-    "weightSource": "verified: Neptune Cigar"
-  },
-  {
-    "name": "My Father Le Bijou 1922 Torpedo Box Press",
-    "brand": "My Father",
-    "country": "Nicaragua",
-    "ringGauge": 52,
-    "lengthMm": 156,
-    "strength": "Full",
-    "imageUrl": "assets/cigars/my_father_le_bijou_1922_torpedo_box_press.png",
-    "boxQuantity": 23,
-    "ukPrices": [
-      {
-        "retailer": "cgars",
-        "price": "£46.99",
-        "previousPrice": "£46.99",
-        "stock": "In Stock",
-        "url": "https://www.cgarsltd.co.uk/father-bijou-1922-torpedo-box-pressed-cigar-single-p-28899.html",
-        "boxPrice": "£1009",
-        "previousBoxPrice": "£1009",
-        "boxUrl": "https://www.cgarsltd.co.uk/father-bijou-1922-torpedo-box-pressed-cigar-box-p-28900.html?keywords=My+Father+Le+Bijou+1922+Torpedo+Box+Press"
-      },
-      {
-        "retailer": "havanahouse",
-        "price": "",
-        "previousPrice": "",
-        "stock": "",
-        "url": "",
-        "boxPrice": "",
-        "previousBoxPrice": "",
-        "boxUrl": ""
-      },
-      {
-        "retailer": "simplycigars",
-        "price": "£49.78",
-        "previousPrice": "£49.78",
-        "stock": "In Stock",
-        "url": "https://www.simplycigars.co.uk/father-bijou-1922-torpedo-box-pressed-single-cigar-p-3911.html",
-        "boxPrice": "£1144.69",
-        "previousBoxPrice": "£1144.69",
-        "boxUrl": "https://www.simplycigars.co.uk/father-bijou-1922-torpedo-box-pressed-box-cigars-p-3910.html"
-      }
-    ],
-    "euPrices": [
-      {
-        "retailer": "egm",
-        "price": "",
-        "cigarPrice": "",
-        "dutyVat": "",
-        "landedCost": "",
-        "savings": "",
-        "url": "",
-        "boxPrice": "",
-        "previousBoxPrice": "",
-        "stock": "",
-        "boxUrl": ""
-      }
-    ],
-    "weightGrams": 90.6,
-    "weightSource": "estimated: size formula"
+
   },
   {
     "name": "Hoyo de Monterrey Epicure No. 2",
@@ -583,7 +420,7 @@
         "boxPrice": "£540.99",
         "previousBoxPrice": "£540.99",
         "stock": "In Stock",
-        "boxUrl": "https://egmcigars.com/en-gb/products/juan-lopez-seleccion-no-2-slb?variant=40248758763678"
+        "boxUrl": "https://egmcigars.com/en-gb/products/hoyo-de-monterrey-epicure-no-2-slb?variant=43519789508"
       }
     ],
     "weightGrams": 11.66,
@@ -1235,7 +1072,7 @@
         "boxUrl": ""
       }
     ],
-    "weightGrams": 91,
+    "weightGrams": 19.4,
     "weightSource": "estimated: size formula"
   },
   {
@@ -1388,10 +1225,10 @@
       },
       {
         "retailer": "simplycigars",
-        "price": "£68.66",
-        "previousPrice": "£68.66",
-        "stock": "In Stock",
-        "url": "https://www.simplycigars.co.uk/cohiba-medio-siglo-cigar-single-cigar-p-2136.html",
+        "price": "£",
+        "previousPrice": "£",
+        "stock": "",
+        "url": "",
         "boxPrice": "£813.97",
         "previousBoxPrice": "£813.97",
         "boxUrl": "https://www.simplycigars.co.uk/cohiba-siglo-box-cigars-p-1421.html"
@@ -1406,10 +1243,10 @@
         "landedCost": "",
         "savings": "",
         "url": "https://egmcigars.com/en-gb/products/cohiba-siglo-1-slb?variant=9061311840303",
-        "boxPrice": "£900.99",
-        "previousBoxPrice": "£900.99",
+        "boxPrice": "£614.99",
+        "previousBoxPrice": "£614.99",
         "stock": "In Stock",
-        "boxUrl": "https://egmcigars.com/en-gb/products/cohiba-siglo-2-slb?variant=43509978052"
+        "boxUrl": "https://egmcigars.com/en-gb/products/cohiba-siglo-1-slb?variant=784492593156"
       }
     ],
     "weightGrams": 5.91,
@@ -1465,9 +1302,9 @@
         "landedCost": "",
         "savings": "",
         "url": "https://egmcigars.com/en-gb/products/cohiba-siglo-4-slb?variant=9061352013871",
-        "boxPrice": "",
+        "boxPrice": "£1562.99",
         "previousBoxPrice": "£1562.99",
-        "stock": "£1562.99",
+        "stock": "In Stock",
         "boxUrl": "https://egmcigars.com/en-gb/products/cohiba-siglo-4-slb?_pos=1&_psq=Cohiba+Siglo+IV&_ss=e&_v=1.0"
       }
     ],
@@ -1760,13 +1597,13 @@
         "landedCost": "",
         "savings": "",
         "url": "https://egmcigars.com/en-gb/products/hoyo-de-monterrey-epicure-especial-slb?variant=40066445770910",
-        "boxPrice": "£1101.84",
-        "previousBoxPrice": "£800.99",
-        "stock": "£800.99",
+        "boxPrice": "£792.99",
+        "previousBoxPrice": "£792.99",
+        "stock": "In Stock",
         "boxUrl": "https://egmcigars.com/en-gb/products/hoyo-de-monterrey-epicure-especial-slb?_pos=1&_psq=Hoyo+de+Monterrey+Epicure+Especial&_ss=e&_v=1.0"
       }
     ],
-    "weightGrams": 13.30,
+    "weightGrams": 13.3,
     "weightSource": "estimated: size formula"
   },
   {
@@ -1990,14 +1827,14 @@
     "euPrices": [
       {
         "retailer": "egm",
-        "price": "£19.99",
-        "cigarPrice": "£19.99",
+        "price": "£18.99",
+        "cigarPrice": "£18.99",
         "dutyVat": "",
         "landedCost": "",
         "savings": "",
         "url": "https://egmcigars.com/en-gb/products/quai-dorsay-no-50-box-of-10-cigars?variant=42089474588929",
-        "boxPrice": "£532.99",
-        "previousBoxPrice": "£532.99",
+        "boxPrice": "£527.99",
+        "previousBoxPrice": "£527.99",
         "stock": "In Stock",
         "boxUrl": "https://egmcigars.com/en-gb/products/quai-dorsay-no-50-box-of-10-cigars?_pos=2&_psq=Quai+d%27Orsay+No.+50&_ss=e&_v=1.0"
       }
@@ -2243,10 +2080,10 @@
   },
   {
     "name": "Romeo y Julieta Belicosos",
-    "brand": "Romeo",
-    "country": "Unknown",
-    "ringGauge": 0,
-    "lengthMm": 0,
+    "brand": "Romeo y Julieta",
+    "country": "Cuba",
+    "ringGauge": 52,
+    "lengthMm": 140,
     "strength": "Medium",
     "imageUrl": "assets/cigars/romeo_y_julieta_belicosos.png",
     "boxQuantity": 25,
@@ -2474,7 +2311,7 @@
         "boxUrl": "https://egmcigars.com/en-gb/products/montecristo-open-regata?_pos=1&_psq=Montecristo+Open+Regata&_ss=e&_v=1.0"
       }
     ],
-    "weightGrams": 9.20,
+    "weightGrams": 9.2,
     "weightSource": "estimated: size formula"
   },
   {
@@ -2631,8 +2468,8 @@
         "previousPrice": "",
         "stock": "",
         "url": "",
-        "boxPrice": "£1369.03",
-        "previousBoxPrice": "£1369.03",
+        "boxPrice": "",
+        "previousBoxPrice": "",
         "boxUrl": ""
       }
     ],
@@ -3111,12 +2948,12 @@
     "euPrices": [
       {
         "retailer": "egm",
-        "price": "£6.99",
-        "cigarPrice": "£6.99",
+        "price": "",
+        "cigarPrice": "",
         "dutyVat": "",
         "landedCost": "",
         "savings": "",
-        "url": "https://www.simplycigars.co.uk/oliva-serie-maduro-robusto-p-2114.html",
+        "url": "",
         "boxPrice": "",
         "previousBoxPrice": "",
         "stock": "",
@@ -3713,7 +3550,7 @@
         "boxUrl": "https://egmcigars.com/en-gb/products/le-hoyo-du-depute-slb?_pos=1&_psq=Hoyo+de+Monterrey+Le+Hoyo+du+Depute&_ss=e&_v=1.0"
       }
     ],
-    "weightGrams": 5.80,
+    "weightGrams": 5.8,
     "weightSource": "estimated: size formula"
   },
   {
@@ -3890,7 +3727,7 @@
         "boxUrl": "https://egmcigars.com/en-gb/products/plasencia-alma-del-campo-sendero-cigar?_pos=1&_psq=Plasencia+Alma+del+Campo+Sendero&_ss=e&_v=1.0"
       }
     ],
-    "weightGrams": 104.9,
+    "weightGrams": 21,
     "weightSource": "estimated: size formula"
   },
   {
@@ -4069,65 +3906,7 @@
     ],
     "weightGrams": 18.3,
     "weightSource": "estimated: size formula"
-  },
-  {
-    "name": "Oliva Serie V Melanio Robusto",
-    "brand": "Oliva",
-    "country": "Nicaragua",
-    "ringGauge": 52,
-    "lengthMm": 127,
-    "strength": "Full",
-    "imageUrl": "assets/cigars/oliva_serie_v_robusto.png",
-    "boxQuantity": 24,
-    "ukPrices": [
-      {
-        "retailer": "cgars",
-        "price": "£31.99",
-        "previousPrice": "£31.99",
-        "stock": "In Stock",
-        "url": "https://www.cgarsltd.co.uk/oliva-serie-melanio-gran-reserva-robusto-cigar-single-p-13643.html?keywords=Melanio+Gran+Reserva+Robusto",
-        "boxPrice": "£308.99",
-        "previousBoxPrice": "£308.99",
-        "boxUrl": "https://www.cgarsltd.co.uk/oliva-serie-melanio-gran-reserva-robusto-cigar-box-p-13644.html"
-      },
-      {
-        "retailer": "havanahouse",
-        "price": "",
-        "previousPrice": "",
-        "stock": "",
-        "url": "",
-        "boxPrice": "",
-        "previousBoxPrice": "",
-        "boxUrl": ""
-      },
-      {
-        "retailer": "simplycigars",
-        "price": "£35.75",
-        "previousPrice": "£35.75",
-        "stock": "In Stock",
-        "url": "https://www.simplycigars.co.uk/oliva-serie-melanio-gran-reserva-robusto-cigar-single-p-4325.html",
-        "boxPrice": "£357.35",
-        "previousBoxPrice": "£357.35",
-        "boxUrl": "https://www.simplycigars.co.uk/oliva-serie-melanio-gran-reserva-maduro-robusto-cigar-box-p-4324.html?keywords=Oliva+Serie+V+Robust"
-      }
-    ],
-    "euPrices": [
-      {
-        "retailer": "egm",
-        "price": "",
-        "cigarPrice": "",
-        "dutyVat": "",
-        "landedCost": "",
-        "savings": "",
-        "url": "",
-        "boxPrice": "",
-        "previousBoxPrice": "",
-        "stock": "",
-        "boxUrl": ""
-      }
-    ],
-    "weightGrams": 13,
-    "weightSource": "verified: Neptune Cigar"
+ 
   },
   {
     "name": "Davidoff Nicaragua Toro",
@@ -4203,7 +3982,7 @@
         "price": "£27.99",
         "previousPrice": "£27.99",
         "stock": "In Stock",
-        "url": "https://www.cgarsltd.co.uk/",
+        "url": "https://www.cgarsltd.co.uk/arturo-fuente-don-carlos-cigar-single-p-10526.html?keywords=Arturo+Fuente+Don+Carlos+No++2",
         "boxPrice": "£669",
         "previousBoxPrice": "£669",
         "boxUrl": "https://www.cgarsltd.co.uk/arturo-fuente-don-carlos-cigar-box-p-13737.html?keywords=Arturo+Fuente+Don+Carlos+No++2"
@@ -4409,14 +4188,14 @@
     "euPrices": [
       {
         "retailer": "egm",
-        "price": "560.99",
-        "cigarPrice": "£560.99",
-        "dutyVat": "£0.00",
-        "landedCost": "£560.99",
-        "savings": "£0.00",
-        "url": "https://egmcigars.com/en-gb/products/davidoff-signature-6000-cigar?_pos=1&_psq=Davidoff+Signature+6000&_ss=e&_v=1.0",
-        "boxPrice": "£558.99",
-        "previousBoxPrice": "£558.99",
+        "price": "",
+        "cigarPrice": "",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": "",
+        "boxPrice": "£553.99",
+        "previousBoxPrice": "£553.99",
         "stock": "In Stock",
         "boxUrl": "https://egmcigars.com/en-gb/products/davidoff-signature-6000-cigar?_pos=1&_psq=Davidoff+Signature+6000&_ss=e&_v=1.0"
       }
@@ -4731,10 +4510,10 @@
     "ukPrices": [
       {
         "retailer": "cgars",
-        "price": "£41.99",
-        "previousPrice": "£41.99",
+        "price": "£34.49",
+        "previousPrice": "£34.49",
         "stock": "In Stock",
-        "url": "https://www.cgarsltd.co.uk/",
+        "url": "https://www.cgarsltd.co.uk/davidoff-signature-cigar-single-p-7334.html",
         "boxPrice": "£845",
         "previousBoxPrice": "£845",
         "boxUrl": "https://www.cgarsltd.co.uk/davidoff-signature-cigar-box-p-924.html?keywords=Davidoff+Signature+No+2"
@@ -5072,125 +4851,122 @@
     ],
     "weightGrams": 16.1,
     "weightSource": "verified: Neptune Cigar"
-
-},
-{
-  "name": "Davidoff Millennium Robusto",
-  "brand": "Davidoff",
-  "country": "Dominican Republic",
-  "ringGauge": 50,
-  "lengthMm": 133,
-  "strength": "Medium-Full",
-  "imageUrl": "assets/cigars/davidoff_millennium_blend_robusto.png",
-  "boxQuantity": 25,
-  "ukPrices": [
-    {
-      "retailer": "cgars",
-      "price": "££38.49",
-      "previousPrice": "££38.49",
-      "stock": "In Stock",
-      "url": "https://www.cgarsltd.co.uk/davidoff-millennium-robusto-cigar-single-p-58754.html?keywords=davidoff+millen",
-      "boxPrice": "£0.00",
-      "previousBoxPrice": "£0.00",
-      "boxUrl": ""
-    },
-    {
-      "retailer": "havanahouse",
-      "price": "£47.95",
-      "previousPrice": "£47.95",
-      "stock": "In Stock",
-      "url": "https://www.havanahouse.co.uk/product/davidoff-millennium-robusto-cigar-single/",
-      "boxPrice": "£0.00",
-      "previousBoxPrice": "£0.00",
-      "boxUrl": ""
-    },
-    {
-      "retailer": "simplycigars",
-      "price": "£0.00",
-      "previousPrice": "£0.00",
-      "stock": "Out of Stock",
-      "url": "",
-      "boxPrice": "£0.00",
-      "previousBoxPrice": "£0.00",
-      "boxUrl": ""
-    }
-  ],
-  "euPrices": [
-    {
-      "retailer": "egm",
-      "price": "£28.99",
-      "previousPrice": "£28.99",
-      "stock": "In Stock",
-      "url": "https://egmcigars.com/en-gb/products/davidoff-millennium-blend-robusto-cigar?variant=43848300462337",
-      "boxPrice": "££711.99",
-      "previousBoxPrice": "£711.99",
-      "boxUrl": "https://egmcigars.com/en-gb/products/davidoff-millennium-blend-robusto-cigar?variant=43085403324673"
+  },
+  {
+    "name": "Davidoff Millennium Robusto",
+    "brand": "Davidoff",
+    "country": "Dominican Republic",
+    "ringGauge": 50,
+    "lengthMm": 133,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/davidoff_millennium_blend_robusto.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "££38.49",
+        "previousPrice": "££38.49",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/davidoff-millennium-robusto-cigar-single-p-58754.html?keywords=davidoff+millen",
+        "boxPrice": "£0.00",
+        "previousBoxPrice": "£0.00",
+        "boxUrl": ""
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "£47.95",
+        "previousPrice": "£47.95",
+        "stock": "In Stock",
+        "url": "https://www.havanahouse.co.uk/product/davidoff-millennium-robusto-cigar-single/",
+        "boxPrice": "£0.00",
+        "previousBoxPrice": "£0.00",
+        "boxUrl": ""
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "£0.00",
+        "previousPrice": "£0.00",
+        "stock": "Out of Stock",
+        "url": "",
+        "boxPrice": "£0.00",
+        "previousBoxPrice": "£0.00",
+        "boxUrl": ""
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "£28.99",
+        "previousPrice": "£28.99",
+        "stock": "In Stock",
+        "url": "https://egmcigars.com/en-gb/products/davidoff-millennium-blend-robusto-cigar?variant=43848300462337",
+        "boxPrice": "££711.99",
+        "previousBoxPrice": "£711.99",
+        "boxUrl": "https://egmcigars.com/en-gb/products/davidoff-millennium-blend-robusto-cigar?variant=43085403324673"
       }
     ],
     "weightGrams": 13,
     "weightSource": ""
-
-},
-{
-  "name": "Zino Nicaragua Short Torpedo",
-  "brand": "Zino",
-  "country": "Nicaragua",
-  "ringGauge": 52,
-  "lengthMm": 102,
-  "strength": "Medium",
-  "imageUrl": "assets/cigars/zino_nicaragua_short_torpedo.png",
-  "boxQuantity": 25,
-  "ukPrices": [
-    {
-      "retailer": "cgars",
-      "price": "£14.99",
-      "previousPrice": "£14.99",
-      "stock": "In Stock",
-      "url": "https://www.cgarsltd.co.uk/zino-nicaragua-short-torpedo-cigar-single-p-55622.html?keywords=zino+torp",
-      "boxPrice": "£352.99",
-      "previousBoxPrice": "£352.99",
-      "boxUrl": "https://www.cgarsltd.co.uk/zino-nicaragua-short-torpedo-cigar-box-p-55623.html"
-    },
-    {
-      "retailer": "havanahouse",
-      "price": "£16.66",
-      "previousPrice": "£16.66",
-      "stock": "£16.66",
-      "url": "https://www.havanahouse.co.uk/product/zino-nicaragua-short-torpedo-cigar-single/",
-      "boxPrice": "£395",
-      "previousBoxPrice": "£395",
-      "boxUrl": "https://www.havanahouse.co.uk/product/zino-nicaragua-short-torpedo-cigar-box-of-25/"
-    },
-    {
-      "retailer": "simplycigars",
-      "price": "£15.76",
-      "previousPrice": "£15.76",
-      "stock": "In Stock",
-      "url": "https://www.simplycigars.co.uk/zino-nicaragua-short-torpedo-cigar-single-cigar-p-5047.html?keywords=zino+short+tor",
-      "boxPrice": "£393.89",
-      "previousBoxPrice": "£393.89",
-      "boxUrl": "https://www.simplycigars.co.uk/zino-nicaragua-short-torpedo-box-cigars-p-5048.html"
-    }
-  ],
-  "euPrices": [
-    {
-      "retailer": "egm",
-      "price": "£6.99",
-      "cigarPrice": "£6.99",
-      "dutyVat": "",
-      "landedCost": "",
-      "savings": "",
-      "url": "https://egmcigars.com/en-gb/products/zino-nicaragua-short-torpedo-cigars?variant=45625280987393",
-      "boxPrice": "£155.99",
-      "previousBoxPrice": "£155.99",
-      "stock": "In Stock",
-      "boxUrl": "https://egmcigars.com/en-gb/products/zino-nicaragua-short-torpedo-cigars?variant=45625280921857"
-    }
-  ],
-  "weightGrams": 12,
-  "weightSource": ""
-}
-  ,
+  },
+  {
+    "name": "Zino Nicaragua Short Torpedo",
+    "brand": "Zino",
+    "country": "Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 102,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/zino_nicaragua_short_torpedo.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "£14.99",
+        "previousPrice": "£14.99",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/zino-nicaragua-short-torpedo-cigar-single-p-55622.html?keywords=zino+torp",
+        "boxPrice": "£352.99",
+        "previousBoxPrice": "£352.99",
+        "boxUrl": "https://www.cgarsltd.co.uk/zino-nicaragua-short-torpedo-cigar-box-p-55623.html"
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "£16.66",
+        "previousPrice": "£16.66",
+        "stock": "£16.66",
+        "url": "https://www.havanahouse.co.uk/product/zino-nicaragua-short-torpedo-cigar-single/",
+        "boxPrice": "£395",
+        "previousBoxPrice": "£395",
+        "boxUrl": "https://www.havanahouse.co.uk/product/zino-nicaragua-short-torpedo-cigar-box-of-25/"
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "£15.76",
+        "previousPrice": "£15.76",
+        "stock": "In Stock",
+        "url": "https://www.simplycigars.co.uk/zino-nicaragua-short-torpedo-cigar-single-cigar-p-5047.html?keywords=zino+short+tor",
+        "boxPrice": "£393.89",
+        "previousBoxPrice": "£393.89",
+        "boxUrl": "https://www.simplycigars.co.uk/zino-nicaragua-short-torpedo-box-cigars-p-5048.html"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "£6.99",
+        "cigarPrice": "£6.99",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": "https://egmcigars.com/en-gb/products/zino-nicaragua-short-torpedo-cigars?variant=45625280987393",
+        "boxPrice": "£155.99",
+        "previousBoxPrice": "£155.99",
+        "stock": "In Stock",
+        "boxUrl": "https://egmcigars.com/en-gb/products/zino-nicaragua-short-torpedo-cigars?variant=45625280921857"
+      }
+    ],
+    "weightGrams": 12,
+    "weightSource": ""
+  },
   {
     "name": "Camacho Corojo Robusto",
     "brand": "Camacho",
@@ -5251,62 +5027,126 @@
     "weightSource": ""
   },
   {
-  "name": "Camacho Connecticut Toro",
-  "brand": "Camacho",
-  "country": "Honduras",
-  "ringGauge": 50,
-  "lengthMm": 152,
-  "strength": "Medium",
-  "imageUrl": "assets/cigars/camacho_connecticut_toro.png",
-  "boxQuantity": 20,
-  "ukPrices": [
-    {
-      "retailer": "cgars",
-      "price": "£25.99",
-      "previousPrice": "£25.99",
-      "stock": "In Stock",
-      "url": "https://www.cgarsltd.co.uk/camacho-connecticut-toro-cigar-single-p-59185.html?keywords=Camacho+Connecticut+",
-      "boxPrice": "£514",
-      "previousBoxPrice": "£514",
-      "boxUrl": "https://www.cgarsltd.co.uk/camacho-connecticut-toro-cigar-box-p-59186.html?keywords=Camacho+Connecticut+"
-    },
-    {
-      "retailer": "havanahouse",
-      "price": "£24.16",
-      "previousPrice": "£24.16",
-      "stock": "In Stock",
-      "url": "https://www.havanahouse.co.uk/product/camacho-connecticut-toro-cigar-single/",
-      "boxPrice": "£483",
-      "previousBoxPrice": "£483",
-      "boxUrl": "https://www.havanahouse.co.uk/product/camacho-connecticut-toro-cigar-box-of-20/"
-    },
-    {
-      "retailer": "simplycigars",
-      "price": "TODO",
-      "previousPrice": "TODO",
-      "stock": "In Stock",
-      "url": "TODO",
-      "boxPrice": "TODO",
-      "previousBoxPrice": "TODO",
-      "boxUrl": "TODO"
-    }
-  ],
-  "euPrices": [
-    {
-      "retailer": "egm",
-      "price": "£9.99",
-      "cigarPrice": "£9.99",
-      "dutyVat": "",
-      "landedCost": "",
-      "savings": "",
-      "url": "https://egmcigars.com/en-gb/products/camacho-connecticut-toro-cello-20s?variant=45166262288641",
-      "boxPrice": "£182.99",
-      "previousBoxPrice": "£182.99",
-      "stock": "In Stock",
-      "boxUrl": "https://egmcigars.com/en-gb/products/camacho-connecticut-toro-cello-20s?variant=45166262223105"
-    }
-  ],
-  "weightGrams": 14.58,
-  "weightSource": ""
+    "name": "Camacho Connecticut Toro",
+    "brand": "Camacho",
+    "country": "Honduras",
+    "ringGauge": 50,
+    "lengthMm": 152,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/camacho_connecticut_toro.png",
+    "boxQuantity": 20,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "£25.99",
+        "previousPrice": "£25.99",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/camacho-connecticut-toro-cigar-single-p-59185.html?keywords=Camacho+Connecticut+",
+        "boxPrice": "£514",
+        "previousBoxPrice": "£514",
+        "boxUrl": "https://www.cgarsltd.co.uk/camacho-connecticut-toro-cigar-box-p-59186.html?keywords=Camacho+Connecticut+"
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "£24.16",
+        "previousPrice": "£24.16",
+        "stock": "In Stock",
+        "url": "https://www.havanahouse.co.uk/product/camacho-connecticut-toro-cigar-single/",
+        "boxPrice": "£483",
+        "previousBoxPrice": "£483",
+        "boxUrl": "https://www.havanahouse.co.uk/product/camacho-connecticut-toro-cigar-box-of-20/"
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "TODO",
+        "previousPrice": "TODO",
+        "stock": "In Stock",
+        "url": "TODO",
+        "boxPrice": "TODO",
+        "previousBoxPrice": "TODO",
+        "boxUrl": "TODO"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "£9.99",
+        "cigarPrice": "£9.99",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": "https://egmcigars.com/en-gb/products/camacho-connecticut-toro-cello-20s?variant=45166262288641",
+        "boxPrice": "£182.99",
+        "previousBoxPrice": "£182.99",
+        "stock": "In Stock",
+        "boxUrl": "https://egmcigars.com/en-gb/products/camacho-connecticut-toro-cello-20s?variant=45166262223105"
+      }
+    ],
+    "weightGrams": 14.58,
+    "weightSource": ""
+  },
+  
+  {
+    "name": "Plasencia Alma Fuerte Nestor IV Toro",
+    "brand": "Plasencia",
+    "country": "Nicaragua",
+    "ringGauge": 54,
+    "lengthMm": 159,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/plasencia_alma_fuerte_nestor_iv_toro.png",
+    "boxQuantity": 10,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "£33.49",
+        "previousPrice": "£33.49",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/plasencia-alma-fuerte-nestor-toro-cigar-single-p-32499.html?keywords=lasencia+Alma+Fuerte+Nestor+IV+Toro",
+        "boxPrice": "£324.99",
+        "previousBoxPrice": "£324.99",
+        "boxUrl": "https://www.cgarsltd.co.uk/plasencia-alma-fuerte-nestor-toro-cigar-box-p-32500.html"
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "£30.80",
+        "previousPrice": "£30.80",
+        "stock": "In Stock",
+        "url": "https://www.havanahouse.co.uk/product/plasencia-alma-fuerte-nestor-iv-toro-cigar-single/",
+        "boxPrice": "£308.05",
+        "previousBoxPrice": "£308.05",
+        "boxUrl": "https://www.havanahouse.co.uk/product/plasencia-alma-fuerte-nestor-iv-toro-cigar-box-of-10-2/"
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "TODO",
+        "previousPrice": "TODO",
+        "stock": "In Stock",
+        "url": "TODO",
+        "boxPrice": "TODO",
+        "previousBoxPrice": "TODO",
+        "boxUrl": "TODO"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "£18.99",
+        "cigarPrice": "£18.99",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": "https://egmcigars.com/en-gb/products/plasencia-alma-fuerte-nestor-iv-cigar?variant=43665359274241",
+        "boxPrice": "£188.99",
+        "previousBoxPrice": "£188.99",
+        "stock": "In Stock",
+        "boxUrl": "https://egmcigars.com/en-gb/products/plasencia-alma-fuerte-nestor-iv-cigar?variant=43665359307009"
+      }
+    ],
+    "weightGrams": 0,
+    "weightSource": "15.5"
+  
   }
 ]
+  
+
+
