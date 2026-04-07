@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import 'services/purchase_service.dart';
 import 'services/watchlist_service.dart';
@@ -31,6 +32,27 @@ Future<void> main() async {
   );
 }
 
+const String _herfStationPlayStoreUrl =
+    'https://play.google.com/store/apps/details?id=com.vantalabs.herf_station';
+
+Future<void> _openHerfStation() async {
+  final appUri = Uri.parse('herfstation://open');
+  final storeUri = Uri.parse(_herfStationPlayStoreUrl);
+
+  try {
+    final opened = await launchUrl(
+      appUri,
+      mode: LaunchMode.externalNonBrowserApplication,
+    );
+    if (opened) return;
+  } catch (_) {}
+
+  await launchUrl(
+    storeUri,
+    mode: LaunchMode.externalApplication,
+  );
+}
+
 class CigarLedgerApp extends StatelessWidget {
   const CigarLedgerApp({super.key});
 
@@ -59,7 +81,56 @@ class _AppShellState extends State<AppShell> {
   Widget build(BuildContext context) {
     final screens = [
       const SearchScreen(),
-      const TopDealsScreen(),
+      Column(
+        children: [
+          Expanded(child: const TopDealsScreen()),
+          Padding(
+            padding: const EdgeInsets.fromLTRB(16, 0, 16, 16),
+            child: GestureDetector(
+              onTap: _openHerfStation,
+              child: Container(
+                width: double.infinity,
+                padding: const EdgeInsets.all(16),
+                decoration: BoxDecoration(
+                  color: const Color(0xFF141414),
+                  borderRadius: BorderRadius.circular(20),
+                  border: Border.all(color: const Color(0x33D4AF37)),
+                ),
+                child: const Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      'Smoke it with others?',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 15,
+                        fontWeight: FontWeight.w700,
+                      ),
+                    ),
+                    SizedBox(height: 6),
+                    Text(
+                      'Join a live lounge on Herf Station.',
+                      style: TextStyle(
+                        color: Colors.white70,
+                        fontSize: 13,
+                      ),
+                    ),
+                    SizedBox(height: 10),
+                    Text(
+                      'Open Herf Station →',
+                      style: TextStyle(
+                        color: Color(0xFFD4AF37),
+                        fontSize: 14,
+                        fontWeight: FontWeight.w700,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ),
+        ],
+      ),
       const WatchlistScreen(),
       const PremiumScreen(),
     ];

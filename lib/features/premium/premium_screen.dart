@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '../../core/theme/app_theme.dart';
 import '../../services/purchase_service.dart';
 
 class PremiumScreen extends StatelessWidget {
@@ -14,26 +15,29 @@ class PremiumScreen extends StatelessWidget {
     final isAvailable = purchaseService.isAvailable;
     final isPremium = purchaseService.isPremium;
     final hasProProduct = purchaseService.proProduct != null;
+    final canBuy = !isLoading && !isPremium && isAvailable && hasProProduct;
 
-    String buttonText;
-    VoidCallback? onPressed;
+    final helperText = isPremium
+        ? 'Exact UK vs EU comparison, landed costs, and full deal rankings are ready.'
+        : isLoading
+            ? 'Checking Pro access now.'
+            : !isAvailable
+                ? 'Store connection is unavailable right now.'
+                : !hasProProduct
+                    ? 'Pro unlock is not available right now.'
+                    : '${purchaseService.proPriceLabel} per year. Exact UK vs EU comparison, landed costs, and full deal rankings.';
 
-    if (isLoading) {
-      buttonText = 'Loading...';
-      onPressed = null;
-    } else if (isPremium) {
-      buttonText = 'Pro unlocked';
-      onPressed = null;
-    } else if (!isAvailable) {
-      buttonText = 'Billing unavailable';
-      onPressed = null;
-    } else if (!hasProProduct) {
-      buttonText = 'Pro unlock unavailable';
-      onPressed = null;
-    } else {
-      buttonText = 'Unlock Pro';
-      onPressed = purchaseService.buyProUnlock;
-    }
+    final buttonText = isLoading
+        ? 'Loading...'
+        : isPremium
+            ? 'Pro unlocked'
+            : !isAvailable
+                ? 'Billing unavailable'
+                : !hasProProduct
+                    ? 'Pro unlock unavailable'
+                    : 'Unlock Pro';
+
+    final VoidCallback? onPressed = canBuy ? purchaseService.buyProUnlock : null;
 
     return Scaffold(
       backgroundColor: Colors.black,
@@ -53,157 +57,60 @@ class PremiumScreen extends StatelessWidget {
           padding: const EdgeInsets.all(20),
           children: [
             const SizedBox(height: 10),
-            Container(
-              padding: const EdgeInsets.all(22),
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(24),
-                gradient: const LinearGradient(
-                  colors: [
-                    Color(0xF0141416),
-                    Color(0xEE0E0E10),
-                  ],
-                ),
-                border: Border.all(color: const Color(0x66D4AF37)),
-                boxShadow: [
-                  BoxShadow(
-                    color: Colors.black.withOpacity(0.35),
-                    blurRadius: 22,
-                    offset: const Offset(0, 12),
-                  ),
-                ],
-              ),
-              child: const Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    'Unlock Pro Mode',
-                    style: TextStyle(
-                      fontSize: 26,
-                      fontWeight: FontWeight.w900,
-                      color: Colors.white,
-                    ),
-                  ),
-                  SizedBox(height: 10),
-                  Text(
-                    'See the real cheapest buying route instantly — UK vs EU landed with exact savings.',
-                    style: TextStyle(
-                      color: Colors.white70,
-                      height: 1.4,
-                      fontSize: 14,
-                    ),
-                  ),
-                ],
-              ),
-            ),
-            const SizedBox(height: 30),
+            const _PremiumHero(),
+            const SizedBox(height: 24),
             const Text(
               'WHAT PRO UNLOCKS',
               style: TextStyle(
-                color: Color(0xFFD4AF37),
-                fontWeight: FontWeight.bold,
-                letterSpacing: 1.2,
+                color: AppColors.gold,
+                fontWeight: FontWeight.w800,
+                letterSpacing: 1.0,
               ),
             ),
-            const SizedBox(height: 16),
-            _feature(
+            const SizedBox(height: 14),
+            const _FeatureCard(
               icon: Icons.compare_arrows_rounded,
               title: 'Exact UK vs EU comparison',
               text:
-                  'See the actual imported price, not just a hint that import might be cheaper.',
+                  'See the actual imported route clearly instead of only a hint that Europe may be cheaper.',
             ),
-            _feature(
+            const _FeatureCard(
               icon: Icons.savings_outlined,
               title: 'Real landed savings',
               text:
-                  'Unlock duty, VAT, each savings, and full box-value views before you buy.',
+                  'Unlock duty, VAT, each savings, and stronger box-value context before you buy.',
             ),
-            _feature(
+            const _FeatureCard(
               icon: Icons.local_fire_department_outlined,
               title: 'Full deal rankings',
               text:
-                  'See the strongest box and single opportunities across the catalogue.',
+                  'See the strongest single and box opportunities across the catalogue.',
             ),
-            const SizedBox(height: 30),
-            Container(
-              padding: const EdgeInsets.all(18),
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(18),
-                color: const Color(0xFF121212),
-                border: Border.all(
-                  color: const Color(0xFFD4AF37).withOpacity(0.3),
-                ),
-              ),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    purchaseService.proPriceLabel,
-                    style: const TextStyle(
-                      color: Colors.white,
-                      fontSize: 22,
-                      fontWeight: FontWeight.w800,
-                    ),
-                  ),
-                  const SizedBox(height: 8),
-                  const Text(
-                    'Annual subscription unlocks the full comparison experience inside Cigar Ledger.',
-                    style: TextStyle(
-                      color: Colors.white70,
-                      height: 1.4,
-                      fontSize: 14,
-                    ),
-                  ),
-                ],
-              ),
-            ),
-            const SizedBox(height: 22),
-            ElevatedButton(
+            const SizedBox(height: 16),
+            _CtaCard(
+              isPremium: isPremium,
+              isLoading: isLoading,
+              canBuy: canBuy,
+              helperText: helperText,
+              buttonText: buttonText,
               onPressed: onPressed,
-              style: ElevatedButton.styleFrom(
-                backgroundColor: const Color(0xFFD4AF37),
-                foregroundColor: Colors.black,
-                disabledBackgroundColor:
-                    const Color(0xFFD4AF37).withOpacity(0.4),
-                disabledForegroundColor: Colors.white70,
-                padding: const EdgeInsets.symmetric(vertical: 18),
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(40),
-                ),
-                elevation: 8,
-              ),
-              child: isLoading
-                  ? const SizedBox(
-                      height: 18,
-                      width: 18,
-                      child: CircularProgressIndicator(
-                        strokeWidth: 2.2,
-                        valueColor:
-                            AlwaysStoppedAnimation<Color>(Colors.black),
-                      ),
-                    )
-                  : Text(
-                      buttonText,
-                      style: const TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontSize: 16,
-                      ),
-                    ),
             ),
             const SizedBox(height: 26),
             if (purchaseService.hasAnySupportProducts) ...[
+              const SizedBox(height: 10),
               const Text(
                 'OPTIONAL SUPPORT',
                 style: TextStyle(
-                  color: Color(0xFFD4AF37),
-                  fontWeight: FontWeight.bold,
-                  letterSpacing: 1.2,
+                  color: AppColors.gold,
+                  fontWeight: FontWeight.w800,
+                  letterSpacing: 1.0,
                 ),
               ),
               const SizedBox(height: 14),
-              _supportTile(
+              _SupportTile(
                 title: 'Buy me a coffee',
                 subtitle:
-                    'If this app saved you money, this is a simple way to say thanks.',
+                    'If Cigar Ledger saved you money, this is a simple way to say thanks.',
                 price: purchaseService.supportMediumPriceLabel,
                 onTap: purchaseService.buySupportMedium,
               ),
@@ -223,21 +130,216 @@ class PremiumScreen extends StatelessWidget {
       ),
     );
   }
+}
 
-  static Widget _feature({
-    required IconData icon,
-    required String title,
-    required String text,
-  }) {
+class _PremiumHero extends StatelessWidget {
+  const _PremiumHero();
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.all(22),
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(24),
+        gradient: const LinearGradient(
+          colors: [
+            Color(0xF0141416),
+            Color(0xEE0E0E10),
+          ],
+        ),
+        border: Border.all(color: const Color(0x66D4AF37)),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withOpacity(0.35),
+            blurRadius: 22,
+            offset: const Offset(0, 12),
+          ),
+        ],
+      ),
+      child: const Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            'Unlock Pro Mode',
+            style: TextStyle(
+              fontSize: 26,
+              fontWeight: FontWeight.w900,
+              color: Colors.white,
+            ),
+          ),
+          SizedBox(height: 10),
+          Text(
+            'See the real cheapest buying route instantly — UK vs EU landed with exact savings.',
+            style: TextStyle(
+              color: Colors.white70,
+              height: 1.4,
+              fontSize: 14,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _CtaCard extends StatelessWidget {
+  final bool isPremium;
+  final bool isLoading;
+  final bool canBuy;
+  final String helperText;
+  final String buttonText;
+  final VoidCallback? onPressed;
+
+  const _CtaCard({
+    required this.isPremium,
+    required this.isLoading,
+    required this.canBuy,
+    required this.helperText,
+    required this.buttonText,
+    required this.onPressed,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.all(20),
+      decoration: BoxDecoration(
+        color: AppColors.card,
+        borderRadius: BorderRadius.circular(24),
+        border: Border.all(
+          color: isPremium
+              ? AppColors.borderGoldMedium
+              : AppColors.borderGoldSoft,
+        ),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            isPremium ? 'Pro' : 'Unlock Pro Access',
+            style: const TextStyle(
+              color: Colors.white,
+              fontSize: 18,
+              fontWeight: FontWeight.w800,
+            ),
+          ),
+          const SizedBox(height: 10),
+          Text(
+            helperText,
+            style: const TextStyle(
+              color: Colors.white70,
+              fontSize: 13.5,
+              height: 1.45,
+            ),
+          ),
+          const SizedBox(height: 16),
+          if (isPremium)
+            Container(
+              width: double.infinity,
+              padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 14),
+              decoration: BoxDecoration(
+                color: const Color(0xFF121212),
+                borderRadius: BorderRadius.circular(18),
+                border: Border.all(color: AppColors.borderGoldSoft),
+              ),
+              child: const Row(
+                children: [
+                  Icon(
+                    Icons.verified,
+                    color: AppColors.gold,
+                    size: 20,
+                  ),
+                  SizedBox(width: 10),
+                  Expanded(
+                    child: Text(
+                      'Pro Active',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 15,
+                        fontWeight: FontWeight.w800,
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            )
+          else
+            SizedBox(
+              width: double.infinity,
+              height: 56,
+              child: DecoratedBox(
+                decoration: BoxDecoration(
+                  gradient: canBuy
+                      ? const LinearGradient(
+                          colors: [
+                            Color(0xFFD4AF37),
+                            Color(0xFFB8962E),
+                          ],
+                        )
+                      : null,
+                  color: canBuy ? null : const Color(0xFF1A1A1A),
+                  borderRadius: const BorderRadius.all(Radius.circular(18)),
+                  border: canBuy
+                      ? null
+                      : Border.all(color: AppColors.borderGoldSoft),
+                ),
+                child: ElevatedButton(
+                  onPressed: onPressed,
+                  style: ElevatedButton.styleFrom(
+                    elevation: 0,
+                    backgroundColor: Colors.transparent,
+                    shadowColor: Colors.transparent,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(18),
+                    ),
+                  ),
+                  child: isLoading
+                      ? const SizedBox(
+                          height: 18,
+                          width: 18,
+                          child: CircularProgressIndicator(
+                            strokeWidth: 2.2,
+                            valueColor:
+                                AlwaysStoppedAnimation<Color>(Colors.white70),
+                          ),
+                        )
+                      : Text(
+                          buttonText,
+                          style: TextStyle(
+                            color: canBuy ? Colors.black : Colors.white70,
+                            fontSize: 16,
+                            fontWeight: FontWeight.w800,
+                          ),
+                        ),
+                ),
+              ),
+            ),
+        ],
+      ),
+    );
+  }
+}
+
+class _FeatureCard extends StatelessWidget {
+  final IconData icon;
+  final String title;
+  final String text;
+
+  const _FeatureCard({
+    required this.icon,
+    required this.title,
+    required this.text,
+  });
+
+  @override
+  Widget build(BuildContext context) {
     return Container(
       margin: const EdgeInsets.only(bottom: 16),
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(16),
+        borderRadius: BorderRadius.circular(18),
         color: const Color(0xFF121212),
-        border: Border.all(
-          color: const Color(0xFFD4AF37).withOpacity(0.3),
-        ),
+        border: Border.all(color: AppColors.borderGoldSoft),
       ),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -246,11 +348,11 @@ class PremiumScreen extends StatelessWidget {
             padding: const EdgeInsets.all(10),
             decoration: BoxDecoration(
               shape: BoxShape.circle,
-              color: const Color(0xFFD4AF37).withOpacity(0.2),
+              color: const Color(0xFFD4AF37).withOpacity(0.16),
             ),
             child: Icon(
               icon,
-              color: const Color(0xFFD4AF37),
+              color: AppColors.gold,
             ),
           ),
           const SizedBox(width: 14),
@@ -261,7 +363,7 @@ class PremiumScreen extends StatelessWidget {
                 Text(
                   title,
                   style: const TextStyle(
-                    fontWeight: FontWeight.bold,
+                    fontWeight: FontWeight.w800,
                     color: Colors.white,
                     fontSize: 16,
                   ),
@@ -282,26 +384,33 @@ class PremiumScreen extends StatelessWidget {
       ),
     );
   }
+}
 
-  static Widget _supportTile({
-    required String title,
-    required String subtitle,
-    required String price,
-    required VoidCallback onTap,
-  }) {
+class _SupportTile extends StatelessWidget {
+  final String title;
+  final String subtitle;
+  final String price;
+  final VoidCallback onTap;
+
+  const _SupportTile({
+    required this.title,
+    required this.subtitle,
+    required this.price,
+    required this.onTap,
+  });
+
+  @override
+  Widget build(BuildContext context) {
     return Container(
       margin: const EdgeInsets.only(bottom: 12),
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(16),
+        borderRadius: BorderRadius.circular(18),
         color: const Color(0xFF121212),
-        border: Border.all(
-          color: const Color(0x33D4AF37),
-        ),
+        border: Border.all(color: AppColors.borderGoldSoft),
       ),
       child: ListTile(
         onTap: onTap,
-        contentPadding:
-            const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
+        contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
         title: Text(
           title,
           style: const TextStyle(
@@ -322,7 +431,7 @@ class PremiumScreen extends StatelessWidget {
         trailing: Text(
           price,
           style: const TextStyle(
-            color: Color(0xFFD4AF37),
+            color: AppColors.gold,
             fontWeight: FontWeight.w800,
             fontSize: 15,
           ),
