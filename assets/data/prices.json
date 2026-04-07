@@ -4907,7 +4907,245 @@
     ],
     "weightGrams": 13,
     "weightSource": ""
+ 
   },
+  
+  {
+    "name": "Plasencia Alma Fuerte Nestor IV Toro",
+    "brand": "Plasencia",
+    "country": "Nicaragua",
+    "ringGauge": 54,
+    "lengthMm": 159,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/plasencia_alma_fuerte_nestor_iv_toro.png",
+    "boxQuantity": 10,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "£33.49",
+        "previousPrice": "£33.49",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/plasencia-alma-fuerte-nestor-toro-cigar-single-p-32499.html?keywords=lasencia+Alma+Fuerte+Nestor+IV+Toro",
+        "boxPrice": "£324.99",
+        "previousBoxPrice": "£324.99",
+        "boxUrl": "https://www.cgarsltd.co.uk/plasencia-alma-fuerte-nestor-toro-cigar-box-p-32500.html"
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "£30.80",
+        "previousPrice": "£30.80",
+        "stock": "In Stock",
+        "url": "https://www.havanahouse.co.uk/product/plasencia-alma-fuerte-nestor-iv-toro-cigar-single/",
+        "boxPrice": "£308.05",
+        "previousBoxPrice": "£308.05",
+        "boxUrl": "https://www.havanahouse.co.uk/product/plasencia-alma-fuerte-nestor-iv-toro-cigar-box-of-10-2/"
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "TODO",
+        "previousPrice": "TODO",
+        "stock": "In Stock",
+        "url": "TODO",
+        "boxPrice": "TODO",
+        "previousBoxPrice": "TODO",
+        "boxUrl": "TODO"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "£18.99",
+        "cigarPrice": "£18.99",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": "https://egmcigars.com/en-gb/products/plasencia-alma-fuerte-nestor-iv-cigar?variant=43665359274241",
+        "boxPrice": "£188.99",
+        "previousBoxPrice": "£188.99",
+        "stock": "In Stock",
+        "boxUrl": "https://egmcigars.com/en-gb/products/plasencia-alma-fuerte-nestor-iv-cigar?variant=43665359307009"
+      }
+    ],
+    "weightGrams": 0,
+    "weightSource": "15.5"
+  
+   },
+  {
+    "name": "Zino Nicaragua Short Torpedo",
+    "brand": "Zino",
+    "country": "Nicaragua",
+    "ringGauge": 52,
+    "lengthMm": 102,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/zino_nicaragua_short_torpedo.png",
+    "boxQuantity": 25,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "£14.99",
+        "previousPrice": "£14.99",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/zino-nicaragua-short-torpedo-cigar-single-p-55622.html?keywords=zino+torp",
+        "boxPrice": "£352.99",
+        "previousBoxPrice": "£352.99",
+        "boxUrl": "https://www.cgarsltd.co.uk/zino-nicaragua-short-torpedo-cigar-box-p-55623.html"
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "£16.66",
+        "previousPrice": "£16.66",
+        "stock": "£16.66",
+        "url": "https://www.havanahouse.co.uk/product/zino-nicaragua-short-torpedo-cigar-single/",
+        "boxPrice": "£395",
+        "previousBoxPrice": "£395",
+        "boxUrl": "https://www.havanahouse.co.uk/product/zino-nicaragua-short-torpedo-cigar-box-of-25/"
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "£15.76",
+        "previousPrice": "£15.76",
+        "stock": "In Stock",
+        "url": "https://www.simplycigars.co.uk/zino-nicaragua-short-torpedo-cigar-single-cigar-p-5047.html?keywords=zino+short+tor",
+        "boxPrice": "£393.89",
+        "previousBoxPrice": "£393.89",
+        "boxUrl": "https://www.simplycigars.co.uk/zino-nicaragua-short-torpedo-box-cigars-p-5048.html"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "£6.99",
+        "cigarPrice": "£6.99",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": "https://egmcigars.com/en-gb/products/zino-nicaragua-short-torpedo-cigars?variant=45625280987393",
+        "boxPrice": "£155.99",
+        "previousBoxPrice": "£155.99",
+        "stock": "In Stock",
+        "boxUrl": "https://egmcigars.com/en-gb/products/zino-nicaragua-short-torpedo-cigars?variant=45625280921857"
+      }
+    ],
+    "weightGrams": 12,
+    "weightSource": ""
+  },
+  {
+    "name": "Camacho Corojo Robusto",
+    "brand": "Camacho",
+    "country": "Honduras",
+    "ringGauge": 50,
+    "lengthMm": 127,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/camacho_corojo_robusto.png",
+    "boxQuantity": 20,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "£22.69",
+        "previousPrice": "£22.69",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/camacho-corojo-robusto-cigar-single-p-49800.html?keywords=camacho",
+        "boxPrice": "£449",
+        "previousBoxPrice": "£449",
+        "boxUrl": "https://www.cgarsltd.co.uk/camacho-corojo-robusto-cigar-box-p-49801.html"
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "£20.95",
+        "previousPrice": "£20.95",
+        "stock": "In Stock",
+        "url": "https://www.havanahouse.co.uk/product/camacho-corojo-robusto-cigar-single/",
+        "boxPrice": "£410",
+        "previousBoxPrice": "£410",
+        "boxUrl": "https://www.havanahouse.co.uk/product/camacho-corojo-robusto-cigar-box-of-20/"
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "£22.49",
+        "previousPrice": "£22.49",
+        "stock": "In Stock",
+        "url": "https://www.simplycigars.co.uk/camacho-corojo-robusto-cigar-single-cigar-p-4533.html",
+        "boxPrice": "£445.600",
+        "previousBoxPrice": "£445.60",
+        "boxUrl": "https://www.simplycigars.co.uk/camacho-corojo-robusto-cigar-box-cigars-p-3360.html"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "£8.99",
+        "cigarPrice": "£8.99",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": "https://egmcigars.com/en-gb/products/camacho-corojo-robusto-cello-20s?variant=45166262976769",
+        "boxPrice": "£165.99",
+        "previousBoxPrice": "£165.99",
+        "stock": "In Stock",
+        "boxUrl": "https://egmcigars.com/en-gb/products/camacho-corojo-robusto-cello-20s?variant=45166262911233"
+      }
+    ],
+    "weightGrams": 4.5,
+    "weightSource": ""
+  },
+  {
+    "name": "Camacho Connecticut Toro",
+    "brand": "Camacho",
+    "country": "Honduras",
+    "ringGauge": 50,
+    "lengthMm": 152,
+    "strength": "Medium",
+    "imageUrl": "assets/cigars/camacho_connecticut_toro.png",
+    "boxQuantity": 20,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "£25.99",
+        "previousPrice": "£25.99",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/camacho-connecticut-toro-cigar-single-p-59185.html?keywords=Camacho+Connecticut+",
+        "boxPrice": "£514",
+        "previousBoxPrice": "£514",
+        "boxUrl": "https://www.cgarsltd.co.uk/camacho-connecticut-toro-cigar-box-p-59186.html?keywords=Camacho+Connecticut+"
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "£24.16",
+        "previousPrice": "£24.16",
+        "stock": "In Stock",
+        "url": "https://www.havanahouse.co.uk/product/camacho-connecticut-toro-cigar-single/",
+        "boxPrice": "£483",
+        "previousBoxPrice": "£483",
+        "boxUrl": "https://www.havanahouse.co.uk/product/camacho-connecticut-toro-cigar-box-of-20/"
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "TODO",
+        "previousPrice": "TODO",
+        "stock": "In Stock",
+        "url": "TODO",
+        "boxPrice": "TODO",
+        "previousBoxPrice": "TODO",
+        "boxUrl": "TODO"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "£9.99",
+        "cigarPrice": "£9.99",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": "https://egmcigars.com/en-gb/products/camacho-connecticut-toro-cello-20s?variant=45166262288641",
+        "boxPrice": "£182.99",
+        "previousBoxPrice": "£182.99",
+        "stock": "In Stock",
+        "boxUrl": "https://egmcigars.com/en-gb/products/camacho-connecticut-toro-cello-20s?variant=45166262223105"
+      }
+    ],
+    "weightGrams": 14.58,
+    "weightSource": "" },
   {
     "name": "Zino Nicaragua Short Torpedo",
     "brand": "Zino",
@@ -5084,69 +5322,5 @@
     ],
     "weightGrams": 14.58,
     "weightSource": ""
-  },
-  
-  {
-    "name": "Plasencia Alma Fuerte Nestor IV Toro",
-    "brand": "Plasencia",
-    "country": "Nicaragua",
-    "ringGauge": 54,
-    "lengthMm": 159,
-    "strength": "Medium-Full",
-    "imageUrl": "assets/cigars/plasencia_alma_fuerte_nestor_iv_toro.png",
-    "boxQuantity": 10,
-    "ukPrices": [
-      {
-        "retailer": "cgars",
-        "price": "£33.49",
-        "previousPrice": "£33.49",
-        "stock": "In Stock",
-        "url": "https://www.cgarsltd.co.uk/plasencia-alma-fuerte-nestor-toro-cigar-single-p-32499.html?keywords=lasencia+Alma+Fuerte+Nestor+IV+Toro",
-        "boxPrice": "£324.99",
-        "previousBoxPrice": "£324.99",
-        "boxUrl": "https://www.cgarsltd.co.uk/plasencia-alma-fuerte-nestor-toro-cigar-box-p-32500.html"
-      },
-      {
-        "retailer": "havanahouse",
-        "price": "£30.80",
-        "previousPrice": "£30.80",
-        "stock": "In Stock",
-        "url": "https://www.havanahouse.co.uk/product/plasencia-alma-fuerte-nestor-iv-toro-cigar-single/",
-        "boxPrice": "£308.05",
-        "previousBoxPrice": "£308.05",
-        "boxUrl": "https://www.havanahouse.co.uk/product/plasencia-alma-fuerte-nestor-iv-toro-cigar-box-of-10-2/"
-      },
-      {
-        "retailer": "simplycigars",
-        "price": "TODO",
-        "previousPrice": "TODO",
-        "stock": "In Stock",
-        "url": "TODO",
-        "boxPrice": "TODO",
-        "previousBoxPrice": "TODO",
-        "boxUrl": "TODO"
-      }
-    ],
-    "euPrices": [
-      {
-        "retailer": "egm",
-        "price": "£18.99",
-        "cigarPrice": "£18.99",
-        "dutyVat": "",
-        "landedCost": "",
-        "savings": "",
-        "url": "https://egmcigars.com/en-gb/products/plasencia-alma-fuerte-nestor-iv-cigar?variant=43665359274241",
-        "boxPrice": "£188.99",
-        "previousBoxPrice": "£188.99",
-        "stock": "In Stock",
-        "boxUrl": "https://egmcigars.com/en-gb/products/plasencia-alma-fuerte-nestor-iv-cigar?variant=43665359307009"
-      }
-    ],
-    "weightGrams": 0,
-    "weightSource": "15.5"
-  
   }
 ]
-  
-
-
