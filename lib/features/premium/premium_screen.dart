@@ -1,8 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../../core/theme/app_theme.dart';
 import '../../services/purchase_service.dart';
+
+const String _cigarLedgerPlayStoreUrl =
+    'https://play.google.com/store/apps/details?id=com.aaronsapps.cigarledger';
+
+Future<void> _openCigarLedgerReview() async {
+  final storeUri = Uri.parse(_cigarLedgerPlayStoreUrl);
+
+  await launchUrl(
+    storeUri,
+    mode: LaunchMode.externalApplication,
+  );
+}
 
 class PremiumScreen extends StatelessWidget {
   const PremiumScreen({super.key});
@@ -96,17 +109,23 @@ class PremiumScreen extends StatelessWidget {
               onPressed: onPressed,
             ),
             const SizedBox(height: 26),
-            if (purchaseService.hasAnySupportProducts) ...[
-              const SizedBox(height: 10),
-              const Text(
-                'OPTIONAL SUPPORT',
-                style: TextStyle(
-                  color: AppColors.gold,
-                  fontWeight: FontWeight.w800,
-                  letterSpacing: 1.0,
-                ),
+            const Text(
+              'SUPPORT CIGAR LEDGER',
+              style: TextStyle(
+                color: AppColors.gold,
+                fontWeight: FontWeight.w800,
+                letterSpacing: 1.0,
               ),
-              const SizedBox(height: 14),
+            ),
+            const SizedBox(height: 14),
+            _ReviewTile(
+              title: 'Leave a review',
+              subtitle:
+                  'Enjoying Cigar Ledger? Open the Play Store and leave a quick review.',
+              onTap: _openCigarLedgerReview,
+            ),
+            if (purchaseService.hasAnySupportProducts) ...[
+              const SizedBox(height: 12),
               _SupportTile(
                 title: 'Buy me a coffee',
                 subtitle:
@@ -381,6 +400,56 @@ class _FeatureCard extends StatelessWidget {
             ),
           ),
         ],
+      ),
+    );
+  }
+}
+
+class _ReviewTile extends StatelessWidget {
+  final String title;
+  final String subtitle;
+  final VoidCallback onTap;
+
+  const _ReviewTile({
+    required this.title,
+    required this.subtitle,
+    required this.onTap,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      margin: const EdgeInsets.only(bottom: 12),
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(18),
+        color: const Color(0xFF121212),
+        border: Border.all(color: AppColors.borderGoldSoft),
+      ),
+      child: ListTile(
+        onTap: onTap,
+        contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
+        title: Text(
+          title,
+          style: const TextStyle(
+            color: Colors.white,
+            fontWeight: FontWeight.w700,
+          ),
+        ),
+        subtitle: Padding(
+          padding: const EdgeInsets.only(top: 4),
+          child: Text(
+            subtitle,
+            style: const TextStyle(
+              color: Colors.white70,
+              height: 1.35,
+            ),
+          ),
+        ),
+        trailing: const Icon(
+          Icons.open_in_new_rounded,
+          color: AppColors.gold,
+          size: 20,
+        ),
       ),
     );
   }

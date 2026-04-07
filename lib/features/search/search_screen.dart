@@ -67,12 +67,30 @@ class _SearchScreenState extends State<SearchScreen> {
     return ['All Brands', ...brands];
   }
 
+  String _cigarKey(Cigar cigar) {
+    return '${cigar.brand.trim().toLowerCase()}|${cigar.name.trim().toLowerCase()}';
+  }
+
+  List<Cigar> _dedupeCigars(List<Cigar> source) {
+    final seen = <String>{};
+    final unique = <Cigar>[];
+
+    for (final cigar in source) {
+      final key = _cigarKey(cigar);
+      if (seen.add(key)) {
+        unique.add(cigar);
+      }
+    }
+
+    return unique;
+  }
+
   List<Cigar> _dealsFirstOrder(List<Cigar> source) {
     final deals = DealEngine.biggestSavings(source);
-    final dealNames = deals.map((d) => d.cigar.name).toSet();
+    final dealKeys = deals.map((d) => _cigarKey(d.cigar)).toSet();
 
-    final dealCigars = deals.map((d) => d.cigar).toList();
-    final remaining = source.where((c) => !dealNames.contains(c.name)).toList();
+    final dealCigars = _dedupeCigars(deals.map((d) => d.cigar).toList());
+    final remaining = source.where((c) => !dealKeys.contains(_cigarKey(c))).toList();
 
     return [...dealCigars, ...remaining];
   }
@@ -112,7 +130,7 @@ class _SearchScreenState extends State<SearchScreen> {
 
       case 'Best Savings':
         final deals = DealEngine.biggestSavings(list);
-        list = deals.map((e) => e.cigar).toList();
+        list = _dedupeCigars(deals.map((e) => e.cigar).toList());
         break;
     }
 
@@ -127,7 +145,7 @@ class _SearchScreenState extends State<SearchScreen> {
       list = _dealsFirstOrder(list);
     }
 
-    return list;
+    return _dedupeCigars(list);
   }
 
   bool _hasCurrentModeComparison(Cigar cigar, {required bool showBox}) {
@@ -143,7 +161,12 @@ class _SearchScreenState extends State<SearchScreen> {
   }
 
   DealResult? _featuredDealForMode({required bool showBox}) {
+    final seen = <String>{};
+
     for (final deal in DealEngine.biggestSavings(cigars)) {
+      final key = _cigarKey(deal.cigar);
+      if (!seen.add(key)) continue;
+
       final hasUkPrice = showBox
           ? deal.ukBestBoxPrice > 0
           : deal.ukBestSinglePrice > 0;
@@ -219,9 +242,16 @@ class _SearchScreenState extends State<SearchScreen> {
       builder: (context, _) {
         final showBox = priceMode.showBoxPrice;
         final featuredDeal = _featuredDealForMode(showBox: showBox);
-        final visibleCigars = filteredCigars
-            .where((cigar) => _hasCurrentModeComparison(cigar, showBox: showBox))
-            .toList();
+        final featuredKey =
+            featuredDeal == null ? null : _cigarKey(featuredDeal.cigar);
+
+        final visibleCigars = _dedupeCigars(
+          filteredCigars
+              .where((cigar) => _hasCurrentModeComparison(cigar, showBox: showBox))
+              .where((cigar) =>
+                  featuredKey == null || _cigarKey(cigar) != featuredKey)
+              .toList(),
+        );
 
         return Scaffold(
           backgroundColor: const Color(0xFF0B0B0B),
