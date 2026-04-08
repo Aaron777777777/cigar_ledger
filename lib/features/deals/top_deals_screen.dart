@@ -42,7 +42,7 @@ class _TopDealsScreenState extends State<TopDealsScreen> {
     try {
       final data = await loadCigars();
       setState(() {
-        cigars = data;
+        cigars = _dedupeCigars(data);
         loading = false;
         loadError = null;
       });
@@ -52,6 +52,42 @@ class _TopDealsScreenState extends State<TopDealsScreen> {
         loadError = e.toString();
       });
     }
+  }
+
+  List<Cigar> _dedupeCigars(List<Cigar> input) {
+    final seen = <String>{};
+    final unique = <Cigar>[];
+
+    for (final cigar in input) {
+      final key = _cigarKey(cigar);
+      if (seen.add(key)) {
+        unique.add(cigar);
+      }
+    }
+
+    return unique;
+  }
+
+  String _cigarKey(Cigar cigar) {
+    return '${cigar.brand.trim().toLowerCase()}|${cigar.name.trim().toLowerCase()}';
+  }
+
+  String _dealKey(DealResult deal) {
+    return '${deal.cigar.brand.trim().toLowerCase()}|${deal.cigar.name.trim().toLowerCase()}';
+  }
+
+  List<DealResult> _dedupeDeals(List<DealResult> input) {
+    final seen = <String>{};
+    final unique = <DealResult>[];
+
+    for (final deal in input) {
+      final key = _dealKey(deal);
+      if (seen.add(key)) {
+        unique.add(deal);
+      }
+    }
+
+    return unique;
   }
 
   @override
@@ -80,20 +116,22 @@ class _TopDealsScreenState extends State<TopDealsScreen> {
       builder: (context, _) {
         final showBox = priceMode.showBoxPrice;
 
-        final deals = cigars
-            .map(calculateDeal)
-            .where((deal) {
-              if (showBox) {
-                return deal.ukBestBoxPrice > 0 &&
-                    deal.euBestBoxPrice > 0 &&
-                    deal.euBestBoxPrice < deal.ukBestBoxPrice;
-              }
+        final deals = _dedupeDeals(
+          cigars
+              .map(calculateDeal)
+              .where((deal) {
+                if (showBox) {
+                  return deal.ukBestBoxPrice > 0 &&
+                      deal.euBestBoxPrice > 0 &&
+                      deal.euBestBoxPrice < deal.ukBestBoxPrice;
+                }
 
-              return deal.ukBestSinglePrice > 0 &&
-                  deal.euBestSinglePrice > 0 &&
-                  deal.euBestSinglePrice < deal.ukBestSinglePrice;
-            })
-            .toList();
+                return deal.ukBestSinglePrice > 0 &&
+                    deal.euBestSinglePrice > 0 &&
+                    deal.euBestSinglePrice < deal.ukBestSinglePrice;
+              })
+              .toList(),
+        );
 
         deals.sort((a, b) {
           final aSaving = showBox ? a.savingPerBox : a.savingPerCigar;

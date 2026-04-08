@@ -4263,65 +4263,6 @@
     "weightSource": "estimated: size formula"
   },
   {
-    "name": "Plasencia Alma del Cielo Amanecer Hexagono",
-    "brand": "Plasencia",
-    "country": "Nicaragua",
-    "ringGauge": 60,
-    "lengthMm": 152,
-    "strength": "Medium",
-    "imageUrl": "assets/cigars/plasencia_alma_del_cielo_amanecer_hexagono.png",
-    "boxQuantity": 10,
-    "ukPrices": [
-      {
-        "retailer": "cgars",
-        "price": "£33.99",
-        "previousPrice": "£33.99",
-        "stock": "In Stock",
-        "url": "https://www.cgarsltd.co.uk/plasencia-alma-del-cielo-amanecer-hexagono-cigar-single-p-63123.html",
-        "boxPrice": "£329.99",
-        "previousBoxPrice": "£329.99",
-        "boxUrl": "https://www.cgarsltd.co.uk/plasencia-alma-del-cielo-amanecer-hexagono-cigar-box-p-63124.html?keywords=Plasencia+Alma+del+Cielo+Amanecer+Hexagono"
-      },
-      {
-        "retailer": "havanahouse",
-        "price": "£36.95",
-        "previousPrice": "£36.95",
-        "stock": "In Stock",
-        "url": "https://www.havanahouse.co.uk/product/plasencia-alma-del-cielo-amanecer-sixty-cigar-single/",
-        "boxPrice": "£360",
-        "previousBoxPrice": "£360",
-        "boxUrl": "https://www.havanahouse.co.uk/product/plasencia-alma-del-cielo-amanecer-sixto-cigar-box-of-10/"
-      },
-      {
-        "retailer": "simplycigars",
-        "price": "",
-        "previousPrice": "",
-        "stock": "",
-        "url": "",
-        "boxPrice": "",
-        "previousBoxPrice": "",
-        "boxUrl": ""
-      }
-    ],
-    "euPrices": [
-      {
-        "retailer": "egm",
-        "price": "23.99",
-        "cigarPrice": "£23.99",
-        "dutyVat": "£0.00",
-        "landedCost": "£23.99",
-        "savings": "£0.00",
-        "url": "https://egmcigars.com/en-gb/products/plasencia-alma-del-cielo-amanecer?variant=46361292144897",
-        "boxPrice": "£236.99",
-        "previousBoxPrice": "£263.99",
-        "stock": "In Stock",
-        "boxUrl": "https://egmcigars.com/en-gb/products/plasencia-alma-del-cielo-amanecer?variant=46361292112129"
-      }
-    ],
-    "weightGrams": 23.0,
-    "weightSource": "estimated: size formula"
-  },
-  {
     "name": "Montecristo No. 5",
     "brand": "Montecristo",
     "country": "Cuba",
@@ -4908,66 +4849,7 @@
     "weightGrams": 13,
     "weightSource": ""
  
-  },
-  
-  {
-    "name": "Plasencia Alma Fuerte Nestor IV Toro",
-    "brand": "Plasencia",
-    "country": "Nicaragua",
-    "ringGauge": 54,
-    "lengthMm": 159,
-    "strength": "Medium-Full",
-    "imageUrl": "assets/cigars/plasencia_alma_fuerte_nestor_iv_toro.png",
-    "boxQuantity": 10,
-    "ukPrices": [
-      {
-        "retailer": "cgars",
-        "price": "£33.49",
-        "previousPrice": "£33.49",
-        "stock": "In Stock",
-        "url": "https://www.cgarsltd.co.uk/plasencia-alma-fuerte-nestor-toro-cigar-single-p-32499.html?keywords=lasencia+Alma+Fuerte+Nestor+IV+Toro",
-        "boxPrice": "£324.99",
-        "previousBoxPrice": "£324.99",
-        "boxUrl": "https://www.cgarsltd.co.uk/plasencia-alma-fuerte-nestor-toro-cigar-box-p-32500.html"
-      },
-      {
-        "retailer": "havanahouse",
-        "price": "£30.80",
-        "previousPrice": "£30.80",
-        "stock": "In Stock",
-        "url": "https://www.havanahouse.co.uk/product/plasencia-alma-fuerte-nestor-iv-toro-cigar-single/",
-        "boxPrice": "£308.05",
-        "previousBoxPrice": "£308.05",
-        "boxUrl": "https://www.havanahouse.co.uk/product/plasencia-alma-fuerte-nestor-iv-toro-cigar-box-of-10-2/"
-      },
-      {
-        "retailer": "simplycigars",
-        "price": "TODO",
-        "previousPrice": "TODO",
-        "stock": "In Stock",
-        "url": "TODO",
-        "boxPrice": "TODO",
-        "previousBoxPrice": "TODO",
-        "boxUrl": "TODO"
-      }
-    ],
-    "euPrices": [
-      {
-        "retailer": "egm",
-        "price": "£18.99",
-        "cigarPrice": "£18.99",
-        "dutyVat": "",
-        "landedCost": "",
-        "savings": "",
-        "url": "https://egmcigars.com/en-gb/products/plasencia-alma-fuerte-nestor-iv-cigar?variant=43665359274241",
-        "boxPrice": "£188.99",
-        "previousBoxPrice": "£188.99",
-        "stock": "In Stock",
-        "boxUrl": "https://egmcigars.com/en-gb/products/plasencia-alma-fuerte-nestor-iv-cigar?variant=43665359307009"
-      }
-    ],
-    "weightGrams": 0,
-    "weightSource": "15.5"
+ 
   
    },
   {
@@ -5087,8 +4969,71 @@
     ],
     "weightGrams": 4.5,
     "weightSource": ""
+
+ },
+  
+  {
+    "name": "Plasencia Alma Fuerte Nestor IV Toro",
+    "brand": "Plasencia",
+    "country": "Nicaragua",
+    "ringGauge": 54,
+    "lengthMm": 159,
+    "strength": "Medium-Full",
+    "imageUrl": "assets/cigars/plasencia_alma_fuerte_nestor_iv_toro.png",
+    "boxQuantity": 10,
+    "ukPrices": [
+      {
+        "retailer": "cgars",
+        "price": "£33.49",
+        "previousPrice": "£33.49",
+        "stock": "In Stock",
+        "url": "https://www.cgarsltd.co.uk/plasencia-alma-fuerte-nestor-toro-cigar-single-p-32499.html?keywords=lasencia+Alma+Fuerte+Nestor+IV+Toro",
+        "boxPrice": "£324.99",
+        "previousBoxPrice": "£324.99",
+        "boxUrl": "https://www.cgarsltd.co.uk/plasencia-alma-fuerte-nestor-toro-cigar-box-p-32500.html"
+      },
+      {
+        "retailer": "havanahouse",
+        "price": "£30.80",
+        "previousPrice": "£30.80",
+        "stock": "In Stock",
+        "url": "https://www.havanahouse.co.uk/product/plasencia-alma-fuerte-nestor-iv-toro-cigar-single/",
+        "boxPrice": "£308.05",
+        "previousBoxPrice": "£308.05",
+        "boxUrl": "https://www.havanahouse.co.uk/product/plasencia-alma-fuerte-nestor-iv-toro-cigar-box-of-10-2/"
+      },
+      {
+        "retailer": "simplycigars",
+        "price": "TODO",
+        "previousPrice": "TODO",
+        "stock": "In Stock",
+        "url": "TODO",
+        "boxPrice": "TODO",
+        "previousBoxPrice": "TODO",
+        "boxUrl": "TODO"
+      }
+    ],
+    "euPrices": [
+      {
+        "retailer": "egm",
+        "price": "£18.99",
+        "cigarPrice": "£18.99",
+        "dutyVat": "",
+        "landedCost": "",
+        "savings": "",
+        "url": "https://egmcigars.com/en-gb/products/plasencia-alma-fuerte-nestor-iv-cigar?variant=43665359274241",
+        "boxPrice": "£188.99",
+        "previousBoxPrice": "£188.99",
+        "stock": "In Stock",
+        "boxUrl": "https://egmcigars.com/en-gb/products/plasencia-alma-fuerte-nestor-iv-cigar?variant=43665359307009"
+      }
+    ],
+    "weightGrams": 0,
+    "weightSource": "15.5"
+  
   },
   {
+    
     "name": "Camacho Connecticut Toro",
     "brand": "Camacho",
     "country": "Honduras",
