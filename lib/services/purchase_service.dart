@@ -4,8 +4,6 @@ import 'package:flutter/foundation.dart';
 import 'package:in_app_purchase/in_app_purchase.dart';
 
 class PurchaseService extends ChangeNotifier {
-  // Kept existing constant name to avoid breaking callers in the app, but
-  // this now points to the active Play subscription product.
   static const String proUnlockProductId = 'cigar_ledger_premium';
   static const String supportSmallProductId = 'support_small';
   static const String supportMediumProductId = 'support_medium';
@@ -35,7 +33,7 @@ class PurchaseService extends ChangeNotifier {
       supportMediumProduct != null ||
       supportLargeProduct != null;
 
-  String get proPriceLabel => proProduct?.price ?? '£9.99/year';
+  String get proPriceLabel => proProduct?.price ?? '£3.99';
   String get supportSmallPriceLabel => supportSmallProduct?.price ?? '£2.99';
   String get supportMediumPriceLabel => supportMediumProduct?.price ?? '£4.99';
   String get supportLargePriceLabel => supportLargeProduct?.price ?? '£9.99';
@@ -148,7 +146,6 @@ class PurchaseService extends ChangeNotifier {
     }
   }
 
-  // Kept as aliases so older files do not break if still calling them.
   Future<void> buyPremiumMonthly() async {
     await buyProUnlock();
   }

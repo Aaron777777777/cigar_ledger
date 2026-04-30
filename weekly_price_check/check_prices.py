@@ -41,8 +41,6 @@ SUPPORTED_DOMAINS = {
     "simplycigars.co.uk": "simplycigars",
     "egmcigars.com": "egm",
     "www.egmcigars.com": "egm",
-    "cigarworld.co.uk": "cigarworld",
-    "www.cigarworld.co.uk": "cigarworld",
 }
 
 GOOGLE_SHOPPING_PREFIX = "https://www.google.com/search?ibp=oshop"
@@ -107,13 +105,10 @@ def supported_retailer_key(url: str) -> Optional[str]:
 def is_google_shopping_url(url: str) -> bool:
     return url.startswith(GOOGLE_SHOPPING_PREFIX)
 
-def ensure_dirs(base_dir: Path) -> tuple[Path, Path]:
-    base_dir.mkdir(parents=True, exist_ok=True)
-    snapshots = base_dir / "snapshots"
+def ensure_dirs(base_dir: Path) -> Path:
     reports = base_dir / "reports"
-    snapshots.mkdir(parents=True, exist_ok=True)
     reports.mkdir(parents=True, exist_ok=True)
-    return snapshots, reports
+    return reports
 
 def fetch_html(url: str, timeout: int) -> str:
     with requests.Session() as s:
@@ -295,30 +290,11 @@ def parse_egm(html: str, previous_price: str = "") -> dict[str, str]:
     stock = infer_stock(blob)
     return {"price": price, "stock": stock}
 
-def parse_cigarworld(html: str, previous_price: str = "") -> dict[str, str]:
-    soup = BeautifulSoup(html, "html.parser")
-    blob = soup.get_text(" ", strip=True)
-    candidates = extract_jsonld_prices(html)
-    if not candidates:
-        candidates.extend(price_candidates_from_selectors(soup, [
-            "meta[property='product:price:amount']",
-            ".price",
-            ".price-item",
-            ".product__price",
-            "[itemprop='price']",
-        ]))
-    if not candidates:
-        candidates.extend(extract_money_candidates(blob))
-    price = choose_best_price(candidates, previous_price=previous_price)
-    stock = infer_stock(blob)
-    return {"price": price, "stock": stock}
-
 PARSERS = {
     "cgars": parse_cgars,
     "havanahouse": parse_havanahouse,
     "simplycigars": parse_simplycigars,
     "egm": parse_egm,
-    "cigarworld": parse_cigarworld,
 }
 
 def scrape_price(url: str, timeout: int, previous_price: str = "") -> tuple[Optional[dict[str, str]], str]:
@@ -373,9 +349,8 @@ def write_csv(path: Path, rows: list[dict[str, Any]]) -> None:
         writer.writeheader()
         writer.writerows(rows)
 
-def build_results(data: list[dict[str, Any]], timeout: int, pause: float) -> tuple[list[CheckResult], list[dict[str, str]]]:
+def build_results(data: list[dict[str, Any]], timeout: int, pause: float) -> list[CheckResult]:
     results: list[CheckResult] = []
-    snapshot: list[dict[str, str]] = []
 
     for _, cigar_name, source_group, entry in iterate_price_entries(data):
         retailer = str(entry.get("retailer", "")).strip()
@@ -399,7 +374,6 @@ def build_results(data: list[dict[str, Any]], timeout: int, pause: float) -> tup
 
             current_price = normalise_money(scraped.get("price", ""))
             current_stock = scraped.get("stock", "")
-            snapshot.append(snapshot_row(cigar_name, source_group, retailer, url, current_price, current_stock))
 
             if not current_price:
                 results.append(CheckResult(cigar_name, source_group, retailer, url, domain, "error", "price", previous_price, "", "Price not extracted"))
@@ -432,48 +406,35 @@ def build_results(data: list[dict[str, Any]], timeout: int, pause: float) -> tup
         if pause > 0:
             time.sleep(pause)
 
-    return results, snapshot
+    return results
 
-def print_summary(results: list[CheckResult], snapshot_count: int, reports_dir: Path, stamp: str) -> None:
+def print_summary(results: list[CheckResult], reports_dir: Path, stamp: str) -> None:
     changed = [r for r in results if r.status == "changed"]
-    unchanged = [r for r in results if r.status == "unchanged"]
-    skipped = [r for r in results if r.status == "skipped"]
-    unsupported = [r for r in results if r.status == "unsupported"]
     errors = [r for r in results if r.status == "error"]
+    unchanged = [r for r in results if r.status == "unchanged"]
+    skipped = [r for r in results if r.status in {"skipped", "unsupported"}]
 
     print("\n=== Cigar Ledger weekly price check ===")
     print(f"Timestamp: {stamp}")
     print(f"Changed: {len(changed)}")
-    print(f"Unchanged: {len(unchanged)}")
-    print(f"Skipped: {len(skipped)}")
-    print(f"Unsupported: {len(unsupported)}")
     print(f"Errors: {len(errors)}")
-    print(f"Snapshot rows written: {snapshot_count}")
-    print(f"CSV report: {reports_dir / f'price_changes_{stamp}.csv'}")
-    print(f"Changes-only CSV: {reports_dir / f'price_changes_only_{stamp}.csv'}")
+    print(f"Unchanged checked: {len(unchanged)}")
+    print(f"Skipped/unsupported: {len(skipped)}")
+    print(f"Single CSV report: {reports_dir / f'weekly_price_check_{stamp}.csv'}")
 
     if changed:
-        print("\n--- Weekly changes vs current prices.json ---")
+        print("\n--- Changes ---")
         for r in changed[:50]:
             print(f"- {r.cigar_name} | {r.retailer} | {r.previous_value} -> {r.current_value}")
         if len(changed) > 50:
             print(f"... and {len(changed) - 50} more")
 
     if errors:
-        print("\n--- Errors ---")
-        for r in errors[:20]:
+        print("\n--- Errors to review ---")
+        for r in errors[:30]:
             print(f"- {r.cigar_name} | {r.retailer} | {r.note}")
-        if len(errors) > 20:
-            print(f"... and {len(errors) - 20} more")
-
-    if skipped or unsupported:
-        print("\n--- Skipped / unsupported ---")
-        preview = (skipped + unsupported)[:20]
-        for r in preview:
-            print(f"- {r.cigar_name} | {r.retailer} | {r.note}")
-        total = len(skipped) + len(unsupported)
-        if total > 20:
-            print(f"... and {total - 20} more")
+        if len(errors) > 30:
+            print(f"... and {len(errors) - 30} more")
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Cigar Ledger weekly price checker")
@@ -485,7 +446,7 @@ def main() -> int:
 
     input_path = Path(args.input)
     output_dir = Path(args.output_dir)
-    snapshots_dir, reports_dir = ensure_dirs(output_dir)
+    reports_dir = ensure_dirs(output_dir)
 
     if not input_path.exists():
         print(f"Input file not found: {input_path}", file=sys.stderr)
@@ -494,20 +455,16 @@ def main() -> int:
     data = json.loads(input_path.read_text(encoding="utf-8"))
     stamp = now_stamp()
 
-    results, snapshot_rows = build_results(data, timeout=args.timeout, pause=args.pause)
+    results = build_results(data, timeout=args.timeout, pause=args.pause)
 
-    report_path = reports_dir / f"price_changes_{stamp}.csv"
-    changes_only_path = reports_dir / f"price_changes_only_{stamp}.csv"
-    snapshot_path = snapshots_dir / f"snapshot_{stamp}.json"
-    raw_results_path = reports_dir / f"raw_results_{stamp}.json"
+    report_path = reports_dir / f"weekly_price_check_{stamp}.csv"
+    rows_to_write = [
+        asdict(r) for r in results
+        if r.status in {"changed", "error"}
+    ]
+    write_csv(report_path, rows_to_write)
 
-    result_dicts = [asdict(r) for r in results]
-    write_csv(report_path, result_dicts)
-    write_csv(changes_only_path, [asdict(r) for r in results if r.status == "changed"])
-    write_json(snapshot_path, snapshot_rows)
-    write_json(raw_results_path, result_dicts)
-
-    print_summary(results, len(snapshot_rows), reports_dir, stamp)
+    print_summary(results, reports_dir, stamp)
     return 0
 
 if __name__ == "__main__":

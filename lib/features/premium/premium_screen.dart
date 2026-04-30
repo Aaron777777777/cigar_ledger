@@ -31,14 +31,14 @@ class PremiumScreen extends StatelessWidget {
     final canBuy = !isLoading && !isPremium && isAvailable && hasProProduct;
 
     final helperText = isPremium
-        ? 'Exact UK vs EU comparison, landed costs, and full deal rankings are ready.'
+        ? 'Know instantly if EU is cheaper, landed costs, and full deal rankings are ready.'
         : isLoading
             ? 'Checking Pro access now.'
             : !isAvailable
                 ? 'Store connection is unavailable right now.'
                 : !hasProProduct
                     ? 'Pro unlock is not available right now.'
-                    : '${purchaseService.proPriceLabel} per year. Exact UK vs EU comparison, landed costs, and full deal rankings.';
+                    : '${purchaseService.proPriceLabel} per month. Know instantly if EU is cheaper, landed costs, and full deal rankings.';
 
     final buttonText = isLoading
         ? 'Loading...'
@@ -73,7 +73,7 @@ class PremiumScreen extends StatelessWidget {
             const _PremiumHero(),
             const SizedBox(height: 24),
             const Text(
-              'WHAT PRO UNLOCKS',
+              'WHAT YOU SAVE WITH PRO',
               style: TextStyle(
                 color: AppColors.gold,
                 fontWeight: FontWeight.w800,
@@ -83,21 +83,21 @@ class PremiumScreen extends StatelessWidget {
             const SizedBox(height: 14),
             const _FeatureCard(
               icon: Icons.compare_arrows_rounded,
-              title: 'Exact UK vs EU comparison',
+              title: 'Know instantly if EU is cheaper',
               text:
-                  'See the actual imported route clearly instead of only a hint that Europe may be cheaper.',
+                  'See the exact cheapest route before you buy.',
             ),
             const _FeatureCard(
               icon: Icons.savings_outlined,
-              title: 'Real landed savings',
+              title: 'See your real savings (after tax & duty)',
               text:
-                  'Unlock duty, VAT, each savings, and stronger box-value context before you buy.',
+                  'Know exactly how much you save per cigar and per box.',
             ),
             const _FeatureCard(
               icon: Icons.local_fire_department_outlined,
-              title: 'Full deal rankings',
+              title: 'Find the best deals instantly',
               text:
-                  'See the strongest single and box opportunities across the catalogue.',
+                  'See the top cigar deals ranked by real savings.',
             ),
             const SizedBox(height: 16),
             _CtaCard(
@@ -124,7 +124,7 @@ class PremiumScreen extends StatelessWidget {
                   'Enjoying Cigar Ledger? Open the Play Store and leave a quick review.',
               onTap: _openCigarLedgerReview,
             ),
-            if (purchaseService.hasAnySupportProducts) ...[
+            if (true) ...[
               const SizedBox(height: 12),
               _SupportTile(
                 title: 'Buy me a coffee',
@@ -137,7 +137,7 @@ class PremiumScreen extends StatelessWidget {
             const SizedBox(height: 14),
             if (!isLoading && !isPremium && isAvailable && hasProProduct)
               const Text(
-                'Annual subscription and optional support purchases are handled by the store.',
+                'Monthly subscription and optional support purchases are handled by the store.',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   color: Colors.white54,
@@ -179,7 +179,7 @@ class _PremiumHero extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            'Unlock Pro Mode',
+            'Stop overpaying for cigars',
             style: TextStyle(
               fontSize: 26,
               fontWeight: FontWeight.w900,
@@ -188,7 +188,7 @@ class _PremiumHero extends StatelessWidget {
           ),
           SizedBox(height: 10),
           Text(
-            'See the real cheapest buying route instantly — UK vs EU landed with exact savings.',
+            'See the real cheapest route — and exactly how much you save.',
             style: TextStyle(
               color: Colors.white70,
               height: 1.4,
@@ -235,7 +235,7 @@ class _CtaCard extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            isPremium ? 'Pro' : 'Unlock Pro Access',
+            isPremium ? 'Pro' : 'Unlock Pro — £3.99/month',
             style: const TextStyle(
               color: Colors.white,
               fontSize: 18,
