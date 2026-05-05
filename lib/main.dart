@@ -11,6 +11,8 @@ import 'features/search/search_screen.dart';
 import 'features/premium/premium_screen.dart';
 import 'features/deals/top_deals_screen.dart';
 import 'features/watchlist/watchlist_screen.dart';
+import 'package:in_app_review/in_app_review.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -75,10 +77,50 @@ class AppShell extends StatefulWidget {
 }
 
 class _AppShellState extends State<AppShell> {
+
+  final InAppReview _inAppReview = InAppReview.instance;
+  bool _reviewAskedThisRun = false;
   int currentIndex = 1;
 
-  @override
-  Widget build(BuildContext context) {
+  Future<void> _maybeAskForReview() async {
+  if (_reviewAskedThisRun) return;
+
+  final prefs = await SharedPreferences.getInstance();
+
+  final appOpens = prefs.getInt('review_app_opens') ?? 0;
+  final lastAskedMillis = prefs.getInt('review_last_asked') ?? 0;
+
+  final now = DateTime.now();
+  final lastAsked = lastAskedMillis == 0
+      ? null
+      : DateTime.fromMillisecondsSinceEpoch(lastAskedMillis);
+
+  final waitedLongEnough =
+      lastAsked == null || now.difference(lastAsked).inDays >= 30;
+
+  if (appOpens >= 3 && waitedLongEnough) {
+    final available = await _inAppReview.isAvailable();
+
+    if (available) {
+      _reviewAskedThisRun = true;
+      await prefs.setInt('review_last_asked', now.millisecondsSinceEpoch);
+      await _inAppReview.requestReview();
+    }
+  }
+}
+
+@override
+void initState() {
+  super.initState();
+
+  SharedPreferences.getInstance().then((prefs) {
+    final opens = prefs.getInt('review_app_opens') ?? 0;
+    prefs.setInt('review_app_opens', opens + 1);
+  });
+}
+
+@override
+Widget build(BuildContext context) {
     final screens = [
       const SearchScreen(),
       Column(
@@ -241,10 +283,14 @@ class _AppShellState extends State<AppShell> {
           bottomNavigationBar: BottomNavigationBar(
             currentIndex: currentIndex,
             onTap: (index) {
-              setState(() {
-                currentIndex = index;
-              });
-            },
+  setState(() {
+    currentIndex = index;
+  });
+
+  if (index == 1 || index == 2 || index == 3) {
+    _maybeAskForReview();
+  }
+},
             items: const [
               BottomNavigationBarItem(
                 icon: Icon(Icons.search),
