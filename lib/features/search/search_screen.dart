@@ -8,6 +8,7 @@ import '../../data/deal_engine.dart';
 import '../../data/sample_cigars.dart';
 import '../../models/cigar.dart';
 import '../../services/purchase_service.dart';
+import '../../services/app_config_service.dart';
 import '../../widgets/cigar_search_card.dart';
 import '../../widgets/deal_badge.dart';
 import '../../widgets/filter_chip.dart';
@@ -24,6 +25,7 @@ class _SearchScreenState extends State<SearchScreen> {
   List<Cigar> cigars = [];
   bool loading = true;
   String? loadError;
+  CigarLedgerAppConfig appConfig = CigarLedgerAppConfig.defaults();
 
   String query = '';
   String selectedFilter = 'All';
@@ -37,9 +39,17 @@ class _SearchScreenState extends State<SearchScreen> {
 
   Future<void> loadData() async {
     try {
-      final data = await loadCigars();
+      final results = await Future.wait([
+        loadCigars(),
+        const AppConfigService().loadCigarLedgerConfig(),
+      ]);
+
+      final data = results[0] as List<Cigar>;
+      final config = results[1] as CigarLedgerAppConfig;
+
       setState(() {
         cigars = data;
+        appConfig = config;
         loading = false;
         loadError = null;
       });
@@ -282,6 +292,7 @@ class _SearchScreenState extends State<SearchScreen> {
                     decisionLabel: featuredDeal.decisionLabel,
                     dealStrength: featuredDeal.dealStrength,
                     isPremium: isPremium,
+                    appConfig: appConfig,
                     onTap: () async {
                       await Navigator.push(
                         context,
@@ -473,6 +484,7 @@ class _SearchHeroCard extends StatelessWidget {
   final String decisionLabel;
   final String dealStrength;
   final bool isPremium;
+  final CigarLedgerAppConfig appConfig;
   final VoidCallback onTap;
 
   const _SearchHeroCard({
@@ -486,6 +498,7 @@ class _SearchHeroCard extends StatelessWidget {
     required this.decisionLabel,
     required this.dealStrength,
     required this.isPremium,
+    required this.appConfig,
     required this.onTap,
   });
 
@@ -527,7 +540,7 @@ class _SearchHeroCard extends StatelessWidget {
         ? showBox
             ? '£${(cigar.boxQuantity > 0 ? savingPerBox / cigar.boxQuantity : 0).toStringAsFixed(2)} per cigar'
             : decisionLabel
-        : 'Unlock Pro for exact savings';
+        : appConfig.premiumSavingsText;
 
     return Material(
       color: Colors.transparent,
@@ -665,7 +678,7 @@ class _SearchHeroCard extends StatelessWidget {
                                       ? hasValidImport
                                           ? 'Strong import value'
                                           : 'No import advantage right now'
-                                      : 'Unlock Pro for exact EU landed cost',
+                                      : appConfig.lockedEuPriceText,
                                   style: const TextStyle(
                                     color: Colors.white70,
                                     fontSize: 14,
