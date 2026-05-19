@@ -453,6 +453,7 @@ class _SearchScreenState extends State<SearchScreen> {
                       euBoxPrice: deal.euBestBoxPrice,
                       savingPerCigar: deal.savingPerCigar,
                       savingPerBox: deal.savingPerBox,
+                      lockedEuPriceText: appConfig.lockedEuPriceText,
                       onTap: () async {
                         await Navigator.push(
                           context,

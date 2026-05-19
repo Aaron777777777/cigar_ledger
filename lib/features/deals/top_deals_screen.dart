@@ -447,6 +447,7 @@ class _TopDealsScreenState extends State<TopDealsScreen> {
                     euBoxPrice: deal.euBestBoxPrice,
                     savingPerCigar: deal.savingPerCigar,
                     savingPerBox: deal.savingPerBox,
+                    lockedEuPriceText: appConfig.lockedEuPriceText,
                     onTap: () async {
                       await Navigator.push(
                         context,

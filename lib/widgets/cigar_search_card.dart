@@ -17,6 +17,7 @@ class CigarSearchCard extends StatelessWidget {
   final double euBoxPrice;
   final double savingPerCigar;
   final double savingPerBox;
+  final String lockedEuPriceText;
 
   const CigarSearchCard({
     super.key,
@@ -30,6 +31,7 @@ class CigarSearchCard extends StatelessWidget {
     this.euBoxPrice = 0,
     this.savingPerCigar = 0,
     this.savingPerBox = 0,
+    this.lockedEuPriceText = 'Unlock Pro for EU price',
   });
 
   @override
@@ -172,6 +174,7 @@ class CigarSearchCard extends StatelessWidget {
                                     label: showBox
                                         ? 'EU landed box'
                                         : 'EU landed',
+                                    lockedEuPriceText: lockedEuPriceText,
                                   ),
                           ),
                         ],
@@ -262,8 +265,12 @@ class _MetricBox extends StatelessWidget {
 
 class _LockedMetricBox extends StatelessWidget {
   final String label;
+  final String lockedEuPriceText;
 
-  const _LockedMetricBox({required this.label});
+  const _LockedMetricBox({
+    required this.label,
+    required this.lockedEuPriceText,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -281,9 +288,9 @@ class _LockedMetricBox extends StatelessWidget {
             style: const TextStyle(color: Colors.white60, fontSize: 12),
           ),
           const SizedBox(height: 8),
-          const Text(
-            'Unlock Pro for EU price',
-            style: TextStyle(
+          Text(
+            lockedEuPriceText,
+            style: const TextStyle(
               color: Color(0xFFD4AF37),
               fontSize: 16,
               fontWeight: FontWeight.w800,
