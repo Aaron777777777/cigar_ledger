@@ -4,6 +4,7 @@ import 'package:url_launcher/url_launcher.dart';
 
 import 'services/purchase_service.dart';
 import 'services/watchlist_service.dart';
+import 'services/app_config_service.dart';
 
 import 'core/theme/app_theme.dart';
 import 'core/price_mode.dart';
@@ -77,10 +78,10 @@ class AppShell extends StatefulWidget {
 }
 
 class _AppShellState extends State<AppShell> {
-
   final InAppReview _inAppReview = InAppReview.instance;
   bool _reviewAskedThisRun = false;
   int currentIndex = 1;
+  CigarLedgerAppConfig _appConfig = CigarLedgerAppConfig.defaults();
 
   Future<void> _maybeAskForReview() async {
   if (_reviewAskedThisRun) return;
@@ -113,6 +114,13 @@ class _AppShellState extends State<AppShell> {
 void initState() {
   super.initState();
 
+  const AppConfigService().loadCigarLedgerConfig().then((config) {
+    if (!mounted) return;
+    setState(() {
+      _appConfig = config;
+    });
+  });
+
   SharedPreferences.getInstance().then((prefs) {
     final opens = prefs.getInt('review_app_opens') ?? 0;
     prefs.setInt('review_app_opens', opens + 1);
@@ -126,51 +134,52 @@ Widget build(BuildContext context) {
       Column(
         children: [
           Expanded(child: const TopDealsScreen()),
-          Padding(
-            padding: const EdgeInsets.fromLTRB(16, 0, 16, 16),
-            child: GestureDetector(
-              onTap: _openHerfStation,
-              child: Container(
-                width: double.infinity,
-                padding: const EdgeInsets.all(16),
-                decoration: BoxDecoration(
-                  color: const Color(0xFF141414),
-                  borderRadius: BorderRadius.circular(20),
-                  border: Border.all(color: const Color(0x33D4AF37)),
-                ),
-                child: const Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      'Smoke it with others?',
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 15,
-                        fontWeight: FontWeight.w700,
+                    if (_appConfig.herfStationPromoEnabled)
+            Padding(
+              padding: const EdgeInsets.fromLTRB(16, 0, 16, 16),
+              child: GestureDetector(
+                onTap: _openHerfStation,
+                child: Container(
+                  width: double.infinity,
+                  padding: const EdgeInsets.all(16),
+                  decoration: BoxDecoration(
+                    color: const Color(0xFF141414),
+                    borderRadius: BorderRadius.circular(20),
+                    border: Border.all(color: const Color(0x33D4AF37)),
+                  ),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        _appConfig.herfStationPromoTitle,
+                        style: const TextStyle(
+                          color: Colors.white,
+                          fontSize: 15,
+                          fontWeight: FontWeight.w700,
+                        ),
                       ),
-                    ),
-                    SizedBox(height: 6),
-                    Text(
-                      'Join a live lounge on Herf Station.',
-                      style: TextStyle(
-                        color: Colors.white70,
-                        fontSize: 13,
+                      const SizedBox(height: 6),
+                      Text(
+                        _appConfig.herfStationPromoSubtitle,
+                        style: const TextStyle(
+                          color: Colors.white70,
+                          fontSize: 13,
+                        ),
                       ),
-                    ),
-                    SizedBox(height: 10),
-                    Text(
-                      'Open Herf Station →',
-                      style: TextStyle(
-                        color: Color(0xFFD4AF37),
-                        fontSize: 14,
-                        fontWeight: FontWeight.w700,
+                      const SizedBox(height: 10),
+                      Text(
+                        '${_appConfig.herfStationPromoButtonText} →',
+                        style: const TextStyle(
+                          color: Color(0xFFD4AF37),
+                          fontSize: 14,
+                          fontWeight: FontWeight.w700,
+                        ),
                       ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
               ),
             ),
-          ),
         ],
       ),
       const WatchlistScreen(),
