@@ -4,6 +4,7 @@ import 'package:url_launcher/url_launcher.dart';
 
 import '../../core/theme/app_theme.dart';
 import '../../services/purchase_service.dart';
+import '../../services/app_config_service.dart';
 
 const String _cigarLedgerPlayStoreUrl =
     'https://play.google.com/store/apps/details?id=com.aaronsapps.cigarledger';
@@ -17,8 +18,27 @@ Future<void> _openCigarLedgerReview() async {
   );
 }
 
-class PremiumScreen extends StatelessWidget {
+class PremiumScreen extends StatefulWidget {
   const PremiumScreen({super.key});
+
+  @override
+  State<PremiumScreen> createState() => _PremiumScreenState();
+}
+
+class _PremiumScreenState extends State<PremiumScreen> {
+  CigarLedgerAppConfig appConfig = CigarLedgerAppConfig.defaults();
+
+  @override
+  void initState() {
+    super.initState();
+
+    const AppConfigService().loadCigarLedgerConfig().then((config) {
+      if (!mounted) return;
+      setState(() {
+        appConfig = config;
+      });
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -48,7 +68,7 @@ class PremiumScreen extends StatelessWidget {
                 ? 'Billing unavailable'
                 : !hasProProduct
                     ? 'Pro unlock unavailable'
-                    : 'Unlock Pro';
+                    : appConfig.premiumUnlockButtonText;
 
     final VoidCallback? onPressed = canBuy ? purchaseService.buyProUnlock : null;
 
@@ -70,10 +90,10 @@ class PremiumScreen extends StatelessWidget {
           padding: const EdgeInsets.all(20),
           children: [
             const SizedBox(height: 10),
-            const _PremiumHero(),
+            _PremiumHero(appConfig: appConfig),
             const SizedBox(height: 24),
-            const Text(
-              'WHAT YOU SAVE WITH PRO',
+            Text(
+              appConfig.premiumSectionTitle,
               style: TextStyle(
                 color: AppColors.gold,
                 fontWeight: FontWeight.w800,
@@ -81,26 +101,24 @@ class PremiumScreen extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 14),
-            const _FeatureCard(
-              icon: Icons.compare_arrows_rounded,
-              title: 'Know instantly if EU is cheaper',
-              text:
-                  'See the exact cheapest route before you buy.',
-            ),
-            const _FeatureCard(
-              icon: Icons.savings_outlined,
-              title: 'See your real savings (after tax & duty)',
-              text:
-                  'Know exactly how much you save per cigar and per box.',
-            ),
-            const _FeatureCard(
-              icon: Icons.local_fire_department_outlined,
-              title: 'Find the best deals instantly',
-              text:
-                  'See the top cigar deals ranked by real savings.',
-            ),
+            _FeatureCard(
+  icon: Icons.compare_arrows_rounded,
+  title: appConfig.premiumFeatureOneTitle,
+  text: appConfig.premiumFeatureOneText,
+),
+            _FeatureCard(
+  icon: Icons.savings_outlined,
+  title: appConfig.premiumFeatureTwoTitle,
+  text: appConfig.premiumFeatureTwoText,
+),
+            _FeatureCard(
+  icon: Icons.local_fire_department_outlined,
+  title: appConfig.premiumFeatureThreeTitle,
+  text: appConfig.premiumFeatureThreeText,
+),
             const SizedBox(height: 16),
             _CtaCard(
+              appConfig: appConfig,
               isPremium: isPremium,
               isLoading: isLoading,
               canBuy: canBuy,
@@ -109,8 +127,8 @@ class PremiumScreen extends StatelessWidget {
               onPressed: onPressed,
             ),
             const SizedBox(height: 26),
-            const Text(
-              'SUPPORT CIGAR LEDGER',
+            Text(
+              appConfig.premiumSupportTitle,
               style: TextStyle(
                 color: AppColors.gold,
                 fontWeight: FontWeight.w800,
@@ -119,9 +137,9 @@ class PremiumScreen extends StatelessWidget {
             ),
             const SizedBox(height: 14),
             _ReviewTile(
-              title: 'Leave a review',
+              title: appConfig.premiumReviewTitle,
               subtitle:
-                  'Enjoying Cigar Ledger? Open the Play Store and leave a quick review.',
+                  appConfig.premiumReviewSubtitle,
               onTap: _openCigarLedgerReview,
             ),
             if (true) ...[
@@ -152,7 +170,9 @@ class PremiumScreen extends StatelessWidget {
 }
 
 class _PremiumHero extends StatelessWidget {
-  const _PremiumHero();
+  final CigarLedgerAppConfig appConfig;
+
+  const _PremiumHero({required this.appConfig});
 
   @override
   Widget build(BuildContext context) {
@@ -175,11 +195,11 @@ class _PremiumHero extends StatelessWidget {
           ),
         ],
       ),
-      child: const Column(
+      child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            'Stop overpaying for cigars',
+            appConfig.premiumHeroTitle,
             style: TextStyle(
               fontSize: 26,
               fontWeight: FontWeight.w900,
@@ -188,7 +208,7 @@ class _PremiumHero extends StatelessWidget {
           ),
           SizedBox(height: 10),
           Text(
-            'See the real cheapest route — and exactly how much you save.',
+            appConfig.premiumHeroSubtitle,
             style: TextStyle(
               color: Colors.white70,
               height: 1.4,
@@ -208,6 +228,7 @@ class _CtaCard extends StatelessWidget {
   final String helperText;
   final String buttonText;
   final VoidCallback? onPressed;
+  final CigarLedgerAppConfig appConfig;
 
   const _CtaCard({
     required this.isPremium,
@@ -216,6 +237,7 @@ class _CtaCard extends StatelessWidget {
     required this.helperText,
     required this.buttonText,
     required this.onPressed,
+    required this.appConfig,
   });
 
   @override
@@ -261,7 +283,7 @@ class _CtaCard extends StatelessWidget {
                 borderRadius: BorderRadius.circular(18),
                 border: Border.all(color: AppColors.borderGoldSoft),
               ),
-              child: const Row(
+              child: Row(
                 children: [
                   Icon(
                     Icons.verified,
@@ -271,7 +293,7 @@ class _CtaCard extends StatelessWidget {
                   SizedBox(width: 10),
                   Expanded(
                     child: Text(
-                      'Pro Active',
+                      appConfig.premiumActiveText,
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 15,

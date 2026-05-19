@@ -6,6 +6,7 @@ import '../../data/deal_engine.dart';
 import '../../data/sample_cigars.dart';
 import '../../models/cigar.dart';
 import '../../services/purchase_service.dart';
+import '../../services/app_config_service.dart';
 import '../../widgets/cigar_search_card.dart';
 import '../cigar_detail/cigar_detail_screen.dart';
 
@@ -20,11 +21,12 @@ class _TopDealsScreenState extends State<TopDealsScreen> {
   List<Cigar> cigars = [];
   bool loading = true;
   String? loadError;
+  CigarLedgerAppConfig appConfig = CigarLedgerAppConfig.defaults();
 
-  final PageController _recentlyAddedController =
+  final PageController _weeklyPicksController =
       PageController(viewportFraction: 0.42);
 
-  int _recentlyAddedPage = 0;
+  int _weeklyPicksPage = 0;
 
   @override
   void initState() {
@@ -34,25 +36,33 @@ class _TopDealsScreenState extends State<TopDealsScreen> {
 
   @override
   void dispose() {
-    _recentlyAddedController.dispose();
+    _weeklyPicksController.dispose();
     super.dispose();
   }
 
   Future<void> loadData() async {
-    try {
-      final data = await loadCigars();
-      setState(() {
-        cigars = _dedupeCigars(data);
-        loading = false;
-        loadError = null;
-      });
-    } catch (e) {
-      setState(() {
-        loading = false;
-        loadError = e.toString();
-      });
-    }
+  try {
+    final results = await Future.wait([
+      loadCigars(),
+      const AppConfigService().loadCigarLedgerConfig(),
+    ]);
+
+    final data = results[0] as List<Cigar>;
+    final config = results[1] as CigarLedgerAppConfig;
+
+    setState(() {
+      cigars = _dedupeCigars(data);
+      appConfig = config;
+      loading = false;
+      loadError = null;
+    });
+  } catch (e) {
+    setState(() {
+      loading = false;
+      loadError = e.toString();
+    });
   }
+}
 
   List<Cigar> _dedupeCigars(List<Cigar> input) {
     final seen = <String>{};
@@ -88,6 +98,177 @@ class _TopDealsScreenState extends State<TopDealsScreen> {
     }
 
     return unique;
+  }
+
+  List<_WeeklyPick> _buildWeeklyPicks() {
+    final boxDeals = _dedupeDeals(
+      cigars
+          .map(calculateDeal)
+          .where(
+            (deal) =>
+                deal.ukBestBoxPrice > 0 &&
+                deal.euBestBoxPrice > 0 &&
+                deal.euBestBoxPrice < deal.ukBestBoxPrice &&
+                deal.savingPerBox > 0,
+          )
+          .toList(),
+    );
+
+    if (boxDeals.isEmpty) {
+      return const [];
+    }
+
+    boxDeals.sort((a, b) {
+      final savingCompare = b.savingPerBox.compareTo(a.savingPerBox);
+      if (savingCompare != 0) return savingCompare;
+
+      return b.dealScore.compareTo(a.dealScore);
+    });
+
+    final picks = <_WeeklyPick>[];
+    final usedKeys = <String>{};
+    final weekSeed = _weeklySeed(DateTime.now());
+
+    void addPick(_WeeklyPick? pick) {
+      if (pick == null) return;
+
+      final key = _dealKey(pick.deal);
+      if (usedKeys.add(key)) {
+        picks.add(pick);
+      }
+    }
+
+    addPick(
+      _rotatingPick(
+        source: boxDeals,
+        usedKeys: usedKeys,
+        weekSeed: weekSeed + 3,
+        badge: 'BEST BOX GAP',
+        subtitle: 'Big UK vs EU box gap',
+      ),
+    );
+
+    addPick(
+      _rotatingPick(
+        source: boxDeals
+            .where((deal) => _isCubanClassic(deal.cigar))
+            .toList(),
+        usedKeys: usedKeys,
+        weekSeed: weekSeed + 17,
+        badge: 'CUBAN CLASSIC',
+        subtitle: 'Benchmark Cuban comparison',
+      ),
+    );
+
+    addPick(
+      _rotatingPick(
+        source: boxDeals
+            .where((deal) => _isPremiumPick(deal.cigar))
+            .toList(),
+        usedKeys: usedKeys,
+        weekSeed: weekSeed + 31,
+        badge: 'PREMIUM PICK',
+        subtitle: 'Premium cigar worth comparing',
+      ),
+    );
+
+    if (picks.length < 3) {
+      addPick(
+        _rotatingPick(
+          source: boxDeals,
+          usedKeys: usedKeys,
+          weekSeed: weekSeed + 47,
+          badge: 'PREMIUM PICK',
+          subtitle: 'Strong comparison data',
+        ),
+      );
+    }
+
+    if (picks.length < 3) {
+      addPick(
+        _rotatingPick(
+          source: boxDeals,
+          usedKeys: usedKeys,
+          weekSeed: weekSeed + 61,
+          badge: 'CUBAN CLASSIC',
+          subtitle: 'Strong UK vs EU comparison',
+        ),
+      );
+    }
+
+    return picks.take(3).toList();
+  }
+
+  _WeeklyPick? _rotatingPick({
+    required List<DealResult> source,
+    required Set<String> usedKeys,
+    required int weekSeed,
+    required String badge,
+    required String subtitle,
+  }) {
+    final candidates = source
+        .where((deal) => !usedKeys.contains(_dealKey(deal)))
+        .take(8)
+        .toList();
+
+    if (candidates.isEmpty) {
+      return null;
+    }
+
+    final index = weekSeed.abs() % candidates.length;
+
+    return _WeeklyPick(
+      deal: candidates[index],
+      badge: badge,
+      subtitle: subtitle,
+    );
+  }
+
+  int _weeklySeed(DateTime date) {
+    final sunday = date.subtract(Duration(days: date.weekday % 7));
+    return sunday.year * 10000 + sunday.month * 100 + sunday.day;
+  }
+
+  bool _isCubanClassic(Cigar cigar) {
+    if (cigar.country.trim().toLowerCase() != 'cuba') {
+      return false;
+    }
+
+    final brand = cigar.brand.trim().toLowerCase();
+
+    const classicBrands = {
+      'bolivar',
+      'cohiba',
+      'hoyo de monterrey',
+      'juan lopez',
+      'montecristo',
+      'partagas',
+      'punch',
+      'romeo y julieta',
+    };
+
+    return classicBrands.contains(brand);
+  }
+
+  bool _isPremiumPick(Cigar cigar) {
+    if (cigar.country.trim().toLowerCase() == 'cuba') {
+      return false;
+    }
+
+    final brand = cigar.brand.trim().toLowerCase();
+
+    const premiumBrands = {
+      'arturo fuente',
+      'avo',
+      'camacho',
+      'davidoff',
+      'oliva',
+      'padron',
+      'plasencia',
+      'zino',
+    };
+
+    return premiumBrands.contains(brand);
   }
 
   @override
@@ -157,9 +338,7 @@ class _TopDealsScreenState extends State<TopDealsScreen> {
         final heroDeal = deals.first;
         final remainingDeals = deals.skip(1).take(8).toList();
 
-        final recentlyAdded = cigars.length <= 3
-            ? cigars.reversed.toList()
-            : cigars.reversed.take(3).toList();
+        final weeklyPicks = _buildWeeklyPicks();
 
         return Container(
           decoration: const BoxDecoration(
@@ -177,56 +356,58 @@ class _TopDealsScreenState extends State<TopDealsScreen> {
             padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 16),
             children: [
               const SizedBox(height: 2),
-              const Text(
-                'RECENTLY ADDED',
-                style: TextStyle(
-                  fontSize: 19,
-                  fontWeight: FontWeight.w800,
-                  color: Color(0xFFD4AF37),
-                  letterSpacing: 1.0,
+              if (weeklyPicks.isNotEmpty) ...[
+                Text(
+                  appConfig.weeklyPicksTitle,
+                  style: TextStyle(
+                    fontSize: 19,
+                    fontWeight: FontWeight.w800,
+                    color: Color(0xFFD4AF37),
+                    letterSpacing: 1.0,
+                  ),
                 ),
-              ),
-              const SizedBox(height: 14),
-              SizedBox(
-                height: 214,
-                child: PageView.builder(
-                  controller: _recentlyAddedController,
-                  padEnds: false,
-                  onPageChanged: (index) {
-                    setState(() {
-                      _recentlyAddedPage = index;
-                    });
-                  },
-                  itemCount: recentlyAdded.length,
-                  itemBuilder: (context, index) {
-                    final cigar = recentlyAdded[index];
-                    return Padding(
-                      padding: EdgeInsets.only(
-                        right: index == recentlyAdded.length - 1 ? 0 : 14,
-                      ),
-                      child: _RecentlyAddedCard(cigar: cigar),
-                    );
-                  },
+                const SizedBox(height: 14),
+                SizedBox(
+                  height: 226,
+                  child: PageView.builder(
+                    controller: _weeklyPicksController,
+                    padEnds: false,
+                    onPageChanged: (index) {
+                      setState(() {
+                        _weeklyPicksPage = index;
+                      });
+                    },
+                    itemCount: weeklyPicks.length,
+                    itemBuilder: (context, index) {
+                      final pick = weeklyPicks[index];
+                      return Padding(
+                        padding: EdgeInsets.only(
+                          right: index == weeklyPicks.length - 1 ? 0 : 14,
+                        ),
+                        child: _WeeklyPickCard(pick: pick),
+                      );
+                    },
+                  ),
                 ),
-              ),
-              if (recentlyAdded.length > 1) ...[
-                const SizedBox(height: 10),
-                _PageDots(
-                  count: recentlyAdded.length,
-                  activeIndex:
-                      _recentlyAddedPage.clamp(0, recentlyAdded.length - 1),
-                  controller: _recentlyAddedController,
+                if (weeklyPicks.length > 1) ...[
+                  const SizedBox(height: 10),
+                  _PageDots(
+                    count: weeklyPicks.length,
+                    activeIndex:
+                        _weeklyPicksPage.clamp(0, weeklyPicks.length - 1),
+                    controller: _weeklyPicksController,
+                  ),
+                ],
+                const SizedBox(height: 26),
+                const Divider(
+                  height: 1,
+                  thickness: 1,
+                  color: Color(0x14FFFFFF),
                 ),
+                const SizedBox(height: 26),
               ],
-              const SizedBox(height: 26),
-              const Divider(
-                height: 1,
-                thickness: 1,
-                color: Color(0x14FFFFFF),
-              ),
-              const SizedBox(height: 26),
-              const Text(
-                'THIS WEEK’S BEST DEALS',
+              Text(
+                appConfig.bestDealsTitle,
                 style: TextStyle(
                   fontSize: 22,
                   fontWeight: FontWeight.w800,
@@ -236,14 +417,15 @@ class _TopDealsScreenState extends State<TopDealsScreen> {
               ),
               const SizedBox(height: 14),
               _HeroDealCard(
-                deal: heroDeal,
-                showBox: showBox,
-                isPremium: isPremium,
-              ),
+  deal: heroDeal,
+  showBox: showBox,
+  isPremium: isPremium,
+  appConfig: appConfig,
+),
               if (remainingDeals.isNotEmpty) ...[
                 const SizedBox(height: 18),
-                const Text(
-                  'More top deals',
+                Text(
+                  appConfig.moreDealsTitle,
                   style: TextStyle(
                     fontSize: 17,
                     fontWeight: FontWeight.w700,
@@ -284,13 +466,26 @@ class _TopDealsScreenState extends State<TopDealsScreen> {
   }
 }
 
-class _RecentlyAddedCard extends StatelessWidget {
-  final Cigar cigar;
+class _WeeklyPick {
+  final DealResult deal;
+  final String badge;
+  final String subtitle;
 
-  const _RecentlyAddedCard({required this.cigar});
+  const _WeeklyPick({
+    required this.deal,
+    required this.badge,
+    required this.subtitle,
+  });
+}
+
+class _WeeklyPickCard extends StatelessWidget {
+  final _WeeklyPick pick;
+
+  const _WeeklyPickCard({required this.pick});
 
   @override
   Widget build(BuildContext context) {
+    final cigar = pick.deal.cigar;
     final lines = _buildDisplayLines(cigar.name);
 
     return Material(
@@ -373,6 +568,18 @@ class _RecentlyAddedCard extends StatelessWidget {
                             ),
                           ),
                         ],
+                        const SizedBox(height: 7),
+                        Text(
+                          pick.subtitle,
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                          style: const TextStyle(
+                            color: Color(0xB3D4AF37),
+                            fontSize: 10.5,
+                            fontWeight: FontWeight.w700,
+                            height: 1.05,
+                          ),
+                        ),
                       ],
                     ),
                   ),
@@ -389,9 +596,9 @@ class _RecentlyAddedCard extends StatelessWidget {
                     color: const Color(0xFF2A2411),
                     border: Border.all(color: const Color(0x18D4AF37)),
                   ),
-                  child: const Text(
-                    'NEW',
-                    style: TextStyle(
+                  child: Text(
+                    pick.badge,
+                    style: const TextStyle(
                       color: Color(0xFFD4AF37),
                       fontSize: 9.5,
                       fontWeight: FontWeight.w800,
@@ -431,45 +638,53 @@ class _RecentCigarImage extends StatelessWidget {
 
   const _RecentCigarImage({required this.imageUrl});
 
-  @override
-  Widget build(BuildContext context) {
-    if (imageUrl.trim().isEmpty) {
-      return const Center(
-        child: Icon(Icons.smoking_rooms, color: Colors.white54, size: 24),
-      );
+  String _localFallbackFromUrl(String url) {
+    final uri = Uri.tryParse(url);
+
+    if (uri == null || uri.pathSegments.isEmpty) {
+      return '';
     }
 
+    final fileName = uri.pathSegments.last;
+
+    return 'assets/cigars/$fileName';
+  }
+
+  @override
+  Widget build(BuildContext context) {
     final isRemote =
         imageUrl.startsWith('http://') || imageUrl.startsWith('https://');
 
-    final imageWidget = isRemote
-        ? Image.network(
-            imageUrl,
-            fit: BoxFit.contain,
-            errorBuilder: (_, __, ___) => const Icon(
-              Icons.smoking_rooms,
-              color: Colors.white54,
-              size: 24,
-            ),
-          )
-        : Image.asset(
-            imageUrl,
-            fit: BoxFit.contain,
-            errorBuilder: (_, __, ___) => const Icon(
-              Icons.smoking_rooms,
-              color: Colors.white54,
-              size: 24,
-            ),
-          );
+    final localFallback = isRemote
+        ? _localFallbackFromUrl(imageUrl)
+        : imageUrl;
 
     return Container(
       color: const Color(0xFF171719),
       alignment: Alignment.center,
-      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
-      child: FractionallySizedBox(
-        heightFactor: 0.84,
-        child: imageWidget,
-      ),
+      child: isRemote
+          ? Image.network(
+              imageUrl,
+              fit: BoxFit.contain,
+              errorBuilder: (_, __, ___) {
+                return Image.asset(
+                  localFallback,
+                  fit: BoxFit.contain,
+                  errorBuilder: (_, __, ___) => const Icon(
+                    Icons.smoking_rooms,
+                    color: Colors.white54,
+                  ),
+                );
+              },
+            )
+          : Image.asset(
+              imageUrl,
+              fit: BoxFit.contain,
+              errorBuilder: (_, __, ___) => const Icon(
+                Icons.smoking_rooms,
+                color: Colors.white54,
+              ),
+            ),
     );
   }
 }
@@ -529,12 +744,14 @@ class _HeroDealCard extends StatelessWidget {
   final DealResult deal;
   final bool showBox;
   final bool isPremium;
+  final CigarLedgerAppConfig appConfig;
 
   const _HeroDealCard({
-    required this.deal,
-    required this.showBox,
-    required this.isPremium,
-  });
+  required this.deal,
+  required this.showBox,
+  required this.isPremium,
+  required this.appConfig,
+});
 
   String _brandAsset(String brand) {
     final normalised = brand
@@ -562,11 +779,11 @@ class _HeroDealCard extends StatelessWidget {
             ? 'SAVE £$savingText PER BOX'
             : 'SAVE £$savingText PER CIGAR'
         : showBox
-            ? 'BIG BOX SAVINGS'
-            : 'PRO SAVINGS VIEW';
+            ? appConfig.nonPremiumBoxSavingsText
+            : appConfig.nonPremiumSingleSavingsText;
 
     final savingsSubLabel = isPremium
-        ? 'Top value opportunity'
+        ? appConfig.premiumSavingsText
         : 'Unlock Pro for exact savings';
 
     return Material(
@@ -754,8 +971,9 @@ class _HeroDealCard extends StatelessWidget {
                               gold: hasValidImport,
                             )
                           : _LockedMetricBox(
-                              label: showBox ? 'EU landed box' : 'EU landed',
-                            ),
+  label: showBox ? 'EU landed box' : 'EU landed',
+  lockedText: appConfig.lockedEuPriceText,
+),
                     ),
                   ],
                 ),
@@ -832,14 +1050,26 @@ class _HeroCigarImage extends StatelessWidget {
 
   const _HeroCigarImage({required this.imageUrl});
 
-  @override
-  Widget build(BuildContext context) {
-    if (imageUrl.trim().isEmpty) {
-      return const _HeroImageFallback();
+  String _localFallbackFromUrl(String url) {
+    final uri = Uri.tryParse(url);
+
+    if (uri == null || uri.pathSegments.isEmpty) {
+      return '';
     }
 
+    final fileName = uri.pathSegments.last;
+
+    return 'assets/cigars/$fileName';
+  }
+
+  @override
+  Widget build(BuildContext context) {
     final isRemote =
         imageUrl.startsWith('http://') || imageUrl.startsWith('https://');
+
+    final localFallback = isRemote
+        ? _localFallbackFromUrl(imageUrl)
+        : imageUrl;
 
     return Container(
       color: const Color(0xFF171719),
@@ -848,12 +1078,24 @@ class _HeroCigarImage extends StatelessWidget {
           ? Image.network(
               imageUrl,
               fit: BoxFit.contain,
-              errorBuilder: (_, __, ___) => const _HeroImageFallback(),
+              errorBuilder: (_, __, ___) {
+                return Image.asset(
+                  localFallback,
+                  fit: BoxFit.contain,
+                  errorBuilder: (_, __, ___) => const Icon(
+                    Icons.smoking_rooms,
+                    color: Colors.white54,
+                  ),
+                );
+              },
             )
           : Image.asset(
               imageUrl,
               fit: BoxFit.contain,
-              errorBuilder: (_, __, ___) => const _HeroImageFallback(),
+              errorBuilder: (_, __, ___) => const Icon(
+                Icons.smoking_rooms,
+                color: Colors.white54,
+              ),
             ),
     );
   }
@@ -910,8 +1152,12 @@ class _HeroMetricBox extends StatelessWidget {
 
 class _LockedMetricBox extends StatelessWidget {
   final String label;
+  final String lockedText;
 
-  const _LockedMetricBox({required this.label});
+  const _LockedMetricBox({
+    required this.label,
+    required this.lockedText,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -929,8 +1175,8 @@ class _LockedMetricBox extends StatelessWidget {
             style: const TextStyle(color: Colors.white60),
           ),
           const SizedBox(height: 6),
-          const Text(
-            'Unlock Pro for EU price',
+          Text(
+  lockedText,
             style: TextStyle(
               color: Color(0xFFD4AF37),
               fontWeight: FontWeight.w800,
